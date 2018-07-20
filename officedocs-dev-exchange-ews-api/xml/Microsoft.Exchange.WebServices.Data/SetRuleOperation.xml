@@ -1,0 +1,110 @@
+<Type Name="SetRuleOperation" FullName="Microsoft.Exchange.WebServices.Data.SetRuleOperation">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="0d0e443d67b3d140804bb8b2ba78919c13491dd3" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ja-JP" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20625575" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class SetRuleOperation : Microsoft.Exchange.WebServices.Data.RuleOperation" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit SetRuleOperation extends Microsoft.Exchange.WebServices.Data.RuleOperation" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.SetRuleOperation" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class SetRuleOperation&#xA;Inherits RuleOperation" />
+  <TypeSignature Language="C++ CLI" Value="public ref class SetRuleOperation sealed : Microsoft::Exchange::WebServices::Data::RuleOperation" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.RuleOperation</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>受信トレイ ルールを更新する操作を表します。</summary>
+    <remarks>
+      <para>条件と、既存のルールのアクションを更新するこのクラスを使用することができます</para>。
+      <para>このクラスから派生、<see cref="T:Microsoft.Exchange.WebServices.Data.RuleOperation" />クラス</para><para>ルールが作成されると、Exchange サーバーに格納されます。メッセージが到着すると、Exchange サーバーはメッセージを評価し、任意のルールの条件が満たされるかどうかを決定します。このクラスを使用すると、ルールのアクションまたは条件を変更します</para>。
+      <para /></remarks>
+    <example>
+      <para>次の使用例の検索、<see cref="T:Microsoft.Exchange.WebServices.Data.RuleCollection" />ユーザーのメールボックスからには、"MoveInterestingToJunk"という名前の既存のルールを検索するクラスです。ルールが存在する場合、<see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Conditions" />のプロパティを変更します。<see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Conditions" />プロパティが既存の件名の文字列のフィルターを削除し、新しい適用<see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Conditions" />をするたびに電子メールを受信したことを指定するプロパティには"このは、迷惑メールの「件名内の文字列で、Exchange サーバーが、既存のアクションを実行しますします。ルールはサーバーにアップロードするとサービスです。UpdateInboxRules (RuleOperation new[] {setRuleOperation} の場合、true を指定) の行を実行するとします。</para>
+      <code>// Modify the "MoveInterestingToJunk" rule, if it exists.
+// Get the RuleCollection.
+RuleCollection ruleCollection = service.GetInboxRules("User1@Contoso.com");
+foreach (Rule ruleinCollection in ruleCollection)
+{
+    if (ruleinCollection.DisplayName == "MoveInterestingToJunk")
+    {
+        ruleinCollection.Conditions.ContainsSubjectStrings.Clear();
+        ruleinCollection.Conditions.ContainsSubjectStrings.Add("This is Junk");
+        SetRuleOperation setRuleOperation = new SetRuleOperation(ruleinCollection);
+        service.UpdateInboxRules(new RuleOperation[] { setRuleOperation }, true);
+    }
+}</code>
+    </example>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public SetRuleOperation ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.SetRuleOperation.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; SetRuleOperation();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>SetRuleOperation クラスの新しいインスタンスを初期化します。</summary>
+        <remarks>
+          <para>特定のメールボックスのルールを更新します。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public SetRuleOperation (Microsoft.Exchange.WebServices.Data.Rule rule);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Exchange.WebServices.Data.Rule rule) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.SetRuleOperation.#ctor(Microsoft.Exchange.WebServices.Data.Rule)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; SetRuleOperation(Microsoft::Exchange::WebServices::Data::Rule ^ rule);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="rule" Type="Microsoft.Exchange.WebServices.Data.Rule" />
+      </Parameters>
+      <Docs>
+        <param name="rule">更新され、メッセージング ・ サーバに送信するルールです。</param>
+        <summary>指定した規則を使用して SetRuleOperation クラスの新しいインスタンスを初期化します。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Rule">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.Rule Rule { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.Rule Rule" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SetRuleOperation.Rule" />
+      <MemberSignature Language="VB.NET" Value="Public Property Rule As Rule" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::Rule ^ Rule { Microsoft::Exchange::WebServices::Data::Rule ^ get(); void set(Microsoft::Exchange::WebServices::Data::Rule ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Rule</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>取得または更新するルールを設定します。</summary>
+        <value>更新する規則です。</value>
+        <remarks>
+          <para>ルールには、メールボックスに電子メール メッセージが到着したときに実行されるアクションと条件が含まれています。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
