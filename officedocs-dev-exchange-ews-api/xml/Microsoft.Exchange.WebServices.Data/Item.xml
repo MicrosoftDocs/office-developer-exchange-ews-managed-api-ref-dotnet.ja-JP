@@ -1,0 +1,2385 @@
+<Type Name="Item" FullName="Microsoft.Exchange.WebServices.Data.Item">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="a9d35ee70706eee13a079ef35de7919ef6d6df6e" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ja-JP" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20626111" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class Item : Microsoft.Exchange.WebServices.Data.ServiceObject" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Item extends Microsoft.Exchange.WebServices.Data.ServiceObject" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.Item" />
+  <TypeSignature Language="VB.NET" Value="Public Class Item&#xA;Inherits ServiceObject" />
+  <TypeSignature Language="C++ CLI" Value="public ref class Item : Microsoft::Exchange::WebServices::Data::ServiceObject" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ServiceObject</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="0677d-101">汎用的な項目を表します。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="0677d-101">Represents a generic item.</span>
+      </span>
+      <span data-ttu-id="0677d-102">アイテムで使用可能なプロパティで定義されます、<see cref="T:Microsoft.Exchange.WebServices.Data.ItemSchema" />クラス。<see cref="T:Microsoft.Exchange.WebServices.Data.Item" />の種類が Exchange Online とのバージョンの Exchange が Exchange Server 2013 以降を対象とするクライアントに適用します。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="0677d-102">Properties that are available on items are defined in the <see cref="T:Microsoft.Exchange.WebServices.Data.ItemSchema" /> class.The <see cref="T:Microsoft.Exchange.WebServices.Data.Item" /> type is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AllowedResponseActions">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ResponseActions AllowedResponseActions { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.ResponseActions AllowedResponseActions" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.AllowedResponseActions" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AllowedResponseActions As ResponseActions" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ResponseActions AllowedResponseActions { Microsoft::Exchange::WebServices::Data::ResponseActions get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ResponseActions</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0677d-103">このアイテムを許可する応答のアクションを示す値を取得します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-103">Gets a value that indicates which response actions are allowed on this item.</span>
+          </span>
+          <span data-ttu-id="0677d-104">応答アクションには、返信および転送があります。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-104">Examples of response actions are Reply and Forward.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="0677d-105">ResponseActions の列挙値です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-105">A ResponseActions enumeration value.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ArchiveTag">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ArchiveTag ArchiveTag { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.ArchiveTag ArchiveTag" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.ArchiveTag" />
+      <MemberSignature Language="VB.NET" Value="Public Property ArchiveTag As ArchiveTag" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ArchiveTag ^ ArchiveTag { Microsoft::Exchange::WebServices::Data::ArchiveTag ^ get(); void set(Microsoft::Exchange::WebServices::Data::ArchiveTag ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ArchiveTag</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0677d-106">取得またはアーカイブのタグを設定します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-106">Gets or sets the archive tag.</span>
+          </span>
+          <span data-ttu-id="0677d-107">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.Item.ArchiveTag" />プロパティは、Exchange Online とのバージョンの Exchange が Exchange Server 2013 以降を対象とするクライアントに適用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-107">The <see cref="P:Microsoft.Exchange.WebServices.Data.Item.ArchiveTag" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="0677d-108">アーカイブのタグです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-108">The archive tag.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Attachments">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.AttachmentCollection Attachments { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.AttachmentCollection Attachments" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.Attachments" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Attachments As AttachmentCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::AttachmentCollection ^ Attachments { Microsoft::Exchange::WebServices::Data::AttachmentCollection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.AttachmentCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0677d-109">このアイテムに添付ファイルの一覧を取得します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-109">Gets a list of the attachments to this item.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="0677d-110">AttachmentCollection オブジェクト。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-110">An AttachmentCollection object.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Bind">
+      <MemberSignature Language="C#" Value="public static Microsoft.Exchange.WebServices.Data.Item Bind (Microsoft.Exchange.WebServices.Data.ExchangeService service, Microsoft.Exchange.WebServices.Data.ItemId id);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Exchange.WebServices.Data.Item Bind(class Microsoft.Exchange.WebServices.Data.ExchangeService service, class Microsoft.Exchange.WebServices.Data.ItemId id) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Item.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.ItemId)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Bind (service As ExchangeService, id As ItemId) As Item" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Exchange::WebServices::Data::Item ^ Bind(Microsoft::Exchange::WebServices::Data::ExchangeService ^ service, Microsoft::Exchange::WebServices::Data::ItemId ^ id);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Item</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="service" Type="Microsoft.Exchange.WebServices.Data.ExchangeService" />
+        <Parameter Name="id" Type="Microsoft.Exchange.WebServices.Data.ItemId" />
+      </Parameters>
+      <Docs>
+        <param name="service">
+          <span data-ttu-id="0677d-111">使用して項目にバインドするサービスです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-111">The service to use to bind to the item.</span>
+          </span>
+        </param>
+        <param name="id">
+          <span data-ttu-id="0677d-112">バインドする項目の ID です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-112">The ID of the item to bind to.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="0677d-113">実際の既存の項目をどのようなバインドの種類し、の最初のクラスのプロパティを読み込みます。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-113">Binds to an existing item, whatever its actual type is, and loads its first class properties.</span>
+          </span>
+          <span data-ttu-id="0677d-114">Exchange Web サービス (EWS) への呼び出しでは、このメソッドの結果を呼び出しています。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-114">Calling this method results in a call to Exchange Web Services (EWS).</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="0677d-115">項目のインスタンスが指定した ID に対応する項目を表す</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-115">An Item instance representing the item that corresponds to the specified ID.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <span data-ttu-id="0677d-116">この例外に関する詳細についてを参照してください<see cref="M:Microsoft.Exchange.WebServices.Data.Appointment.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.ItemId)" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-116">For details about this exception, see <see cref="M:Microsoft.Exchange.WebServices.Data.Appointment.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.ItemId)" />.</span>
+          </span>
+        </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="Bind">
+      <MemberSignature Language="C#" Value="public static Microsoft.Exchange.WebServices.Data.Item Bind (Microsoft.Exchange.WebServices.Data.ExchangeService service, Microsoft.Exchange.WebServices.Data.ItemId id, Microsoft.Exchange.WebServices.Data.PropertySet propertySet);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Exchange.WebServices.Data.Item Bind(class Microsoft.Exchange.WebServices.Data.ExchangeService service, class Microsoft.Exchange.WebServices.Data.ItemId id, class Microsoft.Exchange.WebServices.Data.PropertySet propertySet) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Item.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.ItemId,Microsoft.Exchange.WebServices.Data.PropertySet)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Exchange::WebServices::Data::Item ^ Bind(Microsoft::Exchange::WebServices::Data::ExchangeService ^ service, Microsoft::Exchange::WebServices::Data::ItemId ^ id, Microsoft::Exchange::WebServices::Data::PropertySet ^ propertySet);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Item</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="service" Type="Microsoft.Exchange.WebServices.Data.ExchangeService" />
+        <Parameter Name="id" Type="Microsoft.Exchange.WebServices.Data.ItemId" />
+        <Parameter Name="propertySet" Type="Microsoft.Exchange.WebServices.Data.PropertySet" />
+      </Parameters>
+      <Docs>
+        <param name="service">
+          <span data-ttu-id="0677d-117">使用して項目にバインドするサービスです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-117">The service to use to bind to the item.</span>
+          </span>
+        </param>
+        <param name="id">
+          <span data-ttu-id="0677d-118">バインドする項目の ID です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-118">The ID of the item to bind to.</span>
+          </span>
+        </param>
+        <param name="propertySet">
+          <span data-ttu-id="0677d-119">一連のプロパティを読み込めません。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-119">The set of properties to load.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="0677d-120">既存の項目をどのようなバインドの実際の型、および特定のプロパティのセットを読み込みます。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-120">Binds to an existing item, whatever its actual type is, and loads the specified set of properties.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="0677d-121">項目のインスタンスが指定した ID に対応する項目を表す</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-121">An Item instance representing the item corresponding to the specified ID.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <span data-ttu-id="0677d-122">この例外に関する詳細についてを参照してください<see cref="M:Microsoft.Exchange.WebServices.Data.Appointment.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.ItemId)" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-122">For details about this exception, see <see cref="M:Microsoft.Exchange.WebServices.Data.Appointment.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.ItemId)" />.</span>
+          </span>
+        </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="Body">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.MessageBody Body { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.MessageBody Body" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.Body" />
+      <MemberSignature Language="VB.NET" Value="Public Property Body As MessageBody" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::MessageBody ^ Body { Microsoft::Exchange::WebServices::Data::MessageBody ^ get(); void set(Microsoft::Exchange::WebServices::Data::MessageBody ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.MessageBody</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0677d-123">取得またはこのアイテムの本文を設定します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-123">Gets or sets the body of this item.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="0677d-124">MessageBody のオブジェクトです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-124">A MessageBody object.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Categories">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.StringList Categories { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.StringList Categories" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.Categories" />
+      <MemberSignature Language="VB.NET" Value="Public Property Categories As StringList" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::StringList ^ Categories { Microsoft::Exchange::WebServices::Data::StringList ^ get(); void set(Microsoft::Exchange::WebServices::Data::StringList ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0677d-125">取得またはこのアイテムに関連付けられているカテゴリのリストを設定します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-125">Gets or sets the list of categories that are associated with this item.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="0677d-126">StringList のオブジェクトです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-126">A StringList object.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConversationId">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ConversationId ConversationId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.ConversationId ConversationId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.ConversationId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ConversationId As ConversationId" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ConversationId ^ ConversationId { Microsoft::Exchange::WebServices::Data::ConversationId ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ConversationId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0677d-127">一部であるこの項目の会話 ID を取得します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-127">Gets the ID of the conversation that this item is part of.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="0677d-128">ConversationId のオブジェクトです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-128">A ConversationId object.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Copy">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.Item Copy (Microsoft.Exchange.WebServices.Data.FolderId destinationFolderId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Exchange.WebServices.Data.Item Copy(class Microsoft.Exchange.WebServices.Data.FolderId destinationFolderId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Item.Copy(Microsoft.Exchange.WebServices.Data.FolderId)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Copy (destinationFolderId As FolderId) As Item" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Exchange::WebServices::Data::Item ^ Copy(Microsoft::Exchange::WebServices::Data::FolderId ^ destinationFolderId);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Item</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="destinationFolderId" Type="Microsoft.Exchange.WebServices.Data.FolderId" />
+      </Parameters>
+      <Docs>
+        <param name="destinationFolderId">
+          <span data-ttu-id="0677d-129">このアイテムのコピーを作成するフォルダーの ID。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-129">The ID of the folder in which to create a copy of this item.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="0677d-130">指定したフォルダーにこのアイテムのコピーを作成します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-130">Creates a copy of this item in the specified folder.</span>
+          </span>
+          <span data-ttu-id="0677d-131">Exchange Web サービス (EWS) への呼び出しでは、このメソッドの結果を呼び出しています。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-131">Calling this method results in a call to Exchange Web Services (EWS).</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="0677d-132">アイテム オブジェクトです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-132">An Item object.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Copy">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.Item Copy (Microsoft.Exchange.WebServices.Data.WellKnownFolderName destinationFolderName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Exchange.WebServices.Data.Item Copy(valuetype Microsoft.Exchange.WebServices.Data.WellKnownFolderName destinationFolderName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Item.Copy(Microsoft.Exchange.WebServices.Data.WellKnownFolderName)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Copy (destinationFolderName As WellKnownFolderName) As Item" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Exchange::WebServices::Data::Item ^ Copy(Microsoft::Exchange::WebServices::Data::WellKnownFolderName destinationFolderName);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Item</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="destinationFolderName" Type="Microsoft.Exchange.WebServices.Data.WellKnownFolderName" />
+      </Parameters>
+      <Docs>
+        <param name="destinationFolderName">
+          <span data-ttu-id="0677d-133">このアイテムのコピーを作成するフォルダーの名前です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-133">The name of the folder in which to create a copy of this item.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="0677d-134">指定したフォルダーにこのアイテムのコピーを作成します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-134">Creates a copy of this item in the specified folder.</span>
+          </span>
+          <span data-ttu-id="0677d-135">Exchange Web サービス (EWS) への呼び出しでは、このメソッドの結果を呼び出しています。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-135">Calling this method results in a call to Exchange Web Services (EWS).</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="0677d-136">アイテム オブジェクトです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-136">An Item object.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Culture">
+      <MemberSignature Language="C#" Value="public string Culture { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Culture" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.Culture" />
+      <MemberSignature Language="VB.NET" Value="Public Property Culture As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Culture { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0677d-137">取得またはこのアイテムに関連付けられているカルチャを設定します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-137">Gets or sets the culture that is associated with this item.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="0677d-138">アイテムのカルチャを示す文字列です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-138">A string indicating the culture of the item.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DateTimeCreated">
+      <MemberSignature Language="C#" Value="public DateTime DateTimeCreated { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime DateTimeCreated" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.DateTimeCreated" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DateTimeCreated As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime DateTimeCreated { DateTime get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0677d-139">この項目が作成された日時を取得します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-139">Gets the date and time at which this item was created.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="0677d-140">項目が作成された日付と時刻を示す DateTime 値です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-140">A DateTime value indicating the date and time the item was created.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DateTimeReceived">
+      <MemberSignature Language="C#" Value="public DateTime DateTimeReceived { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime DateTimeReceived" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.DateTimeReceived" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DateTimeReceived As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime DateTimeReceived { DateTime get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0677d-141">このアイテムが受信した時刻を取得します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-141">Gets the time when this item was received.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="0677d-142">アイテムが受信された日付と時刻を示す DateTime 値です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-142">A DateTime value indicating the date and time the item was received.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DateTimeSent">
+      <MemberSignature Language="C#" Value="public DateTime DateTimeSent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime DateTimeSent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.DateTimeSent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DateTimeSent As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime DateTimeSent { DateTime get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0677d-143">このアイテムが送信されたときの日時を取得します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-143">Gets the date and time at which this item was sent.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="0677d-144">アイテムが送信された日付と時刻を示す DateTime 値です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-144">A DateTime value indicating the date and time the item was sent.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Delete">
+      <MemberSignature Language="C#" Value="public void Delete (Microsoft.Exchange.WebServices.Data.DeleteMode deleteMode);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Delete(valuetype Microsoft.Exchange.WebServices.Data.DeleteMode deleteMode) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Item.Delete(Microsoft.Exchange.WebServices.Data.DeleteMode)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Delete(Microsoft::Exchange::WebServices::Data::DeleteMode deleteMode);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="deleteMode" Type="Microsoft.Exchange.WebServices.Data.DeleteMode" />
+      </Parameters>
+      <Docs>
+        <param name="deleteMode">
+          <span data-ttu-id="0677d-145">削除モードです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-145">The deletion mode.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="0677d-146">アイテムを削除します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-146">Deletes the item.</span>
+          </span>
+          <span data-ttu-id="0677d-147">Exchange Web サービス (EWS) への呼び出しでは、このメソッドの結果を呼び出しています。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-147">Calling this method results in a call to Exchange Web Services (EWS).</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Delete">
+      <MemberSignature Language="C#" Value="public void Delete (Microsoft.Exchange.WebServices.Data.DeleteMode deleteMode, bool suppressReadReceipts);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Delete(valuetype Microsoft.Exchange.WebServices.Data.DeleteMode deleteMode, bool suppressReadReceipts) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Item.Delete(Microsoft.Exchange.WebServices.Data.DeleteMode,System.Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Delete(Microsoft::Exchange::WebServices::Data::DeleteMode deleteMode, bool suppressReadReceipts);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="deleteMode" Type="Microsoft.Exchange.WebServices.Data.DeleteMode" />
+        <Parameter Name="suppressReadReceipts" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="deleteMode">
+          <span data-ttu-id="0677d-148">削除モードです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-148">The deletion mode.</span>
+          </span>
+        </param>
+        <param name="suppressReadReceipts">
+          <span data-ttu-id="0677d-149">
+            <b>true</b>読み取りの項目が削除されている場合、開封確認を送信しない必要がありますは開封確認メッセージを要求された場合それ以外の場合、 <b>false を指定</b>します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-149">
+              <b>true</b> if read receipts should not be sent if the item being deleted has requested a read receipt; otherwise, <b>false</b>.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="0677d-150">アイテムを削除します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-150">Deletes the item.</span>
+          </span>
+          <span data-ttu-id="0677d-151">EWS への呼び出しでは、このメソッドの結果を呼び出しています。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-151">Calling this method results in a call to EWS.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisplayCc">
+      <MemberSignature Language="C#" Value="public string DisplayCc { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DisplayCc" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.DisplayCc" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DisplayCc As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ DisplayCc { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0677d-152">このアイテムの Cc 受信者を一覧表示するテキスト文字列を取得します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-152">Gets a text string that lists the Cc recipients of this item.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="0677d-153">文字列値。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-153">A string value.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisplayTo">
+      <MemberSignature Language="C#" Value="public string DisplayTo { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DisplayTo" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.DisplayTo" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DisplayTo As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ DisplayTo { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0677d-154">このアイテムに受信者の一覧を表示するテキスト文字列を取得します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-154">Gets a text string that lists the To recipients of this item.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="0677d-155">文字列値。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-155">A string value.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EffectiveRights">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.EffectiveRights EffectiveRights { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.EffectiveRights EffectiveRights" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.EffectiveRights" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property EffectiveRights As EffectiveRights" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::EffectiveRights EffectiveRights { Microsoft::Exchange::WebServices::Data::EffectiveRights get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.EffectiveRights</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0677d-156">このアイテムの現在の認証されたユーザーを持つ有効なアクセス権を示す値を取得します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-156">Gets a value that indicates the effective rights that the current authenticated user has on this item.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="0677d-157">EffectiveRights 列挙値。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-157">An EffectiveRights enumeration value.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EntityExtractionResult">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.EntityExtractionResult EntityExtractionResult { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.EntityExtractionResult EntityExtractionResult" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.EntityExtractionResult" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property EntityExtractionResult As EntityExtractionResult" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::EntityExtractionResult ^ EntityExtractionResult { Microsoft::Exchange::WebServices::Data::EntityExtractionResult ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.EntityExtractionResult</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0677d-158">アイテムのエンティティの抽出情報を取得します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-158">Gets the entity extraction information on the item.</span>
+          </span>
+          <span data-ttu-id="0677d-159">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.Item.EntityExtractionResult" />プロパティは、Exchange Online とのバージョンの Exchange が Exchange Server 2013 以降を対象とするクライアントに適用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-159">The <see cref="P:Microsoft.Exchange.WebServices.Data.Item.EntityExtractionResult" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="0677d-160">抽出されたエンティティ。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-160">The extracted entities.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExtendedProperties">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ExtendedPropertyCollection ExtendedProperties { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.ExtendedPropertyCollection ExtendedProperties" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.ExtendedProperties" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ExtendedProperties As ExtendedPropertyCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ExtendedPropertyCollection ^ ExtendedProperties { Microsoft::Exchange::WebServices::Data::ExtendedPropertyCollection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ExtendedPropertyCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0677d-161">この項目で定義されている拡張プロパティの一覧を取得します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-161">Gets a list of extended properties that are defined on this item.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="0677d-162">ExtendedPropertyCollection オブジェクトです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-162">An ExtendedPropertyCollection object.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Flag">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.Flag Flag { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.Flag Flag" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.Flag" />
+      <MemberSignature Language="VB.NET" Value="Public Property Flag As Flag" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::Flag ^ Flag { Microsoft::Exchange::WebServices::Data::Flag ^ get(); void set(Microsoft::Exchange::WebServices::Data::Flag ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Flag</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0677d-163">取得または、ステータス、開始日、期日、またはアイテムの終了日を示すフラグ値を設定します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-163">Gets or sets a flag value that indicates the status, start date, due date, or completion date for an item.</span>
+          </span>
+          <span data-ttu-id="0677d-164">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.Item.Flag" />プロパティは、Exchange Online とのバージョンの Exchange が Exchange Server 2013 以降を対象とするクライアントに適用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-164">The <see cref="P:Microsoft.Exchange.WebServices.Data.Item.Flag" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="0677d-165">このアイテムのフラグ値。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-165">The flag value for this item.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HasAttachments">
+      <MemberSignature Language="C#" Value="public bool HasAttachments { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool HasAttachments" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.HasAttachments" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property HasAttachments As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool HasAttachments { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0677d-166">アイテムに添付ファイルがあるかどうかを示す値を取得します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-166">Gets a value that indicates whether the item has attachments.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="0677d-167">アイテムが添付ファイルがある場合は true。それ以外の場合、false です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-167">True if the item has attachments; otherwise, false.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IconIndex">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.IconIndex IconIndex { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.IconIndex IconIndex" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.IconIndex" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IconIndex As IconIndex" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::IconIndex IconIndex { Microsoft::Exchange::WebServices::Data::IconIndex get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.IconIndex</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0677d-168">アイコンのインデックスを取得します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-168">Gets the icon index.</span>
+          </span>
+          <span data-ttu-id="0677d-169">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.Item.IconIndex" />プロパティは、Exchange Online とのバージョンの Exchange が Exchange Server 2013 以降を対象とするクライアントに適用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-169">The <see cref="P:Microsoft.Exchange.WebServices.Data.Item.IconIndex" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="0677d-170">アイコンのインデックス。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-170">The icon index.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Id">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ItemId Id { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.ItemId Id" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.Id" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Id As ItemId" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ItemId ^ Id { Microsoft::Exchange::WebServices::Data::ItemId ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ItemId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0677d-171">このアイテムの ID を取得します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-171">Gets the ID of this item.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="0677d-172">ItemId オブジェクトです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-172">An ItemId object.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Importance">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.Importance Importance { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.Importance Importance" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.Importance" />
+      <MemberSignature Language="VB.NET" Value="Public Property Importance As Importance" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::Importance Importance { Microsoft::Exchange::WebServices::Data::Importance get(); void set(Microsoft::Exchange::WebServices::Data::Importance value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Importance</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0677d-173">取得またはこのアイテムの重要性を設定します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-173">Gets or sets the importance of this item.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="0677d-174">アイテムの重要性を示す重要な列挙値。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-174">An Importance enumeration value indicating the importance of the item.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InReplyTo">
+      <MemberSignature Language="C#" Value="public string InReplyTo { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string InReplyTo" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.InReplyTo" />
+      <MemberSignature Language="VB.NET" Value="Public Property InReplyTo As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ InReplyTo { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0677d-175">取得またはこのアイテムの参照での返信先を設定します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-175">Gets or sets the In-Reply-To reference of this item.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="0677d-176">文字列値。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-176">A string value.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InstanceKey">
+      <MemberSignature Language="C#" Value="public byte[] InstanceKey { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance unsigned int8[] InstanceKey" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.InstanceKey" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property InstanceKey As Byte()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;System::Byte&gt; ^ InstanceKey { cli::array &lt;System::Byte&gt; ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Byte[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0677d-177">項目インスタンスのキーを取得します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-177">Gets the item instance key.</span>
+          </span>
+          <span data-ttu-id="0677d-178">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.Item.InstanceKey" />プロパティは、Exchange Online とのバージョンの Exchange が Exchange Server 2013 以降を対象とするクライアントに適用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-178">The <see cref="P:Microsoft.Exchange.WebServices.Data.Item.InstanceKey" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="0677d-179">項目インスタンスのキーです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-179">The item instance key.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InternetMessageHeaders">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.InternetMessageHeaderCollection InternetMessageHeaders { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.InternetMessageHeaderCollection InternetMessageHeaders" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.InternetMessageHeaders" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property InternetMessageHeaders As InternetMessageHeaderCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::InternetMessageHeaderCollection ^ InternetMessageHeaders { Microsoft::Exchange::WebServices::Data::InternetMessageHeaderCollection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.InternetMessageHeaderCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0677d-180">このアイテムの [インターネット ヘッダーの一覧を取得します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-180">Gets a list of Internet headers for this item.</span>
+          </span>
+          <span data-ttu-id="0677d-181">インターネット メッセージ ヘッダーのコレクション全体を取得するには、PR_TRANSPORT_MESSAGE_HEADERS プロパティを使用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-181">To get the entire collection of Internet message headers, use the PR_TRANSPORT_MESSAGE_HEADERS property.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="0677d-182">
+            <see cref="T:Microsoft.Exchange.WebServices.Data.InternetMessageHeaderCollection" />オブジェクトです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-182">An <see cref="T:Microsoft.Exchange.WebServices.Data.InternetMessageHeaderCollection" /> object.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="0677d-183">
+            <para>次は、拡張プロパティの PR_TRANSPORT_MESSAGE_HEADERS の定義します</para>。
+          <code>ExtendedPropertyDefinition PR_TRANSPORT_MESSAGE_HEADERS = new ExtendedPropertyDefinition(0x007D, MapiPropertyType.String);</code><para>には、このプロパティ定義を追加することができます、 <see cref="T:Microsoft.Exchange.WebServices.Data.PropertySet" /> 、インターネット メッセージのヘッダーを取得するオブジェクトです</para>。
+          <para>EWS およびインターネットのメッセージ ヘッダーの詳細については、 <a href="http://msdn.microsoft.com/en-us/library/exchange/hh545614(v=exchg.140).aspx">EWS、MIME、および不足しているインターネット メッセージ ヘッダー</a>の取得のインターネット メッセージ ヘッダーを参照してください。</para><para /></span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-183">
+              <para>The following is the definition for the PR_TRANSPORT_MESSAGE_HEADERS extended property.</para>
+              <code>ExtendedPropertyDefinition PR_TRANSPORT_MESSAGE_HEADERS = new ExtendedPropertyDefinition(0x007D, MapiPropertyType.String);</code>
+              <para>You can add this property definition to the <see cref="T:Microsoft.Exchange.WebServices.Data.PropertySet" /> object to get the Internet message headers.</para>
+              <para>For more information about EWS and Internet message headers, see “Getting Internet message headers” in <a href="http://msdn.microsoft.com/en-us/library/exchange/hh545614(v=exchg.140).aspx">EWS, MIME, and the missing Internet message headers</a></para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsAssociated">
+      <MemberSignature Language="C#" Value="public bool IsAssociated { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsAssociated" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.IsAssociated" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsAssociated As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsAssociated { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0677d-184">これは、関連付けられているアイテムかどうかを示す値を取得します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-184">Gets a value that indicates whether this is an associated item.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="0677d-185">これは、関連付けられているアイテムには、true を返します。それ以外の場合、false です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-185">True if this is an associated item; otherwise, false.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsAttachment">
+      <MemberSignature Language="C#" Value="public bool IsAttachment { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsAttachment" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.IsAttachment" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsAttachment As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsAttachment { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0677d-186">アイテムが添付ファイルであるかどうかを示す値を取得します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-186">Gets a value that indicates whether the item is an attachment.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="0677d-187">アイテムが、添付ファイルがある場合は true。それ以外の場合、false です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-187">True if the item has an attachment; otherwise, false.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsDraft">
+      <MemberSignature Language="C#" Value="public bool IsDraft { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsDraft" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.IsDraft" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsDraft As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsDraft { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0677d-188">アイテムが下書きであるかどうかを示す値を取得します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-188">Gets a value that indicates whether the item is a draft.</span>
+          </span>
+          <span data-ttu-id="0677d-189">アイテムはまだ送信されていない場合、ドラフトです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-189">An item is a draft when it has not yet been sent.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="0677d-190">このアイテムには、下書きは、true を返します。それ以外の場合、false です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-190">True if this item is a draft; otherwise, false.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsFromMe">
+      <MemberSignature Language="C#" Value="public bool IsFromMe { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsFromMe" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.IsFromMe" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsFromMe As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsFromMe { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0677d-191">アイテムが現在の認証されたユーザーによって送信されたかどうかを示す値を取得します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-191">Gets a value that indicates whether the item has been sent by the current authenticated user.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="0677d-192">現在認証されているユーザーが、アイテムが送信される場合は true。それ以外の場合、false です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-192">True if the item is sent by the current authenticated user; otherwise, false.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsNew">
+      <MemberSignature Language="C#" Value="public override bool IsNew { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsNew" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.IsNew" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property IsNew As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property bool IsNew { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0677d-193">このオブジェクトは、実際のオンライン ストアのアイテムや、ローカル オブジェクトを保存する必要があるかどうかを示す値を取得します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-193">Gets a value that indicates whether this object is a real store item or a local object that has yet to be saved.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="0677d-194">True を指定すると、アイテムが保存されていません。それ以外の場合、false です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-194">True if the item has not been saved; otherwise, false.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsReminderSet">
+      <MemberSignature Language="C#" Value="public bool IsReminderSet { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsReminderSet" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.IsReminderSet" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsReminderSet As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsReminderSet { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0677d-195">取得またはこのアイテムのアラームを設定するかどうかを示す値を設定します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-195">Gets or sets a value that indicates whether a reminder is set for this item.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="0677d-196">アラームが設定されている場合は true。それ以外の場合、false です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-196">True if the reminder is set; otherwise, false.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsResend">
+      <MemberSignature Language="C#" Value="public bool IsResend { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsResend" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.IsResend" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsResend As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsResend { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0677d-197">アイテムが別の項目の再送信であるかどうかを示す値を取得します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-197">Gets a value that indicates whether the item is a resend of another item.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="0677d-198">True を指定すると、アイテムは、再送信します。それ以外の場合、false です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-198">True if the item is a resend; otherwise, false.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsSubmitted">
+      <MemberSignature Language="C#" Value="public bool IsSubmitted { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsSubmitted" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.IsSubmitted" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsSubmitted As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsSubmitted { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0677d-199">送信するメッセージが送信されたかどうかを示す値を取得します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-199">Gets a value that indicates whether the message has been submitted to be sent.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="0677d-200">True を指定すると、アイテムが送信されました。それ以外の場合、false です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-200">True if the item has been submitted; otherwise, false.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsUnmodified">
+      <MemberSignature Language="C#" Value="public bool IsUnmodified { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsUnmodified" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.IsUnmodified" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsUnmodified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsUnmodified { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0677d-201">作成されたので、アイテムが変更されたかどうかを示す値を取得します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-201">Gets a value that indicates whether the item has been modified since it was created.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="0677d-202">True を指定すると、項目が変更されていません。それ以外の場合、false です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-202">True if the item has not been modified; otherwise, false.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ItemClass">
+      <MemberSignature Language="C#" Value="public string ItemClass { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ItemClass" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.ItemClass" />
+      <MemberSignature Language="VB.NET" Value="Public Property ItemClass As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ItemClass { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0677d-203">取得またはこのアイテムのカスタム クラスの名前を設定します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-203">Gets or sets the custom class name of this item.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="0677d-204">カスタム クラスの名前を示す文字列値。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-204">A string value indicating the custom class name.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LastModifiedName">
+      <MemberSignature Language="C#" Value="public string LastModifiedName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string LastModifiedName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.LastModifiedName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LastModifiedName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ LastModifiedName { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0677d-205">この項目を最後に修正したユーザーの名前を取得します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-205">Gets the name of the user who last modified this item.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="0677d-206">最後の項目を変更したユーザーを示す文字列値です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-206">A string value indicating the user who last modified the item.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LastModifiedTime">
+      <MemberSignature Language="C#" Value="public DateTime LastModifiedTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime LastModifiedTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.LastModifiedTime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LastModifiedTime As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime LastModifiedTime { DateTime get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0677d-207">このアイテムが最後に変更されたときの日時を取得します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-207">Gets the date and time that this item was last modified.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="0677d-208">アイテムが最後に修正された日付と時刻を示す DateTime 値です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-208">A DateTime value indicating the date and time the item was last modified.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MimeContent">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.MimeContent MimeContent { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.MimeContent MimeContent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.MimeContent" />
+      <MemberSignature Language="VB.NET" Value="Public Property MimeContent As MimeContent" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::MimeContent ^ MimeContent { Microsoft::Exchange::WebServices::Data::MimeContent ^ get(); void set(Microsoft::Exchange::WebServices::Data::MimeContent ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.MimeContent</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0677d-209">このアイテムのコンテンツの MIME を取得します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-209">Gets the MIME content of this item.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="0677d-210">MimeContent を示すオブジェクト。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-210">A MimeContent object.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Move">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.Item Move (Microsoft.Exchange.WebServices.Data.FolderId destinationFolderId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Exchange.WebServices.Data.Item Move(class Microsoft.Exchange.WebServices.Data.FolderId destinationFolderId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Item.Move(Microsoft.Exchange.WebServices.Data.FolderId)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Move (destinationFolderId As FolderId) As Item" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Exchange::WebServices::Data::Item ^ Move(Microsoft::Exchange::WebServices::Data::FolderId ^ destinationFolderId);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Item</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="destinationFolderId" Type="Microsoft.Exchange.WebServices.Data.FolderId" />
+      </Parameters>
+      <Docs>
+        <param name="destinationFolderId">
+          <span data-ttu-id="0677d-211">このアイテムの移動先フォルダーの ID。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-211">The ID of the folder to which to move this item.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="0677d-212">このアイテムを指定したフォルダーに移動します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-212">Moves this item to the specified folder.</span>
+          </span>
+          <span data-ttu-id="0677d-213">Exchange Web サービス (EWS) への呼び出しでは、このメソッドの結果を呼び出しています。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-213">Calling this method results in a call to Exchange Web Services (EWS).</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="0677d-214">アイテム オブジェクトです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-214">An Item object.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Move">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.Item Move (Microsoft.Exchange.WebServices.Data.WellKnownFolderName destinationFolderName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Exchange.WebServices.Data.Item Move(valuetype Microsoft.Exchange.WebServices.Data.WellKnownFolderName destinationFolderName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Item.Move(Microsoft.Exchange.WebServices.Data.WellKnownFolderName)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Move (destinationFolderName As WellKnownFolderName) As Item" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Exchange::WebServices::Data::Item ^ Move(Microsoft::Exchange::WebServices::Data::WellKnownFolderName destinationFolderName);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Item</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="destinationFolderName" Type="Microsoft.Exchange.WebServices.Data.WellKnownFolderName" />
+      </Parameters>
+      <Docs>
+        <param name="destinationFolderName">
+          <span data-ttu-id="0677d-215">このアイテムの移動先フォルダーの名前です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-215">The name of the folder to which to move this item.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="0677d-216">このアイテムを指定したフォルダーに移動します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-216">Moves this item to the specified folder.</span>
+          </span>
+          <span data-ttu-id="0677d-217">Exchange Web サービス (EWS) への呼び出しでは、このメソッドの結果を呼び出しています。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-217">Calling this method results in a call to Exchange Web Services (EWS).</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="0677d-218">アイテム オブジェクトです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-218">An Item object.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NormalizedBody">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.NormalizedBody NormalizedBody { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.NormalizedBody NormalizedBody" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.NormalizedBody" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property NormalizedBody As NormalizedBody" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::NormalizedBody ^ NormalizedBody { Microsoft::Exchange::WebServices::Data::NormalizedBody ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.NormalizedBody</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0677d-219">正規化された値に変換されたアイテムのメッセージ本文を取得します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-219">Gets the message body of an item that has been converted to a normalized value.</span>
+          </span>
+          <span data-ttu-id="0677d-220">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.Item.NormalizedBody" />プロパティは、Exchange Online とのバージョンの Exchange が Exchange Server 2013 以降を対象とするクライアントに適用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-220">The <see cref="P:Microsoft.Exchange.WebServices.Data.Item.NormalizedBody" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="0677d-221">項目の正規化された本文。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-221">The normalized body of the item.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ParentFolderId">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.FolderId ParentFolderId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.FolderId ParentFolderId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.ParentFolderId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ParentFolderId As FolderId" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::FolderId ^ ParentFolderId { Microsoft::Exchange::WebServices::Data::FolderId ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.FolderId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0677d-222">このアイテムの親フォルダーの ID を取得します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-222">Gets the ID of the parent folder of this item.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="0677d-223">フォルダー Id を示すオブジェクト。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-223">A FolderId object.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PolicyTag">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.PolicyTag PolicyTag { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.PolicyTag PolicyTag" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.PolicyTag" />
+      <MemberSignature Language="VB.NET" Value="Public Property PolicyTag As PolicyTag" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::PolicyTag ^ PolicyTag { Microsoft::Exchange::WebServices::Data::PolicyTag ^ get(); void set(Microsoft::Exchange::WebServices::Data::PolicyTag ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PolicyTag</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0677d-224">取得または保持ポリシーの値を設定します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-224">Gets or sets the retention policy value.</span>
+          </span>
+          <span data-ttu-id="0677d-225">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.Item.PolicyTag" />プロパティは、Exchange Online とのバージョンの Exchange が Exchange Server 2013 以降を対象とするクライアントに適用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-225">The <see cref="P:Microsoft.Exchange.WebServices.Data.Item.PolicyTag" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="0677d-226">保持ポリシーの値です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-226">The retention policy value.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Preview">
+      <MemberSignature Language="C#" Value="public string Preview { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Preview" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.Preview" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Preview As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Preview { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0677d-227">アイテムのプレビューを取得します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-227">Gets the item preview.</span>
+          </span>
+          <span data-ttu-id="0677d-228">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.Item.Preview" />プロパティは、Exchange Online とのバージョンの Exchange が Exchange Server 2013 以降を対象とするクライアントに適用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-228">The <see cref="P:Microsoft.Exchange.WebServices.Data.Item.Preview" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="0677d-229">アイテムのプレビューです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-229">The item preview.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReminderDueBy">
+      <MemberSignature Language="C#" Value="public DateTime ReminderDueBy { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime ReminderDueBy" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.ReminderDueBy" />
+      <MemberSignature Language="VB.NET" Value="Public Property ReminderDueBy As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime ReminderDueBy { DateTime get(); void set(DateTime value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0677d-230">取得または設定の日付と時刻のアラームは、このアイテムの期限とします。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-230">Gets or sets the date and time when the reminder is due for this item.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="0677d-231">日付と時刻を示す DateTime 値のアラームが期限です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-231">A DateTime value indicating the date and time the reminder is due.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReminderMinutesBeforeStart">
+      <MemberSignature Language="C#" Value="public int ReminderMinutesBeforeStart { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 ReminderMinutesBeforeStart" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.ReminderMinutesBeforeStart" />
+      <MemberSignature Language="VB.NET" Value="Public Property ReminderMinutesBeforeStart As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int ReminderMinutesBeforeStart { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0677d-232">分のアラームがトリガーされるように、この項目の開始前に設定を取得または取得します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-232">Gets or sets the number of minutes before the start of this item that the reminder should be triggered.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="0677d-233">分の数を示す整数値です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-233">An integer value indicating the number of minutes.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RemoveExtendedProperty">
+      <MemberSignature Language="C#" Value="public bool RemoveExtendedProperty (Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition extendedPropertyDefinition);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool RemoveExtendedProperty(class Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition extendedPropertyDefinition) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Item.RemoveExtendedProperty(Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool RemoveExtendedProperty(Microsoft::Exchange::WebServices::Data::ExtendedPropertyDefinition ^ extendedPropertyDefinition);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="extendedPropertyDefinition" Type="Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition" />
+      </Parameters>
+      <Docs>
+        <param name="extendedPropertyDefinition">
+          <span data-ttu-id="0677d-234">拡張プロパティの定義。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-234">The extended property definition.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="0677d-235">拡張プロパティを削除します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-235">Removes an extended property.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="0677d-236">プロパティが削除された場合は true。それ以外の場合、false です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-236">True if the property was removed; otherwise, false.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RetentionDate">
+      <MemberSignature Language="C#" Value="public Nullable&lt;DateTime&gt; RetentionDate { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; RetentionDate" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.RetentionDate" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property RetentionDate As Nullable(Of DateTime)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;DateTime&gt; RetentionDate { Nullable&lt;DateTime&gt; get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.DateTime&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0677d-237">アイテムを保持する必要があるまでの日付を取得します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-237">Gets the date until which an item must be preserved.</span>
+          </span>
+          <span data-ttu-id="0677d-238">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.Item.RetentionDate" />プロパティは、Exchange Online とのバージョンの Exchange が Exchange Server 2013 以降を対象とするクライアントに適用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-238">The <see cref="P:Microsoft.Exchange.WebServices.Data.Item.RetentionDate" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="0677d-239">保持期限です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-239">The retention date.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Save">
+      <MemberSignature Language="C#" Value="public void Save ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Save() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Item.Save" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Save ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Save();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="0677d-240">アイテムの種類に基づいて既定のフォルダーにこのアイテムを保存します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-240">Saves this item in the default folder based on the item's type.</span>
+          </span>
+          <span data-ttu-id="0677d-241">このメソッドを呼び出すことは、Exchange Web サービス (EWS) を少なくとも 1 つの呼び出しになります。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-241">Calling this method results in at least one call to Exchange Web Services (EWS).</span>
+          </span>
+          <span data-ttu-id="0677d-242">添付ファイルが追加されている場合、EWS への複数の呼び出しを行う可能性があります。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-242">Multiple calls to EWS might be made if attachments have been added.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Save">
+      <MemberSignature Language="C#" Value="public void Save (Microsoft.Exchange.WebServices.Data.FolderId parentFolderId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Save(class Microsoft.Exchange.WebServices.Data.FolderId parentFolderId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Item.Save(Microsoft.Exchange.WebServices.Data.FolderId)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Save (parentFolderId As FolderId)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Save(Microsoft::Exchange::WebServices::Data::FolderId ^ parentFolderId);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="parentFolderId" Type="Microsoft.Exchange.WebServices.Data.FolderId" />
+      </Parameters>
+      <Docs>
+        <param name="parentFolderId">
+          <span data-ttu-id="0677d-243">このアイテムを保存するフォルダーの ID。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-243">The ID of the folder in which to save this item.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="0677d-244">特定のフォルダーにこのアイテムを保存します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-244">Saves this item in a specific folder.</span>
+          </span>
+          <span data-ttu-id="0677d-245">このメソッドを呼び出すことは、Exchange Web サービス (EWS) を少なくとも 1 つの呼び出しになります。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-245">Calling this method results in at least one call to Exchange Web Services (EWS).</span>
+          </span>
+          <span data-ttu-id="0677d-246">添付ファイルが追加されている場合、EWS への複数の呼び出しを行う可能性があります。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-246">Multiple calls to EWS might be made if attachments have been added.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Save">
+      <MemberSignature Language="C#" Value="public void Save (Microsoft.Exchange.WebServices.Data.WellKnownFolderName parentFolderName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Save(valuetype Microsoft.Exchange.WebServices.Data.WellKnownFolderName parentFolderName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Item.Save(Microsoft.Exchange.WebServices.Data.WellKnownFolderName)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Save (parentFolderName As WellKnownFolderName)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Save(Microsoft::Exchange::WebServices::Data::WellKnownFolderName parentFolderName);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="parentFolderName" Type="Microsoft.Exchange.WebServices.Data.WellKnownFolderName" />
+      </Parameters>
+      <Docs>
+        <param name="parentFolderName">
+          <span data-ttu-id="0677d-247">このアイテムを保存するフォルダーの名前です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-247">The name of the folder in which to save this item.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="0677d-248">特定のフォルダーにこのアイテムを保存します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-248">Saves this item in a specific folder.</span>
+          </span>
+          <span data-ttu-id="0677d-249">このメソッドを呼び出すことは、Exchange Web サービス (EWS) を少なくとも 1 つの呼び出しになります。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-249">Calling this method results in at least one call to Exchange Web Services (EWS).</span>
+          </span>
+          <span data-ttu-id="0677d-250">添付ファイルが追加されている場合、EWS への複数の呼び出しを行う可能性があります。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-250">Multiple calls to EWS might be made if attachments have been added.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Sensitivity">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.Sensitivity Sensitivity { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.Sensitivity Sensitivity" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.Sensitivity" />
+      <MemberSignature Language="VB.NET" Value="Public Property Sensitivity As Sensitivity" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::Sensitivity Sensitivity { Microsoft::Exchange::WebServices::Data::Sensitivity get(); void set(Microsoft::Exchange::WebServices::Data::Sensitivity value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Sensitivity</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0677d-251">このアイテムの秘密度を取得します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-251">Gets the sensitivity of this item.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="0677d-252">感度を示すオブジェクト。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-252">A Sensitivity object.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetExtendedProperty">
+      <MemberSignature Language="C#" Value="public void SetExtendedProperty (Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition extendedPropertyDefinition, object value);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetExtendedProperty(class Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition extendedPropertyDefinition, object value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Item.SetExtendedProperty(Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition,System.Object)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetExtendedProperty(Microsoft::Exchange::WebServices::Data::ExtendedPropertyDefinition ^ extendedPropertyDefinition, System::Object ^ value);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="extendedPropertyDefinition" Type="Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition" />
+        <Parameter Name="value" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="extendedPropertyDefinition">
+          <span data-ttu-id="0677d-253">拡張プロパティを設定します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-253">The extended property to set.</span>
+          </span>
+        </param>
+        <param name="value">
+          <span data-ttu-id="0677d-254">拡張プロパティに設定する値。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-254">The value to set on the extended property.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="0677d-255">指定された拡張プロパティに指定した値を設定します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-255">Sets the specified extended property to the specified value.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Size">
+      <MemberSignature Language="C#" Value="public int Size { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Size" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.Size" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Size As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Size { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0677d-256">このアイテムのサイズを取得します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-256">Gets the size of this item.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="0677d-257">アイテムのサイズを示す整数値です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-257">An integer value indicating the size of the item.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StoreEntryId">
+      <MemberSignature Language="C#" Value="public byte[] StoreEntryId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance unsigned int8[] StoreEntryId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.StoreEntryId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property StoreEntryId As Byte()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;System::Byte&gt; ^ StoreEntryId { cli::array &lt;System::Byte&gt; ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Byte[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0677d-258">項目をホストしているストアのエントリ ID を取得します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-258">Gets the entry ID of the store that hosts the item.</span>
+          </span>
+          <span data-ttu-id="0677d-259">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.Item.StoreEntryId" />プロパティは、Exchange Online とのバージョンの Exchange が Exchange Server 2013 以降を対象とするクライアントに適用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-259">The <see cref="P:Microsoft.Exchange.WebServices.Data.Item.StoreEntryId" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="0677d-260">ストア エントリ id。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-260">The store entry ID.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Subject">
+      <MemberSignature Language="C#" Value="public string Subject { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Subject" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.Subject" />
+      <MemberSignature Language="VB.NET" Value="Public Property Subject As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Subject { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0677d-261">取得またはこのアイテムの件名を設定します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-261">Gets or sets the subject of this item.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="0677d-262">アイテムの件名を示す文字列値。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-262">A string value indicating the subject of the item.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TextBody">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.TextBody TextBody { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.TextBody TextBody" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.TextBody" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TextBody As TextBody" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::TextBody ^ TextBody { Microsoft::Exchange::WebServices::Data::TextBody ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.TextBody</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0677d-263">項目のテキストの本文を取得します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-263">Gets the text body of the item.</span>
+          </span>
+          <span data-ttu-id="0677d-264">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.Item.TextBody" />プロパティは、Exchange Online とのバージョンの Exchange が Exchange Server 2013 以降を対象とするクライアントに適用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-264">The <see cref="P:Microsoft.Exchange.WebServices.Data.Item.TextBody" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="0677d-265">項目のテキストの本文です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-265">The text body of the item.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UniqueBody">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.UniqueBody UniqueBody { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.UniqueBody UniqueBody" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.UniqueBody" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property UniqueBody As UniqueBody" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::UniqueBody ^ UniqueBody { Microsoft::Exchange::WebServices::Data::UniqueBody ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.UniqueBody</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0677d-266">この項目は含まれている会話に一意である本文を取得します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-266">Gets the body part that is unique to the conversation that this item is part of.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="0677d-267">UniqueBody のオブジェクトです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-267">A UniqueBody object.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Update">
+      <MemberSignature Language="C#" Value="public void Update (Microsoft.Exchange.WebServices.Data.ConflictResolutionMode conflictResolutionMode);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Update(valuetype Microsoft.Exchange.WebServices.Data.ConflictResolutionMode conflictResolutionMode) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Item.Update(Microsoft.Exchange.WebServices.Data.ConflictResolutionMode)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Update(Microsoft::Exchange::WebServices::Data::ConflictResolutionMode conflictResolutionMode);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="conflictResolutionMode" Type="Microsoft.Exchange.WebServices.Data.ConflictResolutionMode" />
+      </Parameters>
+      <Docs>
+        <param name="conflictResolutionMode">
+          <span data-ttu-id="0677d-268">競合の解決モードです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-268">The conflict resolution mode.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="0677d-269">このアイテムに加えられたローカルの変更を適用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-269">Applies the local changes that have been made to this item.</span>
+          </span>
+          <span data-ttu-id="0677d-270">このメソッドを呼び出すことは、Exchange Web サービス (EWS) を少なくとも 1 つの呼び出しになります。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-270">Calling this method results in at least one call to Exchange Web Services (EWS).</span>
+          </span>
+          <span data-ttu-id="0677d-271">添付ファイルを追加または削除された場合、EWS への複数の呼び出しを行った可能性があります。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-271">Multiple calls to EWS might be made if attachments have been added or removed.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Update">
+      <MemberSignature Language="C#" Value="public void Update (Microsoft.Exchange.WebServices.Data.ConflictResolutionMode conflictResolutionMode, bool suppressReadReceipts);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Update(valuetype Microsoft.Exchange.WebServices.Data.ConflictResolutionMode conflictResolutionMode, bool suppressReadReceipts) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Item.Update(Microsoft.Exchange.WebServices.Data.ConflictResolutionMode,System.Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Update(Microsoft::Exchange::WebServices::Data::ConflictResolutionMode conflictResolutionMode, bool suppressReadReceipts);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="conflictResolutionMode" Type="Microsoft.Exchange.WebServices.Data.ConflictResolutionMode" />
+        <Parameter Name="suppressReadReceipts" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="conflictResolutionMode">
+          <span data-ttu-id="0677d-272">競合の解決モードです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-272">The conflict resolution mode.</span>
+          </span>
+        </param>
+        <param name="suppressReadReceipts">
+          <span data-ttu-id="0677d-273">
+            <b>true</b>読み取りの項目が更新されている場合、開封確認を送信しない必要がありますは開封確認メッセージを要求された場合それ以外の場合、 <b>false を指定</b>します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-273">
+              <b>true</b> if read receipts should not be sent if the item being updated has requested a read receipt; otherwise, <b>false</b>.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="0677d-274">このアイテムに加えられたローカルの変更を適用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-274">Applies the local changes that have been made to this item.</span>
+          </span>
+          <span data-ttu-id="0677d-275">このメソッドを呼び出すことは、EWS を少なくとも 1 つの呼び出しで発生します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-275">Calling this method results in at least one call to EWS.</span>
+          </span>
+          <span data-ttu-id="0677d-276">添付ファイルを追加または削除された場合、EWS への複数の呼び出しを行う可能性があります。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-276">Mutliple calls to EWS might be made if attachments have been added or removed.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WebClientEditFormQueryString">
+      <MemberSignature Language="C#" Value="public string WebClientEditFormQueryString { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string WebClientEditFormQueryString" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.WebClientEditFormQueryString" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property WebClientEditFormQueryString As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ WebClientEditFormQueryString { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0677d-277">Outlook Web App の URL を web ブラウザーでこのアイテムを開くに追加することができますクエリ文字列を取得します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-277">Gets the query string that can be appended to the Outlook Web App URL to open this item in a web browser.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="0677d-278">文字列値。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-278">A string value.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="0677d-279">
+            <para>このプロパティは、Exchange 2010 に適用されます。情報を使用して、<see cref="P:Microsoft.Exchange.WebServices.Data.Item.WebClientReadFormQueryString" />プロパティには、Outlook Web App で下書きアイテムを開くし、下書きアイテムを編集するのには、UI を使用します。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-279">
+              <para>This property applies to Exchange 2010. Use the information from the <see cref="P:Microsoft.Exchange.WebServices.Data.Item.WebClientReadFormQueryString" /> property to open a draft item in Outlook Web App and then use the UI to edit the draft item.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WebClientReadFormQueryString">
+      <MemberSignature Language="C#" Value="public string WebClientReadFormQueryString { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string WebClientReadFormQueryString" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.WebClientReadFormQueryString" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property WebClientReadFormQueryString As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ WebClientReadFormQueryString { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0677d-280">Exchange web クライアントの URL を web ブラウザーで適切な読み取りフォームを使用してこのアイテムを開くに追加する必要があるクエリ文字列を取得します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-280">Gets the query string that should be appended to the Exchange web client URL to open this item by using the appropriate read form in a web browser.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="0677d-281">文字列値。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-281">A string value.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="0677d-282">
+            <para>Outlook Web App の URL のアイテム id は、アイテムの EWS 識別子です。EWS の項目の識別子が URL エンコードされ、アイテムを Outlook Web App の URL を取得するクエリ文字列に追加します</para>。
+          <para>バージョンの相違点</para><para>のバージョンの Exchange 15.00.775.009 でメジャー バージョン 15 で開始および終了がで適切なクエリ文字列のフラグメントを返さない、<see cref="P:Microsoft.Exchange.WebServices.Data.Item.WebClientReadFormQueryString" />プロパティ</para>。
+          <para>15 の主要なバージョンより前のバージョンの Exchange の Outlook Web App の URL のアイテム id は、Outlook Web App の識別子です。使用する必要がメジャー バージョン 15 より前の Exchange のバージョンを対象とする場合、 <see cref="M:Microsoft.Exchange.WebServices.ExchangeService.ConvertID" /> 、識別子に変換します</para>。
+          <para /></span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0677d-282">
+              <para>The item identifier for an Outlook Web App URL is the EWS identifier of the item. You can URL-encode the EWS item identifier and append it to the query string to get the Outlook Web App URL for an item.</para>
+              <para>Version differences</para>
+              <para>Versions of Exchange starting with major version 15 and ending with 15.00.775.009 do not return a correct query string fragment in the <see cref="P:Microsoft.Exchange.WebServices.Data.Item.WebClientReadFormQueryString" /> property. </para>
+              <para>In versions of Exchange earlier than major version 15, the item identifier for the Outlook Web App URL is an Outlook Web App identifier. If you are targeting a version of Exchange earlier than major version 15, you have to use the <see cref="M:Microsoft.Exchange.WebServices.ExchangeService.ConvertID" /> method to convert the identifier.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+        <example>
+          <code>    /// &amp;lt;summary&amp;gt;
+    /// Demonstrates how to open an item in Outlook Web App.
+    /// &amp;lt;/summary&amp;gt;
+    /// &amp;lt;param name="service"&amp;gt;An ExchangeService object that has already had credentials set and contains a valid service URL.&amp;lt;/param&amp;gt;
+    static void OpenOWAFromWebClientReadFormQueryString(ExchangeService service)
+    {
+      // Create a view that will return the identifier for the first item in a folder.
+      ItemView itemView = new ItemView(1);
+      itemView.PropertySet = new PropertySet(BasePropertySet.IdOnly);
+
+      // Make a call to EWS to get one item from the mailbox folder.
+      FindItemsResults&amp;lt;Item&amp;gt; results = service.FindItems(WellKnownFolderName.Drafts, itemView);
+
+      // Get the item identifier of the item to open in Outlook Web App.
+      ItemId itemId = results.Items[0].Id;
+
+      ExchangeServerInfo serverInfo = service.ServerInfo;
+      var owaReadFormQueryString = string.Empty;
+      var ewsIdentifer = itemId.UniqueId;
+
+      try
+      {
+        // Make a call to EWS to bind to the item returned by the FindItems method.
+        EmailMessage msg = EmailMessage.Bind(service, itemId);
+        msg.Load(new PropertySet(BasePropertySet.IdOnly, EmailMessageSchema.WebClientReadFormQueryString));
+
+        // Versions of Exchange starting with major version 15 and ending with Exchange Server 2013 build 15.0.775.09
+        // returned a different query string fragment. This optional check is not required for applications that
+        // target Exchange Online.
+        if ((serverInfo.MajorVersion == 15) &amp;amp;&amp;amp; (serverInfo.MajorBuildNumber &amp;lt; 775) &amp;amp;&amp;amp;(serverInfo.MinorBuildNumber &amp;lt; 09))
+        {
+          // If your client is connected to an Exchange 2013 server that has not been updated to CU3,
+          // this query string will be returned.
+          owaReadFormQueryString = string.Format("#viewmodel=_y.$Ep&amp;amp;ItemID={0}",
+            System.Web.HttpUtility.UrlEncode(ewsIdentifer, Encoding.UTF8));
+        }
+        else
+        {
+          // If your client is connected to an Exchanger 2010, Exchange 2013 CU3, or Exchange Online server,
+          // the WebClientReadFormQueryString is used.
+          owaReadFormQueryString = msg.WebClientReadFormQueryString;
+        }
+
+        // Create the URL that Outlook Web App uses to open the email message.
+        Uri url = service.Url;
+        string owaReadAccessUrl = string.Format("{0}://{1}/owa/{2}",
+          url.Scheme, url.Host, owaReadFormQueryString);
+
+        if (!string.IsNullOrEmpty(owaReadAccessUrl))
+        {
+          System.Diagnostics.Process.Start("IEXPLORE.EXE", owaReadAccessUrl);
+        }
+      }
+      catch (System.ComponentModel.Win32Exception ex)
+      {
+        Console.WriteLine(ex.Message);
+        Console.WriteLine("ERRROR: Internet Explorer cannot be found.");
+      }
+    }</code>
+        </example>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

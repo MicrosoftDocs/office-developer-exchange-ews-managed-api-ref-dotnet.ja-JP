@@ -1,0 +1,223 @@
+<Type Name="ItemView" FullName="Microsoft.Exchange.WebServices.Data.ItemView">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="61d981f03da5d7869a6b7e26fcc5ec4e1abfebaf" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ja-JP" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20626068" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class ItemView : Microsoft.Exchange.WebServices.Data.PagedView" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit ItemView extends Microsoft.Exchange.WebServices.Data.PagedView" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ItemView" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class ItemView&#xA;Inherits PagedView" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ItemView sealed : Microsoft::Exchange::WebServices::Data::PagedView" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.PagedView</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="7f6f2-101">フォルダーの検索操作でのビューの設定を表します。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="7f6f2-101">Represents the view settings in a folder search operation.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ItemView (int pageSize);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(int32 pageSize) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ItemView.#ctor(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (pageSize As Integer)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ItemView(int pageSize);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="pageSize" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="pageSize">
+          <span data-ttu-id="7f6f2-102">検索操作によって返される項目の最大数です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7f6f2-102">The maximum number of items the search operation returns.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="7f6f2-103">指定されたページ サイズを使用して、ItemView クラスの新しいインスタンスを初期化します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7f6f2-103">Initializes a new instance of the ItemView class by using the supplied page size.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ItemView (int pageSize, int offset);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(int32 pageSize, int32 offset) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ItemView.#ctor(System.Int32,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (pageSize As Integer, offset As Integer)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ItemView(int pageSize, int offset);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="pageSize" Type="System.Int32" />
+        <Parameter Name="offset" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="pageSize">
+          <span data-ttu-id="7f6f2-104">検索操作によって返される項目の最大数です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7f6f2-104">The maximum number of items the search operation returns.</span>
+          </span>
+        </param>
+        <param name="offset">
+          <span data-ttu-id="7f6f2-105">基本のポイントからビューのオフセット。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7f6f2-105">The offset of the view from the base point.</span>
+          </span>
+          <span data-ttu-id="7f6f2-106">返されるアイテムのページの開始位置を識別します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7f6f2-106">Identifies where the page of returned items will start.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="7f6f2-107">指定したページのサイズとオフセットを使用して、ItemView クラスの新しいインスタンスを初期化します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7f6f2-107">Initializes a new instance of the ItemView class by using the supplied page size and offset.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ItemView (int pageSize, int offset, Microsoft.Exchange.WebServices.Data.OffsetBasePoint offsetBasePoint);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(int32 pageSize, int32 offset, valuetype Microsoft.Exchange.WebServices.Data.OffsetBasePoint offsetBasePoint) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ItemView.#ctor(System.Int32,System.Int32,Microsoft.Exchange.WebServices.Data.OffsetBasePoint)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ItemView(int pageSize, int offset, Microsoft::Exchange::WebServices::Data::OffsetBasePoint offsetBasePoint);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="pageSize" Type="System.Int32" />
+        <Parameter Name="offset" Type="System.Int32" />
+        <Parameter Name="offsetBasePoint" Type="Microsoft.Exchange.WebServices.Data.OffsetBasePoint" />
+      </Parameters>
+      <Docs>
+        <param name="pageSize">
+          <span data-ttu-id="7f6f2-108">検索操作によって返される項目の最大数です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7f6f2-108">The maximum number of items the search operation returns.</span>
+          </span>
+        </param>
+        <param name="offset">
+          <span data-ttu-id="7f6f2-109">基本のポイントからビューのオフセット。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7f6f2-109">The offset of the view from the base point.</span>
+          </span>
+          <span data-ttu-id="7f6f2-110">返されるアイテムのページの開始位置を識別します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7f6f2-110">Identifies where the page of returned items will start.</span>
+          </span>
+        </param>
+        <param name="offsetBasePoint">
+          <span data-ttu-id="7f6f2-111">オフセットの基本のポイントです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7f6f2-111">The base point of the offset.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="7f6f2-112">指定されたページ サイズ、オフセット、および基本のポイントを使用して、ItemView クラスの新しいインスタンスを初期化します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7f6f2-112">Initializes a new instance of the ItemView class by using the supplied page size, offset, and base point.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OrderBy">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.OrderByCollection OrderBy { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.OrderByCollection OrderBy" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ItemView.OrderBy" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property OrderBy As OrderByCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::OrderByCollection ^ OrderBy { Microsoft::Exchange::WebServices::Data::OrderByCollection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.OrderByCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="7f6f2-113">返品品目を注文する対象となるプロパティを取得します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7f6f2-113">Gets the properties against which the returned items should be ordered.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="7f6f2-114">プロパティ定義の順序付きコレクションは、並べ替えの方向で修飾します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7f6f2-114">An ordered collection of property definitions qualified with a sort direction.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Traversal">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ItemTraversal Traversal { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.ItemTraversal Traversal" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ItemView.Traversal" />
+      <MemberSignature Language="VB.NET" Value="Public Property Traversal As ItemTraversal" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ItemTraversal Traversal { Microsoft::Exchange::WebServices::Data::ItemTraversal get(); void set(Microsoft::Exchange::WebServices::Data::ItemTraversal value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ItemTraversal</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="7f6f2-115">取得または検索走査モードを設定します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7f6f2-115">Gets or sets the search traversal mode.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="7f6f2-116">検索で実行するのには方法を示す値です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7f6f2-116">A value that indicates how the search is to be performed.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="7f6f2-117">
+            <para>トラバースのプロパティの既定値<see cref="F:Microsoft.Exchange.WebServices.Data.ItemTraversal.Shallow" />。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7f6f2-117">
+              <para>The Traversal property defaults to <see cref="F:Microsoft.Exchange.WebServices.Data.ItemTraversal.Shallow" />.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

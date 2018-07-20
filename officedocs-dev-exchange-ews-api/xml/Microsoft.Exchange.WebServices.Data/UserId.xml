@@ -1,0 +1,316 @@
+<Type Name="UserId" FullName="Microsoft.Exchange.WebServices.Data.UserId">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="a3382687c018cce1a80c2d9614acd1049b990987" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ja-JP" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20625972" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class UserId : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit UserId extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.UserId" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class UserId&#xA;Inherits ComplexProperty" />
+  <TypeSignature Language="C++ CLI" Value="public ref class UserId sealed : Microsoft::Exchange::WebServices::Data::ComplexProperty" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ComplexProperty</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="7a341-101">ユーザーの id を表します。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="7a341-101">Represents the identifier of a user.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public UserId ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.UserId.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; UserId();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="7a341-102">ユーザー Id クラスの新しいインスタンスを初期化します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7a341-102">Initializes a new instance of the UserId class.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public UserId (Microsoft.Exchange.WebServices.Data.StandardUser standardUser);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Microsoft.Exchange.WebServices.Data.StandardUser standardUser) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.UserId.#ctor(Microsoft.Exchange.WebServices.Data.StandardUser)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; UserId(Microsoft::Exchange::WebServices::Data::StandardUser standardUser);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="standardUser" Type="Microsoft.Exchange.WebServices.Data.StandardUser" />
+      </Parameters>
+      <Docs>
+        <param name="standardUser">
+          <span data-ttu-id="7a341-103">新しいインスタンスを初期化するために使用する StandardUser 列挙値の 1 つです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7a341-103">One of the StandardUser enumeration values that is used to initialize the new instance.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="7a341-104">指定した標準的なユーザーのユーザー Id のクラスの新しいインスタンスを初期化します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7a341-104">Initializes a new instance of the UserId class for the specified standard user.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public UserId (string primarySmtpAddress);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string primarySmtpAddress) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.UserId.#ctor(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (primarySmtpAddress As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; UserId(System::String ^ primarySmtpAddress);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="primarySmtpAddress" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="primarySmtpAddress">
+          <span data-ttu-id="7a341-105">ユーザーの電子メール アドレス。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7a341-105">The user's e-mail address.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="7a341-106">ユーザーの電子メール アドレスを持つユーザー Id クラスの新しいインスタンスを初期化します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7a341-106">Initializes a new instance of the UserId class with the user's e-mail address.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisplayName">
+      <MemberSignature Language="C#" Value="public string DisplayName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DisplayName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.UserId.DisplayName" />
+      <MemberSignature Language="VB.NET" Value="Public Property DisplayName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ DisplayName { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="7a341-107">ユーザーの表示名を取得または設定します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7a341-107">Gets or sets the display name of the user.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="7a341-108">ユーザーの表示名を含む文字列。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7a341-108">A string that contains the display name of the user.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Implicit">
+      <MemberSignature Language="C#" Value="public static implicit operator Microsoft.Exchange.WebServices.Data.UserId (Microsoft.Exchange.WebServices.Data.StandardUser standardUser);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname class Microsoft.Exchange.WebServices.Data.UserId op_Implicit(valuetype Microsoft.Exchange.WebServices.Data.StandardUser standardUser) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.UserId.op_Implicit(Microsoft.Exchange.WebServices.Data.StandardUser)~Microsoft.Exchange.WebServices.Data.UserId" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static operator Microsoft::Exchange::WebServices::Data::UserId ^(Microsoft::Exchange::WebServices::Data::StandardUser standardUser);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.UserId</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="standardUser" Type="Microsoft.Exchange.WebServices.Data.StandardUser" />
+      </Parameters>
+      <Docs>
+        <param name="standardUser">
+          <span data-ttu-id="7a341-109">ユーザ ID を初期化するために使用される標準的なユーザー</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7a341-109">The standard user that is used to initialize the user ID.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="7a341-110">標準ユーザーと、ユーザー Id のインスタンスとの間の暗黙の変換を実装します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7a341-110">Implements an implicit conversion between a standard user and a UserId instance.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="7a341-111">ユーザー Id のインスタンスで、標準的なユーザーが指定した値で初期化されます。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7a341-111">A UserId instance that is initialized with the specified standard user value.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Implicit">
+      <MemberSignature Language="C#" Value="public static implicit operator Microsoft.Exchange.WebServices.Data.UserId (string primarySmtpAddress);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname class Microsoft.Exchange.WebServices.Data.UserId op_Implicit(string primarySmtpAddress) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.UserId.op_Implicit(System.String)~Microsoft.Exchange.WebServices.Data.UserId" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Widening Operator CType (primarySmtpAddress As String) As UserId" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static operator Microsoft::Exchange::WebServices::Data::UserId ^(System::String ^ primarySmtpAddress);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.UserId</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="primarySmtpAddress" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="primarySmtpAddress">
+          <span data-ttu-id="7a341-112">ユーザーの電子メール アドレス。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7a341-112">The user's e-mail address.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="7a341-113">プライマリ SMTP アドレスを表す文字列とユーザー Id のインスタンスとの間の暗黙の変換を実装します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7a341-113">Implements an implicit conversion between a string that represents a primary SMTP address and a UserId instance.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="7a341-114">ユーザー Id のインスタンスで、指定されたプライマリ SMTP アドレスで初期化されます。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7a341-114">A UserId instance that is initialized with the specified primary SMTP address.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PrimarySmtpAddress">
+      <MemberSignature Language="C#" Value="public string PrimarySmtpAddress { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string PrimarySmtpAddress" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.UserId.PrimarySmtpAddress" />
+      <MemberSignature Language="VB.NET" Value="Public Property PrimarySmtpAddress As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ PrimarySmtpAddress { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="7a341-115">取得またはユーザーのプライマリ SMTP アドレスを設定します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7a341-115">Gets or sets the primary SMTP address of the user.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="7a341-116">ユーザーのプライマリ SMTP 電子メール アドレスを含む文字列です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7a341-116">A string that contains the primary SMTP e-mail address of the user.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SID">
+      <MemberSignature Language="C#" Value="public string SID { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SID" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.UserId.SID" />
+      <MemberSignature Language="VB.NET" Value="Public Property SID As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ SID { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="7a341-117">取得またはユーザーの SID を設定します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7a341-117">Gets or sets the SID of the user.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="7a341-118">ユーザーの SID を含む文字列です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7a341-118">A string that contains the SID of the user.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StandardUser">
+      <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Exchange.WebServices.Data.StandardUser&gt; StandardUser { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Exchange.WebServices.Data.StandardUser&gt; StandardUser" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.UserId.StandardUser" />
+      <MemberSignature Language="VB.NET" Value="Public Property StandardUser As Nullable(Of StandardUser)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;Microsoft::Exchange::WebServices::Data::StandardUser&gt; StandardUser { Nullable&lt;Microsoft::Exchange::WebServices::Data::StandardUser&gt; get(); void set(Nullable&lt;Microsoft::Exchange::WebServices::Data::StandardUser&gt; value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Microsoft.Exchange.WebServices.Data.StandardUser&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="7a341-119">取得またはユーザーを表す標準的なユーザーを示す値を設定します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7a341-119">Gets or sets a value that indicates which standard user the user represents.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="7a341-120">ユーザーを表す標準的なユーザーです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7a341-120">The standard user that the user represents.</span>
+          </span>
+          <span data-ttu-id="7a341-121">このプロパティは、null 参照 (Visual Basic では Nothing) をすることができます。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7a341-121">This property can be a null reference (Nothing in Visual Basic).</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

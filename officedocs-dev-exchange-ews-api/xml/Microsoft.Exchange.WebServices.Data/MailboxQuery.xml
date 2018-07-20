@@ -1,0 +1,151 @@
+<Type Name="MailboxQuery" FullName="Microsoft.Exchange.WebServices.Data.MailboxQuery">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="302a67edc2417f181ae21b53461b35d2470d1ffa" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ja-JP" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20625741" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class MailboxQuery" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit MailboxQuery extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.MailboxQuery" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class MailboxQuery" />
+  <TypeSignature Language="C++ CLI" Value="public ref class MailboxQuery sealed" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="f03ef-101">電子的証拠開示検索の検索クエリが含まれています。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="f03ef-101">Contains a search query for an eDiscovery search.</span>
+      </span>
+      <span data-ttu-id="f03ef-102">
+        <see cref="T:Microsoft.Exchange.WebServices.Data.MailboxQuery" />クラスは、Exchange Online とのバージョンの Exchange が Exchange Server 2013 以降を対象とするクライアントに適用します。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="f03ef-102">The <see cref="T:Microsoft.Exchange.WebServices.Data.MailboxQuery" /> class is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public MailboxQuery (string query, Microsoft.Exchange.WebServices.Data.MailboxSearchScope[] searchScopes);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string query, class Microsoft.Exchange.WebServices.Data.MailboxSearchScope[] searchScopes) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.MailboxQuery.#ctor(System.String,Microsoft.Exchange.WebServices.Data.MailboxSearchScope[])" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (query As String, searchScopes As MailboxSearchScope())" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; MailboxQuery(System::String ^ query, cli::array &lt;Microsoft::Exchange::WebServices::Data::MailboxSearchScope ^&gt; ^ searchScopes);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="query" Type="System.String" />
+        <Parameter Name="searchScopes" Type="Microsoft.Exchange.WebServices.Data.MailboxSearchScope[]" />
+      </Parameters>
+      <Docs>
+        <param name="query">
+          <span data-ttu-id="f03ef-103">検索クエリです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f03ef-103">The search query.</span>
+          </span>
+        </param>
+        <param name="searchScopes">
+          <span data-ttu-id="f03ef-104">関連付けられているメールボックスの場所の種類と対象のメールボックスのコレクションです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f03ef-104">A collection of target mailboxes with their associated mailbox location types.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="f03ef-105">新しいインスタンスを作成、<see cref="T:Microsoft.Exchange.WebServices.Data.MailboxQuery" />クラス。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f03ef-105">Creates a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.MailboxQuery" /> class.</span>
+          </span>
+          <span data-ttu-id="f03ef-106">
+            <see cref="M:Microsoft.Exchange.WebServices.Data.MailboxQuery.#ctor(System.String,Microsoft.Exchange.WebServices.Data.MailboxSearchScope[])" />コンス トラクターは、Exchange Online とのバージョンの Exchange が Exchange Server 2013 以降を対象とするクライアントに適用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f03ef-106">The <see cref="M:Microsoft.Exchange.WebServices.Data.MailboxQuery.#ctor(System.String,Microsoft.Exchange.WebServices.Data.MailboxSearchScope[])" /> constructor is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MailboxSearchScopes">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.MailboxSearchScope[] MailboxSearchScopes { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.MailboxSearchScope[] MailboxSearchScopes" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.MailboxQuery.MailboxSearchScopes" />
+      <MemberSignature Language="VB.NET" Value="Public Property MailboxSearchScopes As MailboxSearchScope()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;Microsoft::Exchange::WebServices::Data::MailboxSearchScope ^&gt; ^ MailboxSearchScopes { cli::array &lt;Microsoft::Exchange::WebServices::Data::MailboxSearchScope ^&gt; ^ get(); void set(cli::array &lt;Microsoft::Exchange::WebServices::Data::MailboxSearchScope ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.MailboxSearchScope[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f03ef-107">取得または関連付けられているメールボックスの場所の種類を使用してターゲット メールボックスのコレクションを設定します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f03ef-107">Gets or sets the collection of target mailboxes with their associated mailbox location types.</span>
+          </span>
+          <span data-ttu-id="f03ef-108">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.MailboxQuery.MailboxSearchScopes" />プロパティは、Exchange Online とのバージョンの Exchange が Exchange Server 2013 以降を対象とするクライアントに適用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f03ef-108">The <see cref="P:Microsoft.Exchange.WebServices.Data.MailboxQuery.MailboxSearchScopes" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="f03ef-109">メールボックスのコレクションとその場所を入力します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f03ef-109">The collection of mailboxes and their location type.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Query">
+      <MemberSignature Language="C#" Value="public string Query { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Query" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.MailboxQuery.Query" />
+      <MemberSignature Language="VB.NET" Value="Public Property Query As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Query { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f03ef-110">取得または電子的証拠開示検索に使用するクエリを設定します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f03ef-110">Gets or sets the query used to for an eDiscovery search.</span>
+          </span>
+          <span data-ttu-id="f03ef-111">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.MailboxQuery.Query" />プロパティは、Exchange Online とのバージョンの Exchange が Exchange Server 2013 以降を対象とするクライアントに適用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f03ef-111">The <see cref="P:Microsoft.Exchange.WebServices.Data.MailboxQuery.Query" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="f03ef-112">検索クエリです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f03ef-112">The search query.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

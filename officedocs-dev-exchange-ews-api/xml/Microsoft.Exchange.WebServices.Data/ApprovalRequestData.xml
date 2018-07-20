@@ -1,0 +1,194 @@
+<Type Name="ApprovalRequestData" FullName="Microsoft.Exchange.WebServices.Data.ApprovalRequestData">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="55200fe16e93878a1af4bbca705655f781471e11" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ja-JP" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20625910" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class ApprovalRequestData : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit ApprovalRequestData extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ApprovalRequestData" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class ApprovalRequestData&#xA;Inherits ComplexProperty" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ApprovalRequestData sealed : Microsoft::Exchange::WebServices::Data::ComplexProperty" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ComplexProperty</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="de399-101">承認要求メッセージの承認の状態を表します。<see cref="T:Microsoft.Exchange.WebServices.Data.ApprovalRequestData" />クラスは、Exchange Online とのバージョンの Exchange が Exchange Server 2013 以降を対象とするクライアントに適用します。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="de399-101">Represents the approval state of an approval request message.The <see cref="T:Microsoft.Exchange.WebServices.Data.ApprovalRequestData" /> class is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="de399-102">
+        <para>承認要求メッセージは、モデレート受信者のメッセージ フローの一部としてモデレーターに送信されます。詳細については、<a href="http://technet.microsoft.com/en-us/library/dd297936(v=exchg.150).aspx">モデレート トランスポート</a>を参照してください。</para>
+        <para />
+      </span>
+      <span class="sxs-lookup">
+        <span data-stu-id="de399-102">
+          <para>Approval request messages are sent to a moderator as part of the message flow for moderated recipients. For more information, see <a href="http://technet.microsoft.com/en-us/library/dd297936(v=exchg.150).aspx">Moderated Transport</a></para>
+          <para />
+        </span>
+      </span>
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ApprovalDecision">
+      <MemberSignature Language="C#" Value="public int ApprovalDecision { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 ApprovalDecision" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ApprovalRequestData.ApprovalDecision" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ApprovalDecision As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int ApprovalDecision { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="de399-103">承認要求メッセージには、承認決定を取得します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="de399-103">Gets the approval decision on the approval request message.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="de399-104">
+            <para>値、<see cref="P:Microsoft.Exchange.WebServices.Data.ApprovalRequestData.ApprovalDecision" />プロパティは、承認要求をモデレーターに決定を示します。プロパティは次の表のいずれかの値を持つことができます</para>。
+          <list type="table"><item><term>0</term><description>、意思決定が行われていない</description></item>。
+            <item><term>1</term><description>要求が承認されています</description></item>。
+            <item><term>2</term><description>の要求は拒否されました</description></item></list>。
+          <para /></span>
+          <span class="sxs-lookup">
+            <span data-stu-id="de399-104">
+              <para>The value of the <see cref="P:Microsoft.Exchange.WebServices.Data.ApprovalRequestData.ApprovalDecision" /> property indicates the decision made by the moderator on an approval request. The property can have one of the values in the following table.</para>
+              <list type="table">
+                <item>
+                  <term>0</term>
+                  <description>A decision has not been made.</description>
+                </item>
+                <item>
+                  <term>1</term>
+                  <description>The request was approved.</description>
+                </item>
+                <item>
+                  <term>2</term>
+                  <description>The request was rejected.</description>
+                </item>
+              </list>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ApprovalDecisionMaker">
+      <MemberSignature Language="C#" Value="public string ApprovalDecisionMaker { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ApprovalDecisionMaker" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ApprovalRequestData.ApprovalDecisionMaker" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ApprovalDecisionMaker As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ApprovalDecisionMaker { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="de399-105">モデレーター承認または却下の要求の表示名を取得します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="de399-105">Gets the display name of the moderator who approved or rejected the request.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="de399-106">
+            <para>場合の値、<see cref="P:Microsoft.Exchange.WebServices.Data.ApprovalRequestData.ApprovalDecision" />プロパティが 0 の場合、その判断がまだ行われていないの値を示す、<see cref="P:Microsoft.Exchange.WebServices.Data.ApprovalRequestData.ApprovalDecisionMaker" />プロパティが null 参照 (Visual Basic では Nothing) になります。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="de399-106">
+              <para>If the value of the <see cref="P:Microsoft.Exchange.WebServices.Data.ApprovalRequestData.ApprovalDecision" /> property is 0, indicating that a decision has not yet been made, the value of the <see cref="P:Microsoft.Exchange.WebServices.Data.ApprovalRequestData.ApprovalDecisionMaker" /> property will be a null reference (Nothing in Visual Basic).</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ApprovalDecisionTime">
+      <MemberSignature Language="C#" Value="public DateTime ApprovalDecisionTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime ApprovalDecisionTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ApprovalRequestData.ApprovalDecisionTime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ApprovalDecisionTime As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime ApprovalDecisionTime { DateTime get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="de399-107">モデレーターが承認または要求を拒否する時間を取得します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="de399-107">Gets the time at which a moderator approved or rejected the request.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="de399-108">
+            <para>場合の値、<see cref="P:Microsoft.Exchange.WebServices.Data.ApprovalRequestData.ApprovalDecision" />プロパティが 0 の場合、その判断がまだ行われていないの値を示す、<see cref="P:Microsoft.Exchange.WebServices.Data.ApprovalRequestData.ApprovalDecisionTime" />プロパティになります<see cref="F:System.DateTime.MinValue" />。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="de399-108">
+              <para>If the value of the <see cref="P:Microsoft.Exchange.WebServices.Data.ApprovalRequestData.ApprovalDecision" /> property is 0, indicating that a decision has not yet been made, the value of the <see cref="P:Microsoft.Exchange.WebServices.Data.ApprovalRequestData.ApprovalDecisionTime" /> property will be <see cref="F:System.DateTime.MinValue" />.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsUndecidedApprovalRequest">
+      <MemberSignature Language="C#" Value="public bool IsUndecidedApprovalRequest { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsUndecidedApprovalRequest" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ApprovalRequestData.IsUndecidedApprovalRequest" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsUndecidedApprovalRequest As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsUndecidedApprovalRequest { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="de399-109">この承認依頼がモデレーターが承認または要求を拒否するを待機しているかどうかを示す値を取得します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="de399-109">Gets a value indicating whether this approval request is awaiting a moderator to approve or reject the request.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

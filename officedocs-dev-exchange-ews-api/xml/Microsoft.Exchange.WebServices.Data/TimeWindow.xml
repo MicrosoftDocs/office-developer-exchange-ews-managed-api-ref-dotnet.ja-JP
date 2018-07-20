@@ -1,0 +1,131 @@
+<Type Name="TimeWindow" FullName="Microsoft.Exchange.WebServices.Data.TimeWindow">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="c090c3cbbd51ed6e1de89edffe7efe2720f1de59" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ja-JP" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20625965" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class TimeWindow" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit TimeWindow extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.TimeWindow" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class TimeWindow" />
+  <TypeSignature Language="C++ CLI" Value="public ref class TimeWindow sealed" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="64d27-101">期間を表します。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="64d27-101">Represents a time period.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public TimeWindow (DateTime startTime, DateTime endTime);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype System.DateTime startTime, valuetype System.DateTime endTime) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.TimeWindow.#ctor(System.DateTime,System.DateTime)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (startTime As DateTime, endTime As DateTime)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; TimeWindow(DateTime startTime, DateTime endTime);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="startTime" Type="System.DateTime" />
+        <Parameter Name="endTime" Type="System.DateTime" />
+      </Parameters>
+      <Docs>
+        <param name="startTime">
+          <span data-ttu-id="64d27-102">開始日付と時刻の時間間隔です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="64d27-102">The start date and time of a time span.</span>
+          </span>
+        </param>
+        <param name="endTime">
+          <span data-ttu-id="64d27-103">終了日付と時刻の時間間隔です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="64d27-103">The end date and time of a time span.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="64d27-104">新しいインスタンスを初期化、<see cref="T:Microsoft.Exchange.WebServices.Data.TimeWindow" />クラス。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="64d27-104">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.TimeWindow" /> class.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndTime">
+      <MemberSignature Language="C#" Value="public DateTime EndTime { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime EndTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.TimeWindow.EndTime" />
+      <MemberSignature Language="VB.NET" Value="Public Property EndTime As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime EndTime { DateTime get(); void set(DateTime value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="64d27-105">取得または期間の終了日時を設定します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="64d27-105">Gets or sets the end date and time of a time span.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="64d27-106">値、<see cref="P:Microsoft.Exchange.WebServices.Data.TimeWindow.EndTime" />プロパティでは、<a href="http://go.microsoft.com/fwlink/?LinkID=162616">加算</a></span>
+          <span class="sxs-lookup">
+            <span data-stu-id="64d27-106">The value of the <see cref="P:Microsoft.Exchange.WebServices.Data.TimeWindow.EndTime" /> property is a <a href="http://go.microsoft.com/fwlink/?LinkID=162616">T:System.DateTime</a></span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StartTime">
+      <MemberSignature Language="C#" Value="public DateTime StartTime { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime StartTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.TimeWindow.StartTime" />
+      <MemberSignature Language="VB.NET" Value="Public Property StartTime As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime StartTime { DateTime get(); void set(DateTime value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="64d27-107">取得または時間間隔の開始日時を設定します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="64d27-107">Gets or sets the start date and time of a time span.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="64d27-108">値、<see cref="P:Microsoft.Exchange.WebServices.Data.TimeWindow.StartTime" />プロパティでは、<a href="http://go.microsoft.com/fwlink/?LinkID=162616">加算</a></span>
+          <span class="sxs-lookup">
+            <span data-stu-id="64d27-108">The value of the <see cref="P:Microsoft.Exchange.WebServices.Data.TimeWindow.StartTime" /> property is a  <a href="http://go.microsoft.com/fwlink/?LinkID=162616">T:System.DateTime</a></span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

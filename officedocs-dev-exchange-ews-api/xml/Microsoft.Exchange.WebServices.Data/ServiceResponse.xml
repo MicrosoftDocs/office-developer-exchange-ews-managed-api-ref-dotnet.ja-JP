@@ -1,0 +1,217 @@
+<Type Name="ServiceResponse" FullName="Microsoft.Exchange.WebServices.Data.ServiceResponse">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="9bb8d66bae46fd92ce96b727fbed2f8ab9734108" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ja-JP" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20626105" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class ServiceResponse" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit ServiceResponse extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ServiceResponse" />
+  <TypeSignature Language="VB.NET" Value="Public Class ServiceResponse" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ServiceResponse" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="7bc21-101">Exchange Web サービス操作には、標準の応答を表します。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="7bc21-101">Represents the standard response to an Exchange Web Services operation.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ErrorCode">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ServiceError ErrorCode { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.ServiceError ErrorCode" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ServiceResponse.ErrorCode" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ErrorCode As ServiceError" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ServiceError ErrorCode { Microsoft::Exchange::WebServices::Data::ServiceError get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ServiceError</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="7bc21-102">この応答に関連付けられているエラー コードを取得します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7bc21-102">Gets the error code associated with this response.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="7bc21-103">サービス エラーの列挙値の 1 つです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7bc21-103">One of the ServiceError enumeration values.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ErrorDetails">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;string,string&gt; ErrorDetails { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IDictionary`2&lt;string, string&gt; ErrorDetails" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ServiceResponse.ErrorDetails" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ErrorDetails As IDictionary(Of String, String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IDictionary&lt;System::String ^, System::String ^&gt; ^ ErrorDetails { System::Collections::Generic::IDictionary&lt;System::String ^, System::String ^&gt; ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="7bc21-104">応答に関連付けられているエラーの詳細を取得します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7bc21-104">Gets error details associated with the response.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="7bc21-105">エラー詳細情報のディクショナリ。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7bc21-105">The error details dictionary.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="7bc21-106">
+            <para>結果は、成功した場合に設定されている場合 ErrorDetailsDictionary は null を返します。エラーの詳細は、一部のエラー コードでのみ使用可能です。などのエラー コードが ErrorRecurrenceHasNoOccurrence の場合、ErrorDetailsDictionary キーが含まれます EffectiveStartDate と EffectiveEndDate のです。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7bc21-106">
+              <para>If Result is set to Success, ErrorDetailsDictionary returns null. Error details will only available for some error codes. For example, when error code is ErrorRecurrenceHasNoOccurrence,  the ErrorDetailsDictionary will contain keys for EffectiveStartDate and EffectiveEndDate.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ErrorMessage">
+      <MemberSignature Language="C#" Value="public string ErrorMessage { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ErrorMessage" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ServiceResponse.ErrorMessage" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ErrorMessage As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ErrorMessage { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="7bc21-107">応答に関連付けられている詳細なエラー メッセージを取得します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7bc21-107">Gets a detailed error message associated with the response.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="7bc21-108">エラー メッセージを含む文字列値を返します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7bc21-108">A string value containing an error message.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="7bc21-109">
+            <para>結果は、成功した場合に設定されている場合のエラー メッセージは null を返します。エラー メッセージは、応答を生成したメソッドを呼び出すために使用された ExchangeService オブジェクトの PreferredCulture プロパティに基づいてローカライズされます。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7bc21-109">
+              <para>If Result is set to Success, ErrorMessage returns null. ErrorMessage is localized according to the PreferredCulture property of the ExchangeService object that was used to call the method that generated the response.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ErrorProperties">
+      <MemberSignature Language="C#" Value="public System.Collections.ObjectModel.Collection&lt;Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase&gt; ErrorProperties { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.ObjectModel.Collection`1&lt;class Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase&gt; ErrorProperties" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ServiceResponse.ErrorProperties" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ErrorProperties As Collection(Of PropertyDefinitionBase)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::ObjectModel::Collection&lt;Microsoft::Exchange::WebServices::Data::PropertyDefinitionBase ^&gt; ^ ErrorProperties { System::Collections::ObjectModel::Collection&lt;Microsoft::Exchange::WebServices::Data::PropertyDefinitionBase ^&gt; ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.ObjectModel.Collection&lt;Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="7bc21-110">応答に関連付けられているプロパティのエラーに関する情報を取得します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7bc21-110">Gets information about property errors associated with the response.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="7bc21-111">エラーのプロパティ] ボックスの一覧です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7bc21-111">The error properties list.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="7bc21-112">
+            <para>結果は、成功した場合に設定されている場合 ErrorProperties は null を返します。ErrorProperties には、いくつかのエラー コードのできるだけです。たとえば、エラー コードが ErrorInvalidPropertyForOperation の場合は、ErrorProperties すると、要求の無効なプロパティの定義が含まれます。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7bc21-112">
+              <para>If Result is set to Success, ErrorProperties returns null. ErrorProperties is only available for some error codes. For example, when the error code is ErrorInvalidPropertyForOperation, ErrorProperties will contain the definition of the property that was invalid for the request.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Result">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ServiceResult Result { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.ServiceResult Result" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ServiceResponse.Result" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Result As ServiceResult" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ServiceResult Result { Microsoft::Exchange::WebServices::Data::ServiceResult get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ServiceResult</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="7bc21-113">この応答に関連付けられている結果を取得します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7bc21-113">Gets the result associated with this response.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="7bc21-114">ServiceResult 列挙値の 1 つです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7bc21-114">One of the ServiceResult enumeration values.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

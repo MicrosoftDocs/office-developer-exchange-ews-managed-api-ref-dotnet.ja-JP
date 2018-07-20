@@ -1,0 +1,88 @@
+<Type Name="ViewBase" FullName="Microsoft.Exchange.WebServices.Data.ViewBase">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="f152bbfa8d62bb48f8b1b2cf3489d7faa9714a9d" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ja-JP" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20625758" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public abstract class ViewBase" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit ViewBase extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ViewBase" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class ViewBase" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ViewBase abstract" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="c25fb-101">検索操作のビューの基本クラスを表します。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="c25fb-101">Represents the base view class for search operations.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="PropertySet">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.PropertySet PropertySet { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.PropertySet PropertySet" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ViewBase.PropertySet" />
+      <MemberSignature Language="VB.NET" Value="Public Property PropertySet As PropertySet" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::PropertySet ^ PropertySet { Microsoft::Exchange::WebServices::Data::PropertySet ^ get(); void set(Microsoft::Exchange::WebServices::Data::PropertySet ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertySet</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c25fb-102">取得またはプロパティのセットを設定します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c25fb-102">Gets or sets the property set.</span>
+          </span>
+          <span data-ttu-id="c25fb-103">このプロパティでは、見つかったアイテムのプロパティが読み込まれますを決定します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c25fb-103">This property determines which properties will be loaded on found items.</span>
+          </span>
+          <span data-ttu-id="c25fb-104">このプロパティが null 参照 (Visual Basic では Nothing) の場合は、見つかったアイテムの最上位のすべてのプロパティが読み込まれます。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c25fb-104">If this property is a null reference (Nothing in Visual Basic), all first-class properties are loaded on found items.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="c25fb-105">検索によって返されるアイテムにロードされるプロパティのセット。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c25fb-105">The set of properties that will be loaded on items that are returned by the search.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="c25fb-106">
+            <para>プロパティ設定のプロパティは、検索で見つかった項目に返されるアイテムのプロパティを決定します。プロパティ設定が null 参照 (Visual Basic では Nothing) の場合は、検出された項目の最上位のすべてのプロパティが返されます。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c25fb-106">
+              <para>The PropertySet property determines the item properties that will be returned with the items found by the search. If PropertySet is a null reference (Nothing in Visual Basic), all first-class properties are returned with the found items.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

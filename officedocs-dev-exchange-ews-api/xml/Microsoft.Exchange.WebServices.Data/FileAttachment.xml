@@ -1,0 +1,207 @@
+<Type Name="FileAttachment" FullName="Microsoft.Exchange.WebServices.Data.FileAttachment">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="f47388fb91f29c380d97e33fb21ec32be7a91afe" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ja-JP" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20626136" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class FileAttachment : Microsoft.Exchange.WebServices.Data.Attachment" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit FileAttachment extends Microsoft.Exchange.WebServices.Data.Attachment" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.FileAttachment" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class FileAttachment&#xA;Inherits Attachment" />
+  <TypeSignature Language="C++ CLI" Value="public ref class FileAttachment sealed : Microsoft::Exchange::WebServices::Data::Attachment" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.Attachment</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="a233e-101">添付ファイルを表します。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="a233e-101">Represents a file attachment.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Content">
+      <MemberSignature Language="C#" Value="public byte[] Content { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance unsigned int8[] Content" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.FileAttachment.Content" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Content As Byte()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;System::Byte&gt; ^ Content { cli::array &lt;System::Byte&gt; ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Byte[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a233e-102">メモリ内の添付ファイルのコンテンツを取得します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a233e-102">Gets the content of the attachment in memory.</span>
+          </span>
+          <span data-ttu-id="a233e-103">Load メソッドが呼び出されたときにのみ、コンテンツが設定されています。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a233e-103">Content is set only when the Load method is called.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="a233e-104">バイトの配列として添付します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a233e-104">The attachment as an array of bytes.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FileName">
+      <MemberSignature Language="C#" Value="public string FileName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string FileName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.FileAttachment.FileName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FileName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ FileName { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a233e-105">添付ファイルがリンクされているファイルの名前を取得します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a233e-105">Gets the name of the file that the attachment is linked to.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="a233e-106">添付ファイルがリンクされているファイルの名前です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a233e-106">The name of the file that the attachment is linked to.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsContactPhoto">
+      <MemberSignature Language="C#" Value="public bool IsContactPhoto { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsContactPhoto" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.FileAttachment.IsContactPhoto" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsContactPhoto As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsContactPhoto { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a233e-107">取得または添付ファイルが、連絡先の写真であるかどうかを示す値を設定します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a233e-107">Gets or sets a value that indicates whether the attachment is the contact's photo.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="a233e-108">
+            <b>true の</b>場合は、添付ファイルは、連絡先の写真です。それ以外の場合、 <b>false を指定</b>します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a233e-108">
+              <b>true</b> if the attachment is the contact's photo; otherwise, <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Load">
+      <MemberSignature Language="C#" Value="public void Load (System.IO.Stream stream);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Load(class System.IO.Stream stream) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.FileAttachment.Load(System.IO.Stream)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Load(System::IO::Stream ^ stream);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="stream" Type="System.IO.Stream" />
+      </Parameters>
+      <Docs>
+        <param name="stream">
+          <span data-ttu-id="a233e-109">添付ファイルの内容を読み込むストリーム。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a233e-109">The stream to load the content of the attachment into.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="a233e-110">添付ファイルの内容を指定したストリームに読み込みます。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a233e-110">Loads the content of the file attachment into the specified stream.</span>
+          </span>
+          <span data-ttu-id="a233e-111">Exchange Web サービス (EWS) への呼び出しでは、このメソッドの結果を呼び出しています。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a233e-111">Calling this method results in a call to Exchange Web Services (EWS).</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Load">
+      <MemberSignature Language="C#" Value="public void Load (string fileName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Load(string fileName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.FileAttachment.Load(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Load (fileName As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Load(System::String ^ fileName);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="fileName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="fileName">
+          <span data-ttu-id="a233e-112">添付ファイルの内容を読み込むファイルの名前。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a233e-112">The name of the file to load the content of the attachment into.</span>
+          </span>
+          <span data-ttu-id="a233e-113">ファイルが既に存在する場合は上書きされます。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a233e-113">If the file already exists, it is overwritten.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="a233e-114">指定したファイルに添付ファイルの内容を読み込みます。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a233e-114">Loads the content of the file attachment into the specified file.</span>
+          </span>
+          <span data-ttu-id="a233e-115">Exchange Web サービス (EWS) への呼び出しでは、このメソッドの結果を呼び出しています。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a233e-115">Calling this method results in a call to Exchange Web Services (EWS).</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

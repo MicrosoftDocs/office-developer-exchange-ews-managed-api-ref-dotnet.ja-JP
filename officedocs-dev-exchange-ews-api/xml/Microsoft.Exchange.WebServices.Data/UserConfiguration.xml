@@ -1,0 +1,636 @@
+<Type Name="UserConfiguration" FullName="Microsoft.Exchange.WebServices.Data.UserConfiguration">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="fcd20e4229fcedad2f9dcff4e9037d3b7f2113d7" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ja-JP" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20626281" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class UserConfiguration" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit UserConfiguration extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.UserConfiguration" />
+  <TypeSignature Language="VB.NET" Value="Public Class UserConfiguration" />
+  <TypeSignature Language="C++ CLI" Value="public ref class UserConfiguration" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="e7d9a-101">作成し、ユーザー定義の構成設定にアクセスします。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="e7d9a-101">Creates and accesses user-defined configuration settings.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public UserConfiguration (Microsoft.Exchange.WebServices.Data.ExchangeService service);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Exchange.WebServices.Data.ExchangeService service) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.UserConfiguration.#ctor(Microsoft.Exchange.WebServices.Data.ExchangeService)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (service As ExchangeService)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; UserConfiguration(Microsoft::Exchange::WebServices::Data::ExchangeService ^ service);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="service" Type="Microsoft.Exchange.WebServices.Data.ExchangeService" />
+      </Parameters>
+      <Docs>
+        <param name="service">
+          <span data-ttu-id="e7d9a-102">Exchange サーバーにバインドするオブジェクト。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e7d9a-102">An object that binds to the Exchange server.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="e7d9a-103">サービス オブジェクトを使用して<b>UserConfiguration</b>クラスの新しいインスタンスを初期化します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e7d9a-103">Initializes a new instance of the <b>UserConfiguration</b> class with a service object.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BinaryData">
+      <MemberSignature Language="C#" Value="public byte[] BinaryData { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance unsigned int8[] BinaryData" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.UserConfiguration.BinaryData" />
+      <MemberSignature Language="VB.NET" Value="Public Property BinaryData As Byte()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;System::Byte&gt; ^ BinaryData { cli::array &lt;System::Byte&gt; ^ get(); void set(cli::array &lt;System::Byte&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Byte[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="e7d9a-104">取得またはユーザーの構成のバイナリ データを設定します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e7d9a-104">Gets or sets the binary data of the user configuration.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="e7d9a-105">バイナリ データのバイト配列。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e7d9a-105">A byte array of binary data.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Bind">
+      <MemberSignature Language="C#" Value="public static Microsoft.Exchange.WebServices.Data.UserConfiguration Bind (Microsoft.Exchange.WebServices.Data.ExchangeService service, string name, Microsoft.Exchange.WebServices.Data.FolderId parentFolderId, Microsoft.Exchange.WebServices.Data.UserConfigurationProperties properties);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Exchange.WebServices.Data.UserConfiguration Bind(class Microsoft.Exchange.WebServices.Data.ExchangeService service, string name, class Microsoft.Exchange.WebServices.Data.FolderId parentFolderId, valuetype Microsoft.Exchange.WebServices.Data.UserConfigurationProperties properties) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.UserConfiguration.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,System.String,Microsoft.Exchange.WebServices.Data.FolderId,Microsoft.Exchange.WebServices.Data.UserConfigurationProperties)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Bind (service As ExchangeService, name As String, parentFolderId As FolderId, properties As UserConfigurationProperties) As UserConfiguration" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Exchange::WebServices::Data::UserConfiguration ^ Bind(Microsoft::Exchange::WebServices::Data::ExchangeService ^ service, System::String ^ name, Microsoft::Exchange::WebServices::Data::FolderId ^ parentFolderId, Microsoft::Exchange::WebServices::Data::UserConfigurationProperties properties);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.UserConfiguration</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="service" Type="Microsoft.Exchange.WebServices.Data.ExchangeService" />
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="parentFolderId" Type="Microsoft.Exchange.WebServices.Data.FolderId" />
+        <Parameter Name="properties" Type="Microsoft.Exchange.WebServices.Data.UserConfigurationProperties" />
+      </Parameters>
+      <Docs>
+        <param name="service">
+          <span data-ttu-id="e7d9a-106">ユーザーの構成のバインド先となるサービスです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e7d9a-106">The service to which the user configuration is bound.</span>
+          </span>
+        </param>
+        <param name="name">
+          <span data-ttu-id="e7d9a-107">ユーザーの構成の名前。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e7d9a-107">The name of the user configuration.</span>
+          </span>
+        </param>
+        <param name="parentFolderId">
+          <span data-ttu-id="e7d9a-108">ユーザーの構成が含まれるフォルダーの識別子です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e7d9a-108">The identifier of the folder that contains the user configuration.</span>
+          </span>
+        </param>
+        <param name="properties">
+          <span data-ttu-id="e7d9a-109">読み込むプロパティ。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e7d9a-109">The properties to load.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="e7d9a-110">ユーザーの構成の名前、フォルダー id、および、指定されたユーザー設定のプロパティに基づいて、既存のユーザー構成にバインドします。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e7d9a-110">Binds to an existing user configuration, based on a user configuration name, folder identifier, and the specified user configuration properties.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="e7d9a-111">ユーザーの構成のインスタンスです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e7d9a-111">A user configuration instance.</span>
+          </span>
+        </returns>
+        <remarks>
+          <span data-ttu-id="e7d9a-112">
+            <para>Exchange Web サービス (EWS) への呼び出しでは、このメソッドの結果を呼び出しています。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e7d9a-112">
+              <para>Calling this method results in a call to Exchange Web Services (EWS).</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Bind">
+      <MemberSignature Language="C#" Value="public static Microsoft.Exchange.WebServices.Data.UserConfiguration Bind (Microsoft.Exchange.WebServices.Data.ExchangeService service, string name, Microsoft.Exchange.WebServices.Data.WellKnownFolderName parentFolderName, Microsoft.Exchange.WebServices.Data.UserConfigurationProperties properties);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Exchange.WebServices.Data.UserConfiguration Bind(class Microsoft.Exchange.WebServices.Data.ExchangeService service, string name, valuetype Microsoft.Exchange.WebServices.Data.WellKnownFolderName parentFolderName, valuetype Microsoft.Exchange.WebServices.Data.UserConfigurationProperties properties) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.UserConfiguration.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,System.String,Microsoft.Exchange.WebServices.Data.WellKnownFolderName,Microsoft.Exchange.WebServices.Data.UserConfigurationProperties)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Bind (service As ExchangeService, name As String, parentFolderName As WellKnownFolderName, properties As UserConfigurationProperties) As UserConfiguration" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Exchange::WebServices::Data::UserConfiguration ^ Bind(Microsoft::Exchange::WebServices::Data::ExchangeService ^ service, System::String ^ name, Microsoft::Exchange::WebServices::Data::WellKnownFolderName parentFolderName, Microsoft::Exchange::WebServices::Data::UserConfigurationProperties properties);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.UserConfiguration</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="service" Type="Microsoft.Exchange.WebServices.Data.ExchangeService" />
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="parentFolderName" Type="Microsoft.Exchange.WebServices.Data.WellKnownFolderName" />
+        <Parameter Name="properties" Type="Microsoft.Exchange.WebServices.Data.UserConfigurationProperties" />
+      </Parameters>
+      <Docs>
+        <param name="service">
+          <span data-ttu-id="e7d9a-113">ユーザーの構成のバインド先となるサービスです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e7d9a-113">The service to which the user configuration is bound.</span>
+          </span>
+        </param>
+        <param name="name">
+          <span data-ttu-id="e7d9a-114">ユーザーの構成の名前。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e7d9a-114">The name of the user configuration.</span>
+          </span>
+        </param>
+        <param name="parentFolderName">
+          <span data-ttu-id="e7d9a-115">ユーザーの構成が含まれるフォルダーの識別子です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e7d9a-115">The identifier of the folder that contains the user configuration.</span>
+          </span>
+        </param>
+        <param name="properties">
+          <span data-ttu-id="e7d9a-116">読み込むプロパティ。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e7d9a-116">The properties to load.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="e7d9a-117">ユーザー設定名、フォルダー名、および、指定されたユーザー設定のプロパティに基づいて、既存のユーザーの構成にバインドします。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e7d9a-117">Binds to an existing user configuration based on a user configuration name, folder name, and the specified user configuration properties.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="e7d9a-118">ユーザーの構成のインスタンスです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e7d9a-118">A user configuration instance.</span>
+          </span>
+        </returns>
+        <remarks>
+          <span data-ttu-id="e7d9a-119">
+            <para>Exchange Web サービス (EWS) への呼び出しでは、このメソッドの結果を呼び出しています。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e7d9a-119">
+              <para>Calling this method results in a call to Exchange Web Services (EWS).</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Delete">
+      <MemberSignature Language="C#" Value="public void Delete ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Delete() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.UserConfiguration.Delete" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Delete ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Delete();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="e7d9a-120">ユーザーの構成を削除します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e7d9a-120">Deletes the user configuration.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="e7d9a-121">
+            <para>Exchange Web サービス (EWS) への呼び出しでは、このメソッドの結果を呼び出しています。A<see cref="F:Microsoft.Exchange.WebServices.Data.EventType.Moved" />メールボックス イベントの通知は、アイテムに移動するユーザーの構成を削除するためにこのメソッドを呼び出すことによって発生する可能性、ごみ箱をあさる。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e7d9a-121">
+              <para>Calling this method results in a call to Exchange Web Services (EWS). A <see cref="F:Microsoft.Exchange.WebServices.Data.EventType.Moved" /> mailbox event notification can be triggered by calling this method because deleted user configuration items are moved to the dumpster.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Dictionary">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.UserConfigurationDictionary Dictionary { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.UserConfigurationDictionary Dictionary" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.UserConfiguration.Dictionary" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Dictionary As UserConfigurationDictionary" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::UserConfigurationDictionary ^ Dictionary { Microsoft::Exchange::WebServices::Data::UserConfigurationDictionary ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.UserConfigurationDictionary</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="e7d9a-122">ユーザーの構成のディクショナリを取得します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e7d9a-122">Gets the dictionary of the user configuration.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="e7d9a-123">ユーザー設定の辞書です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e7d9a-123">A user configuration dictionary.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsDirty">
+      <MemberSignature Language="C#" Value="public bool IsDirty { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsDirty" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.UserConfiguration.IsDirty" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsDirty As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsDirty { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="e7d9a-124">ユーザー設定のオブジェクトが変更されたかどうかを示す値を取得します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e7d9a-124">Gets a value that indicates whether the user configuration object has been modified.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="e7d9a-125">
+            <b>true の</b>場合は、ユーザー設定のオブジェクトが変更されました。それ以外の場合、 <b>false を指定</b>します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e7d9a-125">
+              <b>true</b> if the user configuration object has been modified; otherwise, <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ItemId">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ItemId ItemId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.ItemId ItemId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.UserConfiguration.ItemId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ItemId As ItemId" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ItemId ^ ItemId { Microsoft::Exchange::WebServices::Data::ItemId ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ItemId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="e7d9a-126">ユーザーの構成の識別子を取得します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e7d9a-126">Gets the identifier of the user configuration.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="e7d9a-127">項目の id。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e7d9a-127">An item ID.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Load">
+      <MemberSignature Language="C#" Value="public void Load (Microsoft.Exchange.WebServices.Data.UserConfigurationProperties properties);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Load(valuetype Microsoft.Exchange.WebServices.Data.UserConfigurationProperties properties) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.UserConfiguration.Load(Microsoft.Exchange.WebServices.Data.UserConfigurationProperties)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Load (properties As UserConfigurationProperties)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Load(Microsoft::Exchange::WebServices::Data::UserConfigurationProperties properties);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="properties" Type="Microsoft.Exchange.WebServices.Data.UserConfigurationProperties" />
+      </Parameters>
+      <Docs>
+        <param name="properties">
+          <span data-ttu-id="e7d9a-128">ロードするのにはユーザー設定のプロパティです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e7d9a-128">The user configuration properties to load.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="e7d9a-129">指定されたユーザー設定のプロパティを読み込みます。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e7d9a-129">Loads the specified user configuration properties.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="e7d9a-130">
+            <para>Exchange Web サービス (EWS) への呼び出しでは、このメソッドの結果を呼び出しています。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e7d9a-130">
+              <para>Calling this method results in a call to Exchange Web Services (EWS).</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public string Name { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Name" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.UserConfiguration.Name" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Name As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Name { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="e7d9a-131">ユーザーの構成の名前を取得します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e7d9a-131">Gets the name of the user configuration.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="e7d9a-132">ユーザーの構成の名前です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e7d9a-132">A user configuration name.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ParentFolderId">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.FolderId ParentFolderId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.FolderId ParentFolderId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.UserConfiguration.ParentFolderId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ParentFolderId As FolderId" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::FolderId ^ ParentFolderId { Microsoft::Exchange::WebServices::Data::FolderId ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.FolderId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="e7d9a-133">ユーザーの構成が含まれるフォルダーの識別子を取得します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e7d9a-133">Gets the identifier of the folder that contains the user configuration.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="e7d9a-134">フォルダーの id。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e7d9a-134">A folder ID.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Save">
+      <MemberSignature Language="C#" Value="public void Save (string name, Microsoft.Exchange.WebServices.Data.FolderId parentFolderId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Save(string name, class Microsoft.Exchange.WebServices.Data.FolderId parentFolderId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.UserConfiguration.Save(System.String,Microsoft.Exchange.WebServices.Data.FolderId)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Save (name As String, parentFolderId As FolderId)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Save(System::String ^ name, Microsoft::Exchange::WebServices::Data::FolderId ^ parentFolderId);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="parentFolderId" Type="Microsoft.Exchange.WebServices.Data.FolderId" />
+      </Parameters>
+      <Docs>
+        <param name="name">
+          <span data-ttu-id="e7d9a-135">ユーザー設定オブジェクトの名前です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e7d9a-135">The name of the user configuration object.</span>
+          </span>
+        </param>
+        <param name="parentFolderId">
+          <span data-ttu-id="e7d9a-136">保存されたユーザー設定のオブジェクトを格納するフォルダーを識別するフォルダーの識別子です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e7d9a-136">The folder identifier that identifies the folder that will contain the saved user configuration object.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="e7d9a-137">ユーザー構成の名前とユーザーの構成が含まれるフォルダーのフォルダー id を設定することにより、ユーザーの構成を保存します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e7d9a-137">Saves the user configuration by setting the user configuration name and the folder identifier of the folder that contains the user configuration.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="e7d9a-138">
+            <para>Exchange Web サービス (EWS) への呼び出しで、メソッドの結果を呼び出すことです。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e7d9a-138">
+              <para>Calling the method results in a call to Exchange Web Services (EWS).</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Save">
+      <MemberSignature Language="C#" Value="public void Save (string name, Microsoft.Exchange.WebServices.Data.WellKnownFolderName parentFolderName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Save(string name, valuetype Microsoft.Exchange.WebServices.Data.WellKnownFolderName parentFolderName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.UserConfiguration.Save(System.String,Microsoft.Exchange.WebServices.Data.WellKnownFolderName)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Save (name As String, parentFolderName As WellKnownFolderName)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Save(System::String ^ name, Microsoft::Exchange::WebServices::Data::WellKnownFolderName parentFolderName);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="parentFolderName" Type="Microsoft.Exchange.WebServices.Data.WellKnownFolderName" />
+      </Parameters>
+      <Docs>
+        <param name="name">
+          <span data-ttu-id="e7d9a-139">ユーザー設定オブジェクトの名前です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e7d9a-139">The name of the user configuration object.</span>
+          </span>
+        </param>
+        <param name="parentFolderName">
+          <span data-ttu-id="e7d9a-140">保存されたユーザー設定のオブジェクトを格納するフォルダーを識別する既知のフォルダーの名前です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e7d9a-140">The well-known folder name that identifies the folder that will contain the saved user configuration object.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="e7d9a-141">ユーザー構成の名前とユーザーの構成が含まれるフォルダーの既知のフォルダー名を設定することにより、ユーザーの構成を保存します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e7d9a-141">Saves the user configuration by setting the user configuration name and the well-known folder name of the folder that contains the user configuration.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="e7d9a-142">
+            <para>Exchange Web サービス (EWS) への呼び出しで、メソッドの結果を呼び出すことです。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e7d9a-142">
+              <para>Calling the method results in a call to Exchange Web Services (EWS).</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Update">
+      <MemberSignature Language="C#" Value="public void Update ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Update() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.UserConfiguration.Update" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Update ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Update();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="e7d9a-143">サーバー上のユーザーの構成オブジェクトを更新します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e7d9a-143">Updates the user configuration object on the server.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="e7d9a-144">
+            <para>Exchange Web サービス (EWS) への呼び出しでは、このメソッドの結果を呼び出しています。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e7d9a-144">
+              <para>Calling this method results in a call to Exchange Web Services (EWS).</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="XmlData">
+      <MemberSignature Language="C#" Value="public byte[] XmlData { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance unsigned int8[] XmlData" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.UserConfiguration.XmlData" />
+      <MemberSignature Language="VB.NET" Value="Public Property XmlData As Byte()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;System::Byte&gt; ^ XmlData { cli::array &lt;System::Byte&gt; ^ get(); void set(cli::array &lt;System::Byte&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Byte[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="e7d9a-145">取得またはユーザーの構成の XML データを設定します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e7d9a-145">Gets or sets the XML data of the user configuration.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="e7d9a-146">XML データのバイト配列。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e7d9a-146">A byte array of XML data.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

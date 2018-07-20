@@ -1,0 +1,558 @@
+<Type Name="ClientExtension" FullName="Microsoft.Exchange.WebServices.Data.ClientExtension">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="206a1bb75a365473bd19cf7621c3d5b30082368b" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ja-JP" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20626153" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class ClientExtension : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit ClientExtension extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ClientExtension" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class ClientExtension&#xA;Inherits ComplexProperty" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ClientExtension sealed : Microsoft::Exchange::WebServices::Data::ComplexProperty" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ComplexProperty</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="3ce43-101">クライアント拡張機能のオブジェクトへの参照を定義します。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="3ce43-101">Defines a reference to a client extension object.</span>
+      </span>
+      <span data-ttu-id="3ce43-102">
+        <see cref="T:Microsoft.Exchange.WebServices.Data.ClientExtension" />クラスは、Exchange Online とのバージョンの Exchange が Exchange Server 2013 以降を対象とするクライアントに適用します。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="3ce43-102">The <see cref="T:Microsoft.Exchange.WebServices.Data.ClientExtension" /> class is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ClientExtension (Microsoft.Exchange.WebServices.Data.ExtensionType type, Microsoft.Exchange.WebServices.Data.ExtensionInstallScope scope, System.IO.Stream manifestStream, string marketplaceAssetID, string marketplaceContentMarket, bool isAvailable, bool isMandatory, bool isEnabledByDefault, Microsoft.Exchange.WebServices.Data.ClientExtensionProvidedTo providedTo, Microsoft.Exchange.WebServices.Data.StringList specificUsers, string appStatus, string etoken);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Microsoft.Exchange.WebServices.Data.ExtensionType type, valuetype Microsoft.Exchange.WebServices.Data.ExtensionInstallScope scope, class System.IO.Stream manifestStream, string marketplaceAssetID, string marketplaceContentMarket, bool isAvailable, bool isMandatory, bool isEnabledByDefault, valuetype Microsoft.Exchange.WebServices.Data.ClientExtensionProvidedTo providedTo, class Microsoft.Exchange.WebServices.Data.StringList specificUsers, string appStatus, string etoken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ClientExtension.#ctor(Microsoft.Exchange.WebServices.Data.ExtensionType,Microsoft.Exchange.WebServices.Data.ExtensionInstallScope,System.IO.Stream,System.String,System.String,System.Boolean,System.Boolean,System.Boolean,Microsoft.Exchange.WebServices.Data.ClientExtensionProvidedTo,Microsoft.Exchange.WebServices.Data.StringList,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (type As ExtensionType, scope As ExtensionInstallScope, manifestStream As Stream, marketplaceAssetID As String, marketplaceContentMarket As String, isAvailable As Boolean, isMandatory As Boolean, isEnabledByDefault As Boolean, providedTo As ClientExtensionProvidedTo, specificUsers As StringList, appStatus As String, etoken As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ClientExtension(Microsoft::Exchange::WebServices::Data::ExtensionType type, Microsoft::Exchange::WebServices::Data::ExtensionInstallScope scope, System::IO::Stream ^ manifestStream, System::String ^ marketplaceAssetID, System::String ^ marketplaceContentMarket, bool isAvailable, bool isMandatory, bool isEnabledByDefault, Microsoft::Exchange::WebServices::Data::ClientExtensionProvidedTo providedTo, Microsoft::Exchange::WebServices::Data::StringList ^ specificUsers, System::String ^ appStatus, System::String ^ etoken);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="type" Type="Microsoft.Exchange.WebServices.Data.ExtensionType" />
+        <Parameter Name="scope" Type="Microsoft.Exchange.WebServices.Data.ExtensionInstallScope" />
+        <Parameter Name="manifestStream" Type="System.IO.Stream" />
+        <Parameter Name="marketplaceAssetID" Type="System.String" />
+        <Parameter Name="marketplaceContentMarket" Type="System.String" />
+        <Parameter Name="isAvailable" Type="System.Boolean" />
+        <Parameter Name="isMandatory" Type="System.Boolean" />
+        <Parameter Name="isEnabledByDefault" Type="System.Boolean" />
+        <Parameter Name="providedTo" Type="Microsoft.Exchange.WebServices.Data.ClientExtensionProvidedTo" />
+        <Parameter Name="specificUsers" Type="Microsoft.Exchange.WebServices.Data.StringList" />
+        <Parameter Name="appStatus" Type="System.String" />
+        <Parameter Name="etoken" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="type">
+          <span data-ttu-id="3ce43-103">拡張機能の種類です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3ce43-103">The extension type.</span>
+          </span>
+        </param>
+        <param name="scope">
+          <span data-ttu-id="3ce43-104">拡張機能では、スコープをインストールします。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3ce43-104">The extension install scope.</span>
+          </span>
+        </param>
+        <param name="manifestStream">
+          <span data-ttu-id="3ce43-105">マニフェストのストリームです。null にすることができます。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3ce43-105">The manifest stream; can be null.</span>
+          </span>
+        </param>
+        <param name="marketplaceAssetID">
+          <span data-ttu-id="3ce43-106">Office Marketplace の資産の ID です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3ce43-106">The asset ID for Office Marketplace.</span>
+          </span>
+        </param>
+        <param name="marketplaceContentMarket">
+          <span data-ttu-id="3ce43-107">Office 市場向けコンテンツの市場です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3ce43-107">The content market for Office Marketplace.</span>
+          </span>
+        </param>
+        <param name="isAvailable">
+          <span data-ttu-id="3ce43-108">
+            <b>true の</b>拡張機能がある場合それ以外の場合、 <b>false を指定</b>します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3ce43-108">
+              <b>true</b> if the extension is available; otherwise, <b>false</b>.</span>
+          </span>
+        </param>
+        <param name="isMandatory">
+          <span data-ttu-id="3ce43-109">
+            <b>true の</b>場合、拡張機能は、必須です。それ以外の場合、 <b>false を指定</b>します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3ce43-109">
+              <b>true</b> if the extension is mandatory; otherwise, <b>false</b>.</span>
+          </span>
+        </param>
+        <param name="isEnabledByDefault">
+          <span data-ttu-id="3ce43-110">
+            <b>true の</b>場合は、デフォルトでは、拡張機能が有効になっています。それ以外の場合、 <b>false を指定</b>します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3ce43-110">
+              <b>true</b> if the extension is enabled by default; otherwise, <b>false</b>.</span>
+          </span>
+        </param>
+        <param name="providedTo">
+          <span data-ttu-id="3ce43-111">組織のグループのメンバーシップ。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3ce43-111">The organizational group membership.</span>
+          </span>
+        </param>
+        <param name="specificUsers">
+          <span data-ttu-id="3ce43-112">対象となるユーザーの拡張機能の一覧が用意されています。null にすることができます。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3ce43-112">The list of users extension is provided for; can be null.</span>
+          </span>
+        </param>
+        <param name="appStatus">
+          <span data-ttu-id="3ce43-113">アプリケーションの状態です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3ce43-113">The app's status.</span>
+          </span>
+        </param>
+        <param name="etoken">
+          <span data-ttu-id="3ce43-114">アプリケーションの利用資格のトークンです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3ce43-114">The entitlement token for the app.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="3ce43-115">新しいインスタンスを初期化、<see cref="T:Microsoft.Exchange.WebServices.Data.ClientExtension" />クラス。<see cref="M:Microsoft.Exchange.WebServices.Data.ClientExtension.#ctor(Microsoft.Exchange.WebServices.Data.ExtensionType,Microsoft.Exchange.WebServices.Data.ExtensionInstallScope,System.IO.Stream,System.String,System.String,System.Boolean,System.Boolean,System.Boolean,Microsoft.Exchange.WebServices.Data.ClientExtensionProvidedTo,Microsoft.Exchange.WebServices.Data.StringList,System.String,System.String)" />メソッドは、Exchange Online とのバージョンの Exchange が Exchange Server 2013 以降を対象とするクライアントに適用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3ce43-115">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.ClientExtension" /> class.The <see cref="M:Microsoft.Exchange.WebServices.Data.ClientExtension.#ctor(Microsoft.Exchange.WebServices.Data.ExtensionType,Microsoft.Exchange.WebServices.Data.ExtensionInstallScope,System.IO.Stream,System.String,System.String,System.Boolean,System.Boolean,System.Boolean,Microsoft.Exchange.WebServices.Data.ClientExtensionProvidedTo,Microsoft.Exchange.WebServices.Data.StringList,System.String,System.String)" /> method is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AppStatus">
+      <MemberSignature Language="C#" Value="public string AppStatus { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string AppStatus" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ClientExtension.AppStatus" />
+      <MemberSignature Language="VB.NET" Value="Public Property AppStatus As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ AppStatus { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="3ce43-116">取得またはアプリケーションの状態を設定します。<see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.AppStatus" />プロパティは、Exchange Online と 15.00.0847.032 以降の Exchange のバージョンを対象とするクライアントに適用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3ce43-116">Gets or sets the app status.The <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.AppStatus" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with 15.00.0847.032.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Etoken">
+      <MemberSignature Language="C#" Value="public string Etoken { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Etoken" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ClientExtension.Etoken" />
+      <MemberSignature Language="VB.NET" Value="Public Property Etoken As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Etoken { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="3ce43-117">取得またはアプリケーションの利用資格のトークンを設定します。<see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.Etoken" />プロパティは、Exchange Online と 15.00.0847.032 以降の Exchange のバージョンを対象とするクライアントに適用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3ce43-117">Gets or sets the entitlement token for the app.The <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.Etoken" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with 15.00.0847.032.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsAvailable">
+      <MemberSignature Language="C#" Value="public bool IsAvailable { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsAvailable" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ClientExtension.IsAvailable" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsAvailable As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsAvailable { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="3ce43-118">取得または拡張機能が使用できるかどうかを示す値を設定します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3ce43-118">Gets or sets the value indicating whether the extension is available.</span>
+          </span>
+          <span data-ttu-id="3ce43-119">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.IsAvailable" />プロパティは、Exchange Online とのバージョンの Exchange が Exchange Server 2013 以降を対象とするクライアントに適用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3ce43-119">The <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.IsAvailable" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="3ce43-120">
+            <b>true の</b>拡張機能がある場合それ以外の場合は<b>false を指定</b>します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3ce43-120">
+              <b>true</b> if the extension is available; otherwise <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsEnabledByDefault">
+      <MemberSignature Language="C#" Value="public bool IsEnabledByDefault { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsEnabledByDefault" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ClientExtension.IsEnabledByDefault" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsEnabledByDefault As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsEnabledByDefault { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="3ce43-121">取得または拡張機能が既定で有効にするかどうかを示す値を設定します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3ce43-121">Gets or sets the value indicating whether the extension is enabled by default.</span>
+          </span>
+          <span data-ttu-id="3ce43-122">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.IsEnabledByDefault" />プロパティは、Exchange Online とのバージョンの Exchange が Exchange Server 2013 以降を対象とするクライアントに適用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3ce43-122">The <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.IsEnabledByDefault" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="3ce43-123">
+            <b>true の</b>場合は、デフォルトでは、拡張機能が有効になっています。それ以外の場合は<b>false を指定</b>します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3ce43-123">
+              <b>true</b> if the extension is enabled by default; otherwise <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsMandatory">
+      <MemberSignature Language="C#" Value="public bool IsMandatory { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsMandatory" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ClientExtension.IsMandatory" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsMandatory As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsMandatory { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="3ce43-124">取得または拡張機能が必要かどうかを示す値を設定します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3ce43-124">Gets or sets the value indicating whether the extension is required.</span>
+          </span>
+          <span data-ttu-id="3ce43-125">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.IsMandatory" />プロパティは、Exchange Online とのバージョンの Exchange が Exchange Server 2013 以降を対象とするクライアントに適用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3ce43-125">The <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.IsMandatory" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="3ce43-126">
+            <b>true の</b>場合、拡張機能は、必須です。それ以外の場合は<b>false を指定</b>します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3ce43-126">
+              <b>true</b> if the extension is mandatory; otherwise <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ManifestStream">
+      <MemberSignature Language="C#" Value="public System.IO.Stream ManifestStream { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.IO.Stream ManifestStream" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ClientExtension.ManifestStream" />
+      <MemberSignature Language="VB.NET" Value="Public Property ManifestStream As Stream" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::IO::Stream ^ ManifestStream { System::IO::Stream ^ get(); void set(System::IO::Stream ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IO.Stream</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="3ce43-127">取得または拡張機能のマニフェストのストリームを設定します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3ce43-127">Gets or sets the extension manifest stream.</span>
+          </span>
+          <span data-ttu-id="3ce43-128">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.ManifestStream" />プロパティは、Exchange Online とのバージョンの Exchange が Exchange Server 2013 以降を対象とするクライアントに適用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3ce43-128">The <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.ManifestStream" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="3ce43-129">拡張機能マニフェストのストリーム。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3ce43-129">The extension manifest stream.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MarketplaceAssetID">
+      <MemberSignature Language="C#" Value="public string MarketplaceAssetID { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string MarketplaceAssetID" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ClientExtension.MarketplaceAssetID" />
+      <MemberSignature Language="VB.NET" Value="Public Property MarketplaceAssetID As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ MarketplaceAssetID { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="3ce43-130">取得または Office Marketplace の資産の ID を設定します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3ce43-130">Gets or sets the asset ID for Office Marketplace.</span>
+          </span>
+          <span data-ttu-id="3ce43-131">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.MarketplaceAssetID" />プロパティは、Exchange Online とのバージョンの Exchange が Exchange Server 2013 以降を対象とするクライアントに適用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3ce43-131">The <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.MarketplaceAssetID" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="3ce43-132">Office Marketplace の資産の ID です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3ce43-132">The asset ID for Office Marketplace.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MarketplaceContentMarket">
+      <MemberSignature Language="C#" Value="public string MarketplaceContentMarket { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string MarketplaceContentMarket" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ClientExtension.MarketplaceContentMarket" />
+      <MemberSignature Language="VB.NET" Value="Public Property MarketplaceContentMarket As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ MarketplaceContentMarket { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="3ce43-133">取得または市場の内容を設定します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3ce43-133">Gets or sets the marketplace content.</span>
+          </span>
+          <span data-ttu-id="3ce43-134">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.MarketplaceContentMarket" />プロパティは、Exchange Online とのバージョンの Exchange が Exchange Server 2013 以降を対象とするクライアントに適用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3ce43-134">The <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.MarketplaceContentMarket" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="3ce43-135">マーケットプ レース コンテンツ。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3ce43-135">The marketplace content.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ProvidedTo">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ClientExtensionProvidedTo ProvidedTo { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.ClientExtensionProvidedTo ProvidedTo" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ClientExtension.ProvidedTo" />
+      <MemberSignature Language="VB.NET" Value="Public Property ProvidedTo As ClientExtensionProvidedTo" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ClientExtensionProvidedTo ProvidedTo { Microsoft::Exchange::WebServices::Data::ClientExtensionProvidedTo get(); void set(Microsoft::Exchange::WebServices::Data::ClientExtensionProvidedTo value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ClientExtensionProvidedTo</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="3ce43-136">取得または拡張機能にアクセスできる組織のグループのメンバーシップを設定します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3ce43-136">Gets or sets the organizational group membership that can access the extension.</span>
+          </span>
+          <span data-ttu-id="3ce43-137">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.ProvidedTo" />プロパティは、Exchange Online とのバージョンの Exchange が Exchange Server 2013 以降を対象とするクライアントに適用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3ce43-137">The <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.ProvidedTo" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="3ce43-138">拡張値を用意します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3ce43-138">The extension ProvidedTo value.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Scope">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ExtensionInstallScope Scope { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.ExtensionInstallScope Scope" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ClientExtension.Scope" />
+      <MemberSignature Language="VB.NET" Value="Public Property Scope As ExtensionInstallScope" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ExtensionInstallScope Scope { Microsoft::Exchange::WebServices::Data::ExtensionInstallScope get(); void set(Microsoft::Exchange::WebServices::Data::ExtensionInstallScope value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ExtensionInstallScope</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="3ce43-139">取得または拡張機能のスコープを設定します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3ce43-139">Gets or sets the extension scope.</span>
+          </span>
+          <span data-ttu-id="3ce43-140">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.Scope" />プロパティは、Exchange Online とのバージョンの Exchange が Exchange Server 2013 以降を対象とするクライアントに適用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3ce43-140">The <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.Scope" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="3ce43-141">拡張機能のスコープです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3ce43-141">The extension scope.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SpecificUsers">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.StringList SpecificUsers { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.StringList SpecificUsers" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ClientExtension.SpecificUsers" />
+      <MemberSignature Language="VB.NET" Value="Public Property SpecificUsers As StringList" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::StringList ^ SpecificUsers { Microsoft::Exchange::WebServices::Data::StringList ^ get(); void set(Microsoft::Exchange::WebServices::Data::StringList ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="3ce43-142">取得または設定のユーザーの一覧にこの拡張機能を提供します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3ce43-142">Gets or sets the user list this extension is provided to.</span>
+          </span>
+          <span data-ttu-id="3ce43-143">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.SpecificUsers" />プロパティは、Exchange Online とのバージョンの Exchange が Exchange Server 2013 以降を対象とするクライアントに適用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3ce43-143">The <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.SpecificUsers" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="3ce43-144">この拡張機能を提供するユーザーの一覧です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3ce43-144">A list of users to which this extension is provided.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Type">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ExtensionType Type { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.ExtensionType Type" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ClientExtension.Type" />
+      <MemberSignature Language="VB.NET" Value="Public Property Type As ExtensionType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ExtensionType Type { Microsoft::Exchange::WebServices::Data::ExtensionType get(); void set(Microsoft::Exchange::WebServices::Data::ExtensionType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ExtensionType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="3ce43-145">取得または拡張機能の種類を設定します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3ce43-145">Gets or sets the extension type.</span>
+          </span>
+          <span data-ttu-id="3ce43-146">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.Type" />プロパティは、Exchange Online とのバージョンの Exchange が Exchange Server 2013 以降を対象とするクライアントに適用します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3ce43-146">The <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.Type" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="3ce43-147">拡張機能の種類です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3ce43-147">The extension type.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

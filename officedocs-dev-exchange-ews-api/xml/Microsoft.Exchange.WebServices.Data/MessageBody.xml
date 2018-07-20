@@ -1,0 +1,290 @@
+<Type Name="MessageBody" FullName="Microsoft.Exchange.WebServices.Data.MessageBody">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="6ad40967432a5bf3df01ff5f0ee0aeb81a6745dc" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ja-JP" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20626304" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class MessageBody : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit MessageBody extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.MessageBody" />
+  <TypeSignature Language="VB.NET" Value="Public Class MessageBody&#xA;Inherits ComplexProperty" />
+  <TypeSignature Language="C++ CLI" Value="public ref class MessageBody : Microsoft::Exchange::WebServices::Data::ComplexProperty" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ComplexProperty</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="5d1b0-101">メッセージの本文を表します。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="5d1b0-101">Represents the body of a message.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public MessageBody ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.MessageBody.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; MessageBody();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="5d1b0-102">MessageBody クラスの新しいインスタンスを初期化します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5d1b0-102">Initializes a new instance of the MessageBody class.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public MessageBody (string text);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string text) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.MessageBody.#ctor(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (text As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; MessageBody(System::String ^ text);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="text" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="text">
+          <span data-ttu-id="5d1b0-103">見なされます、HTML メッセージの本文のテキスト。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5d1b0-103">The text of the message body, which is assumed to be HTML.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="5d1b0-104">メッセージ本文のテキストの MessageBody クラスの新しいインスタンスを初期化します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5d1b0-104">Initializes a new instance of the MessageBody class with the message body text.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public MessageBody (Microsoft.Exchange.WebServices.Data.BodyType bodyType, string text);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Microsoft.Exchange.WebServices.Data.BodyType bodyType, string text) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.MessageBody.#ctor(Microsoft.Exchange.WebServices.Data.BodyType,System.String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; MessageBody(Microsoft::Exchange::WebServices::Data::BodyType bodyType, System::String ^ text);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="bodyType" Type="Microsoft.Exchange.WebServices.Data.BodyType" />
+        <Parameter Name="text" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="bodyType">
+          <span data-ttu-id="5d1b0-105">メッセージ本文の種類。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5d1b0-105">The message body type.</span>
+          </span>
+        </param>
+        <param name="text">
+          <span data-ttu-id="5d1b0-106">メッセージ本文のテキストです。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5d1b0-106">The text of the message body.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="5d1b0-107">メッセージ本文の種類とメッセージ本文のテキストを使用して、MessageBody クラスの新しいインスタンスを初期化します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5d1b0-107">Initializes a new instance of the MessageBody class with the message body type and message body text.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BodyType">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.BodyType BodyType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.BodyType BodyType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.MessageBody.BodyType" />
+      <MemberSignature Language="VB.NET" Value="Public Property BodyType As BodyType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::BodyType BodyType { Microsoft::Exchange::WebServices::Data::BodyType get(); void set(Microsoft::Exchange::WebServices::Data::BodyType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.BodyType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="5d1b0-108">取得またはメッセージ本文の種類を設定します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5d1b0-108">Gets or sets the message body type.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="5d1b0-109">本文の種類。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5d1b0-109">A body type.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Implicit">
+      <MemberSignature Language="C#" Value="public static implicit operator string (Microsoft.Exchange.WebServices.Data.MessageBody messageBody);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname string op_Implicit(class Microsoft.Exchange.WebServices.Data.MessageBody messageBody) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.MessageBody.op_Implicit(Microsoft.Exchange.WebServices.Data.MessageBody)~System.String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static operator System::String ^(Microsoft::Exchange::WebServices::Data::MessageBody ^ messageBody);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="messageBody" Type="Microsoft.Exchange.WebServices.Data.MessageBody" />
+      </Parameters>
+      <Docs>
+        <param name="messageBody">
+          <span data-ttu-id="5d1b0-110">文字列に変換するメッセージの本文です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5d1b0-110">The message body to convert to a string.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="5d1b0-111">メッセージの本文の文字列への暗黙の変換を定義します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5d1b0-111">Defines an implicit conversion of a message body into a string.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="5d1b0-112">メッセージ本文のテキストを含む文字列です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5d1b0-112">A string that contains the text of the message body.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Implicit">
+      <MemberSignature Language="C#" Value="public static implicit operator Microsoft.Exchange.WebServices.Data.MessageBody (string textBody);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname class Microsoft.Exchange.WebServices.Data.MessageBody op_Implicit(string textBody) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.MessageBody.op_Implicit(System.String)~Microsoft.Exchange.WebServices.Data.MessageBody" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Widening Operator CType (textBody As String) As MessageBody" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static operator Microsoft::Exchange::WebServices::Data::MessageBody ^(System::String ^ textBody);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.MessageBody</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="textBody" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="textBody">
+          <span data-ttu-id="5d1b0-113">メッセージの本文に変換する文字列です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5d1b0-113">The string to convert to a message body.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="5d1b0-114">メッセージ本文への文字列の暗黙の変換を定義します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5d1b0-114">Defines an implicit conversion of a string to a message body.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="5d1b0-115">指定した文字列を使用して初期化メッセージの本文です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5d1b0-115">A message body initialized with the specified string.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Text">
+      <MemberSignature Language="C#" Value="public string Text { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Text" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.MessageBody.Text" />
+      <MemberSignature Language="VB.NET" Value="Public Property Text As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Text { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="5d1b0-116">取得またはメッセージ本文のテキストを設定します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5d1b0-116">Gets or sets the message body text.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="5d1b0-117">メッセージ本文のテキスト。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5d1b0-117">The message body text.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToString">
+      <MemberSignature Language="C#" Value="public override string ToString ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance string ToString() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.MessageBody.ToString" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function ToString () As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override System::String ^ ToString();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="5d1b0-118">現在のメッセージの本文のオブジェクトを表す文字列を返します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5d1b0-118">Returns a string that represents the current message body object.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="5d1b0-119">メッセージの本文の文字列形式。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5d1b0-119">A string representation of the message body.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

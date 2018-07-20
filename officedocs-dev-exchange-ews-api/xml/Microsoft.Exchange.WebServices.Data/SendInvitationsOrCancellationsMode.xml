@@ -1,0 +1,153 @@
+<Type Name="SendInvitationsOrCancellationsMode" FullName="Microsoft.Exchange.WebServices.Data.SendInvitationsOrCancellationsMode">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="e8dc661359af3015b2e1b7731c0616cef24fe6b2" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ja-JP" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20626329" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum SendInvitationsOrCancellationsMode" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed SendInvitationsOrCancellationsMode extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.SendInvitationsOrCancellationsMode" />
+  <TypeSignature Language="VB.NET" Value="Public Enum SendInvitationsOrCancellationsMode" />
+  <TypeSignature Language="C++ CLI" Value="public enum class SendInvitationsOrCancellationsMode" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+      <span data-ttu-id="38e82-101">会議が更新されたときに会議出席依頼やキャンセル処理方法を定義する定数を指定します。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="38e82-101">Specifies constants that define how meeting invitations or cancellations are handled when a meeting is updated.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="SendOnlyToAll">
+      <MemberSignature Language="C#" Value="SendOnlyToAll" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.SendInvitationsOrCancellationsMode SendOnlyToAll = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.SendInvitationsOrCancellationsMode.SendOnlyToAll" />
+      <MemberSignature Language="VB.NET" Value="SendOnlyToAll" />
+      <MemberSignature Language="C++ CLI" Value="SendOnlyToAll" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.SendInvitationsOrCancellationsMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="38e82-102">すべての出席者に会議の招待状/取り消しを送信します。開催者の送信済みアイテム フォルダーには、会議の招待状/取り消し通知のコピーを保存しません。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="38e82-102">Send meeting invitations/cancellations to all attendees; do not save a copy of the meeting invitation/cancellation in the organizer's Sent Items folder.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SendOnlyToChanged">
+      <MemberSignature Language="C#" Value="SendOnlyToChanged" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.SendInvitationsOrCancellationsMode SendOnlyToChanged = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.SendInvitationsOrCancellationsMode.SendOnlyToChanged" />
+      <MemberSignature Language="VB.NET" Value="SendOnlyToChanged" />
+      <MemberSignature Language="C++ CLI" Value="SendOnlyToChanged" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.SendInvitationsOrCancellationsMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="38e82-103">会議の招待状/取り消しを追加または変更された出席者にのみ送信します。開催者の送信済みアイテム フォルダーには、会議の招待状/取り消し通知のコピーを保存しません。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="38e82-103">Send meeting invitations/cancellations only to attendees that have been added or modified; do not save a copy of the meeting invitation/cancellation in the organizer's Sent Items folder.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SendToAllAndSaveCopy">
+      <MemberSignature Language="C#" Value="SendToAllAndSaveCopy" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.SendInvitationsOrCancellationsMode SendToAllAndSaveCopy = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.SendInvitationsOrCancellationsMode.SendToAllAndSaveCopy" />
+      <MemberSignature Language="VB.NET" Value="SendToAllAndSaveCopy" />
+      <MemberSignature Language="C++ CLI" Value="SendToAllAndSaveCopy" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.SendInvitationsOrCancellationsMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="38e82-104">すべての出席者に会議の招待状/取り消しを送信し、開催者の送信済みアイテム フォルダーに会議の招待状/取り消し通知のコピーを保存します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="38e82-104">Send meeting invitations/cancellations to all attendees and save a copy of the meeting invitation/cancellation in the organizer's Sent Items folder.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SendToChangedAndSaveCopy">
+      <MemberSignature Language="C#" Value="SendToChangedAndSaveCopy" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.SendInvitationsOrCancellationsMode SendToChangedAndSaveCopy = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.SendInvitationsOrCancellationsMode.SendToChangedAndSaveCopy" />
+      <MemberSignature Language="VB.NET" Value="SendToChangedAndSaveCopy" />
+      <MemberSignature Language="C++ CLI" Value="SendToChangedAndSaveCopy" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.SendInvitationsOrCancellationsMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="38e82-105">追加または変更された出席者にのみと、会議への招待/キャンセルの開催者の送信済みアイテム フォルダーにコピーを保存、会議の招待状/取り消しを送信します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="38e82-105">Send meeting invitations/cancellations only to attendees that have been added or modified and save a copy of the meeting invitation/cancellation in the organizer's Sent Items folder.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SendToNone">
+      <MemberSignature Language="C#" Value="SendToNone" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.SendInvitationsOrCancellationsMode SendToNone = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.SendInvitationsOrCancellationsMode.SendToNone" />
+      <MemberSignature Language="VB.NET" Value="SendToNone" />
+      <MemberSignature Language="C++ CLI" Value="SendToNone" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.SendInvitationsOrCancellationsMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="38e82-106">会議の招待状/取り消しを送信しません。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="38e82-106">Do not send meeting invitations/cancellations.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

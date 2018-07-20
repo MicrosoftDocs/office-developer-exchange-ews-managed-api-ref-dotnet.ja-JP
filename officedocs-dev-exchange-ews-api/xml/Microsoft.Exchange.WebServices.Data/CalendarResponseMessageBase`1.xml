@@ -1,0 +1,327 @@
+<Type Name="CalendarResponseMessageBase&lt;TMessage&gt;" FullName="Microsoft.Exchange.WebServices.Data.CalendarResponseMessageBase&lt;TMessage&gt;">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="25981c0845d8600f1de58491768b035c0ef137d3" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ja-JP" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20625779" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public abstract class CalendarResponseMessageBase&lt;TMessage&gt; : Microsoft.Exchange.WebServices.Data.ResponseObject&lt;TMessage&gt; where TMessage : EmailMessage" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit CalendarResponseMessageBase`1&lt;(class Microsoft.Exchange.WebServices.Data.EmailMessage) TMessage&gt; extends Microsoft.Exchange.WebServices.Data.ResponseObject`1&lt;!TMessage&gt;" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.CalendarResponseMessageBase`1" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class CalendarResponseMessageBase(Of TMessage)&#xA;Inherits ResponseObject(Of TMessage)" />
+  <TypeSignature Language="C++ CLI" Value="generic &lt;typename TMessage&gt;&#xA; where TMessage : EmailMessagepublic ref class CalendarResponseMessageBase abstract : Microsoft::Exchange::WebServices::Data::ResponseObject&lt;TMessage&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <TypeParameters>
+    <TypeParameter Name="TMessage">
+      <Constraints>
+        <BaseTypeName>Microsoft.Exchange.WebServices.Data.EmailMessage</BaseTypeName>
+      </Constraints>
+    </TypeParameter>
+  </TypeParameters>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ResponseObject&lt;TMessage&gt;</BaseTypeName>
+    <BaseTypeArguments>
+      <BaseTypeArgument TypeParamName="TMessage">TMessage</BaseTypeArgument>
+    </BaseTypeArguments>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <typeparam name="TMessage"></typeparam>
+    <summary>
+      <span data-ttu-id="2317b-101">カレンダーに関連するすべての応答の基本クラスを表します。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="2317b-101">Represents the base class for all calendar-related responses.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Save">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.CalendarActionResults Save ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Exchange.WebServices.Data.CalendarActionResults Save() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.CalendarResponseMessageBase`1.Save" />
+      <MemberSignature Language="VB.NET" Value="Public Function Save () As CalendarActionResults" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Exchange::WebServices::Data::CalendarActionResults ^ Save();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.CalendarActionResults</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="2317b-102">カレンダーの応答メッセージを [下書き] フォルダーに保存します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2317b-102">Saves the calendar response message in the Drafts folder.</span>
+          </span>
+          <span data-ttu-id="2317b-103">Exchange Web サービス (EWS) への呼び出しでは、このメソッドの結果を呼び出しています。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2317b-103">Calling this method results in a call to Exchange Web Services (EWS).</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="2317b-104">CalendarActionResults オブジェクトを作成または変更されたアイテムが含まれます。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2317b-104">A CalendarActionResults object that contains the items that were created or modified.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Save">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.CalendarActionResults Save (Microsoft.Exchange.WebServices.Data.FolderId destinationFolderId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Exchange.WebServices.Data.CalendarActionResults Save(class Microsoft.Exchange.WebServices.Data.FolderId destinationFolderId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.CalendarResponseMessageBase`1.Save(Microsoft.Exchange.WebServices.Data.FolderId)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Save (destinationFolderId As FolderId) As CalendarActionResults" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Exchange::WebServices::Data::CalendarActionResults ^ Save(Microsoft::Exchange::WebServices::Data::FolderId ^ destinationFolderId);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.CalendarActionResults</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="destinationFolderId" Type="Microsoft.Exchange.WebServices.Data.FolderId" />
+      </Parameters>
+      <Docs>
+        <param name="destinationFolderId">
+          <span data-ttu-id="2317b-105">応答を保存するフォルダーの識別子です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2317b-105">The identifier of the folder to which to save the response.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="2317b-106">カレンダーの応答メッセージを指定したフォルダーに保存します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2317b-106">Saves the calendar response message to the specified folder.</span>
+          </span>
+          <span data-ttu-id="2317b-107">Exchange Web サービス (EWS) への呼び出しでは、このメソッドの結果を呼び出しています。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2317b-107">Calling this method results in a call to Exchange Web Services (EWS).</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="2317b-108">CalendarActionResults オブジェクトを作成または変更されたアイテムが含まれます。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2317b-108">A CalendarActionResults object that contains the items that were created or modified.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Save">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.CalendarActionResults Save (Microsoft.Exchange.WebServices.Data.WellKnownFolderName destinationFolderName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Exchange.WebServices.Data.CalendarActionResults Save(valuetype Microsoft.Exchange.WebServices.Data.WellKnownFolderName destinationFolderName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.CalendarResponseMessageBase`1.Save(Microsoft.Exchange.WebServices.Data.WellKnownFolderName)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Save (destinationFolderName As WellKnownFolderName) As CalendarActionResults" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Exchange::WebServices::Data::CalendarActionResults ^ Save(Microsoft::Exchange::WebServices::Data::WellKnownFolderName destinationFolderName);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.CalendarActionResults</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="destinationFolderName" Type="Microsoft.Exchange.WebServices.Data.WellKnownFolderName" />
+      </Parameters>
+      <Docs>
+        <param name="destinationFolderName">
+          <span data-ttu-id="2317b-109">応答を保存するフォルダーの名前です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2317b-109">The name of the folder in which to save the response.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="2317b-110">カレンダーの応答メッセージを指定したフォルダーに保存します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2317b-110">Saves the calendar response message to the specified folder.</span>
+          </span>
+          <span data-ttu-id="2317b-111">Exchange Web サービス (EWS) への呼び出しでは、このメソッドの結果を呼び出しています。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2317b-111">Calling this method results in a call to Exchange Web Services (EWS).</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="2317b-112">CalendarActionResults オブジェクトを作成または変更されたアイテムが含まれます。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2317b-112">A CalendarActionResults object that contains the items that were created or modified.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Send">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.CalendarActionResults Send ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Exchange.WebServices.Data.CalendarActionResults Send() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.CalendarResponseMessageBase`1.Send" />
+      <MemberSignature Language="VB.NET" Value="Public Function Send () As CalendarActionResults" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Exchange::WebServices::Data::CalendarActionResults ^ Send();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.CalendarActionResults</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="2317b-113">コピーを保存せずには、この予定表の応答メッセージを送信します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2317b-113">Sends this calendar response message without saving a copy.</span>
+          </span>
+          <span data-ttu-id="2317b-114">Exchange Web サービス (EWS) への呼び出しでは、このメソッドの結果を呼び出しています。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2317b-114">Calling this method results in a call to Exchange Web Services (EWS).</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="2317b-115">CalendarActionResults オブジェクトを作成または変更されたアイテムが含まれます。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2317b-115">A CalendarActionResults object that contains the items that were created or modified.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SendAndSaveCopy">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.CalendarActionResults SendAndSaveCopy ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Exchange.WebServices.Data.CalendarActionResults SendAndSaveCopy() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.CalendarResponseMessageBase`1.SendAndSaveCopy" />
+      <MemberSignature Language="VB.NET" Value="Public Function SendAndSaveCopy () As CalendarActionResults" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Exchange::WebServices::Data::CalendarActionResults ^ SendAndSaveCopy();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.CalendarActionResults</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="2317b-116">この予定表の応答メッセージを送信し、送信済みアイテム フォルダーにコピーを保存します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2317b-116">Sends this calendar response message and saves a copy in the Sent Items folder.</span>
+          </span>
+          <span data-ttu-id="2317b-117">Exchange Web サービス (EWS) への呼び出しでは、このメソッドの結果を呼び出しています。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2317b-117">Calling this method results in a call to Exchange Web Services (EWS).</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="2317b-118">CalendarActionResults オブジェクトを作成または変更されたアイテムが含まれます。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2317b-118">A CalendarActionResults object that contains the items that were created or modified.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SendAndSaveCopy">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.CalendarActionResults SendAndSaveCopy (Microsoft.Exchange.WebServices.Data.FolderId destinationFolderId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Exchange.WebServices.Data.CalendarActionResults SendAndSaveCopy(class Microsoft.Exchange.WebServices.Data.FolderId destinationFolderId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.CalendarResponseMessageBase`1.SendAndSaveCopy(Microsoft.Exchange.WebServices.Data.FolderId)" />
+      <MemberSignature Language="VB.NET" Value="Public Function SendAndSaveCopy (destinationFolderId As FolderId) As CalendarActionResults" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Exchange::WebServices::Data::CalendarActionResults ^ SendAndSaveCopy(Microsoft::Exchange::WebServices::Data::FolderId ^ destinationFolderId);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.CalendarActionResults</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="destinationFolderId" Type="Microsoft.Exchange.WebServices.Data.FolderId" />
+      </Parameters>
+      <Docs>
+        <param name="destinationFolderId">
+          <span data-ttu-id="2317b-119">カレンダーの応答メッセージのコピーを格納するフォルダーの識別子です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2317b-119">The identifier of the folder in which to store the copy of the calendar response message.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="2317b-120">この予定表の応答メッセージを送信し、指定したフォルダーにコピーを保存します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2317b-120">Sends this calendar response message and saves a copy to the specified folder.</span>
+          </span>
+          <span data-ttu-id="2317b-121">Exchange Web サービス (EWS) への呼び出しでは、このメソッドの結果を呼び出しています。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2317b-121">Calling this method results in a call to Exchange Web Services (EWS).</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="2317b-122">CalendarActionResults オブジェクトを作成または変更されたアイテムが含まれます。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2317b-122">A CalendarActionResults object that contains the items that were created or modified.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SendAndSaveCopy">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.CalendarActionResults SendAndSaveCopy (Microsoft.Exchange.WebServices.Data.WellKnownFolderName destinationFolderName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Exchange.WebServices.Data.CalendarActionResults SendAndSaveCopy(valuetype Microsoft.Exchange.WebServices.Data.WellKnownFolderName destinationFolderName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.CalendarResponseMessageBase`1.SendAndSaveCopy(Microsoft.Exchange.WebServices.Data.WellKnownFolderName)" />
+      <MemberSignature Language="VB.NET" Value="Public Function SendAndSaveCopy (destinationFolderName As WellKnownFolderName) As CalendarActionResults" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Exchange::WebServices::Data::CalendarActionResults ^ SendAndSaveCopy(Microsoft::Exchange::WebServices::Data::WellKnownFolderName destinationFolderName);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.CalendarActionResults</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="destinationFolderName" Type="Microsoft.Exchange.WebServices.Data.WellKnownFolderName" />
+      </Parameters>
+      <Docs>
+        <param name="destinationFolderName">
+          <span data-ttu-id="2317b-123">カレンダーの応答メッセージのコピーを格納するフォルダーの名前です。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2317b-123">The name of the folder in which to store the copy of the calendar response message.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="2317b-124">この予定表の応答メッセージを送信し、指定したフォルダーにコピーを保存します。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2317b-124">Sends this calendar response message and saves a copy to the specified folder.</span>
+          </span>
+          <span data-ttu-id="2317b-125">Exchange Web サービス (EWS) への呼び出しでは、このメソッドの結果を呼び出しています。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2317b-125">Calling this method results in a call to Exchange Web Services (EWS).</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="2317b-126">CalendarActionResults オブジェクトを作成または変更されたアイテムが含まれます。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2317b-126">A CalendarActionResults object that contains the items that were created or modified.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
