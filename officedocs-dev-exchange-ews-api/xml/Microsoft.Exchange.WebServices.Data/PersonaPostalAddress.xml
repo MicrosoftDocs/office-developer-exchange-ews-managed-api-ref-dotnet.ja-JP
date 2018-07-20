@@ -1,0 +1,374 @@
+<Type Name="PersonaPostalAddress" FullName="Microsoft.Exchange.WebServices.Data.PersonaPostalAddress">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="08e648eb11e3ae569db5f4e7de6d02d06934081b" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ja-JP" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20625651" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class PersonaPostalAddress : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit PersonaPostalAddress extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class PersonaPostalAddress&#xA;Inherits ComplexProperty" />
+  <TypeSignature Language="C++ CLI" Value="public ref class PersonaPostalAddress sealed : Microsoft::Exchange::WebServices::Data::ComplexProperty" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ComplexProperty</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>ペルソナに関連付けられている連絡先の郵送先住所の情報が含まれています。 <see cref="T:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress" />クラスは、Exchange Online とのバージョンの Exchange が Exchange Server 2013 以降を対象とするクライアントに適用します。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public PersonaPostalAddress (string street, string city, string state, string country, string postalCode, string postOfficeBox, Microsoft.Exchange.WebServices.Data.LocationSource locationSource, string locationUri, string formattedAddress, double latitude, double longitude, double accuracy, double altitude, double altitudeAccuracy);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string street, string city, string state, string country, string postalCode, string postOfficeBox, valuetype Microsoft.Exchange.WebServices.Data.LocationSource locationSource, string locationUri, string formattedAddress, float64 latitude, float64 longitude, float64 accuracy, float64 altitude, float64 altitudeAccuracy) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.#ctor(System.String,System.String,System.String,System.String,System.String,System.String,Microsoft.Exchange.WebServices.Data.LocationSource,System.String,System.String,System.Double,System.Double,System.Double,System.Double,System.Double)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; PersonaPostalAddress(System::String ^ street, System::String ^ city, System::String ^ state, System::String ^ country, System::String ^ postalCode, System::String ^ postOfficeBox, Microsoft::Exchange::WebServices::Data::LocationSource locationSource, System::String ^ locationUri, System::String ^ formattedAddress, double latitude, double longitude, double accuracy, double altitude, double altitudeAccuracy);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="street" Type="System.String" />
+        <Parameter Name="city" Type="System.String" />
+        <Parameter Name="state" Type="System.String" />
+        <Parameter Name="country" Type="System.String" />
+        <Parameter Name="postalCode" Type="System.String" />
+        <Parameter Name="postOfficeBox" Type="System.String" />
+        <Parameter Name="locationSource" Type="Microsoft.Exchange.WebServices.Data.LocationSource" />
+        <Parameter Name="locationUri" Type="System.String" />
+        <Parameter Name="formattedAddress" Type="System.String" />
+        <Parameter Name="latitude" Type="System.Double" />
+        <Parameter Name="longitude" Type="System.Double" />
+        <Parameter Name="accuracy" Type="System.Double" />
+        <Parameter Name="altitude" Type="System.Double" />
+        <Parameter Name="altitudeAccuracy" Type="System.Double" />
+      </Parameters>
+      <Docs>
+        <param name="street">番地。</param>
+        <param name="city">市区町村の値です。</param>
+        <param name="state">状態値。</param>
+        <param name="country">国/地域の値です。</param>
+        <param name="postalCode">郵便番号の値です。</param>
+        <param name="postOfficeBox">私書箱です。</param>
+        <param name="locationSource">場所のソースです。</param>
+        <param name="locationUri">統一リソース識別子 (URI) の場所です。</param>
+        <param name="formattedAddress">表示される住所。</param>
+        <param name="latitude">場所の緯度です。</param>
+        <param name="longitude">場所の経度です。</param>
+        <param name="accuracy">場所の精度です。</param>
+        <param name="altitude">場所の高度です。</param>
+        <param name="altitudeAccuracy">場所の高度の精度です。</param>
+        <summary>新しいインスタンスを初期化、<see cref="T:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress" />クラス。             <see cref="M:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.#ctor(System.String,System.String,System.String,System.String,System.String,System.String,Microsoft.Exchange.WebServices.Data.LocationSource,System.String,System.String,System.Double,System.Double,System.Double,System.Double,System.Double)" />コンス トラクターは、Exchange Online とのバージョンの Exchange が Exchange Server 2013 以降を対象とするクライアントに適用します。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Accuracy">
+      <MemberSignature Language="C#" Value="public Nullable&lt;double&gt; Accuracy { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;float64&gt; Accuracy" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.Accuracy" />
+      <MemberSignature Language="VB.NET" Value="Public Property Accuracy As Nullable(Of Double)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;double&gt; Accuracy { Nullable&lt;double&gt; get(); void set(Nullable&lt;double&gt; value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Double&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>取得または緯度と経度の正確さの度合いを指定する値を設定します。             <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.Accuracy" />プロパティは、Exchange Online とのバージョンの Exchange が Exchange Server 2013 以降を対象とするクライアントに適用します。</summary>
+        <value>場所の精度です。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Altitude">
+      <MemberSignature Language="C#" Value="public Nullable&lt;double&gt; Altitude { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;float64&gt; Altitude" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.Altitude" />
+      <MemberSignature Language="VB.NET" Value="Public Property Altitude As Nullable(Of Double)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;double&gt; Altitude { Nullable&lt;double&gt; get(); void set(Nullable&lt;double&gt; value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Double&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>取得または場所の高度を設定します。             <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.Altitude" />プロパティは、Exchange Online とのバージョンの Exchange が Exchange Server 2013 以降を対象とするクライアントに適用します。</summary>
+        <value>場所の高度です。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AltitudeAccuracy">
+      <MemberSignature Language="C#" Value="public Nullable&lt;double&gt; AltitudeAccuracy { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;float64&gt; AltitudeAccuracy" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.AltitudeAccuracy" />
+      <MemberSignature Language="VB.NET" Value="Public Property AltitudeAccuracy As Nullable(Of Double)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;double&gt; AltitudeAccuracy { Nullable&lt;double&gt; get(); void set(Nullable&lt;double&gt; value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Double&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>取得または設定、高度の正確さの度合いを指定する値です。             <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.AltitudeAccuracy" />プロパティは、Exchange Online とのバージョンの Exchange が Exchange Server 2013 以降を対象とするクライアントに適用します。</summary>
+        <value>場所の高度の精度です。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="City">
+      <MemberSignature Language="C#" Value="public string City { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string City" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.City" />
+      <MemberSignature Language="VB.NET" Value="Public Property City As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ City { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>取得または市区町村名を設定します。             <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.City" />プロパティは、Exchange Online とのバージョンの Exchange が Exchange Server 2013 以降を対象とするクライアントに適用します。</summary>
+        <value>市区町村名です。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Country">
+      <MemberSignature Language="C#" Value="public string Country { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Country" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.Country" />
+      <MemberSignature Language="VB.NET" Value="Public Property Country As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Country { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>取得または国/地域を設定します。             <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.Country" />プロパティは、Exchange Online とのバージョンの Exchange が Exchange Server 2013 以降を対象とするクライアントに適用します。</summary>
+        <value>国/地域名です。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FormattedAddress">
+      <MemberSignature Language="C#" Value="public string FormattedAddress { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string FormattedAddress" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.FormattedAddress" />
+      <MemberSignature Language="VB.NET" Value="Public Property FormattedAddress As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ FormattedAddress { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>取得または表示する住所を設定します。             <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.FormattedAddress" />プロパティは、Exchange Online とのバージョンの Exchange が Exchange Server 2013 以降を対象とするクライアントに適用します。</summary>
+        <value>表示される住所。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Latitude">
+      <MemberSignature Language="C#" Value="public Nullable&lt;double&gt; Latitude { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;float64&gt; Latitude" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.Latitude" />
+      <MemberSignature Language="VB.NET" Value="Public Property Latitude As Nullable(Of Double)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;double&gt; Latitude { Nullable&lt;double&gt; get(); void set(Nullable&lt;double&gt; value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Double&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>取得または場所の緯度を示す値を設定します。 <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.Latitude" />プロパティは、Exchange Online とのバージョンの Exchange が Exchange Server 2013 以降を対象とするクライアントに適用します。</summary>
+        <value>場所の緯度を示す値。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Longitude">
+      <MemberSignature Language="C#" Value="public Nullable&lt;double&gt; Longitude { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;float64&gt; Longitude" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.Longitude" />
+      <MemberSignature Language="VB.NET" Value="Public Property Longitude As Nullable(Of Double)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;double&gt; Longitude { Nullable&lt;double&gt; get(); void set(Nullable&lt;double&gt; value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Double&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>取得または場所の経度を示す値を設定します。             <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.Longitude" />プロパティは、Exchange Online とのバージョンの Exchange が Exchange Server 2013 以降を対象とするクライアントに適用します。</summary>
+        <value>場所の経度を示す値。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PostalCode">
+      <MemberSignature Language="C#" Value="public string PostalCode { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string PostalCode" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.PostalCode" />
+      <MemberSignature Language="VB.NET" Value="Public Property PostalCode As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ PostalCode { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>取得または郵便番号コードを設定します。             <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.PostalCode" />プロパティは、Exchange Online とのバージョンの Exchange が Exchange Server 2013 以降を対象とするクライアントに適用します。</summary>
+        <value>郵便番号。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PostOfficeBox">
+      <MemberSignature Language="C#" Value="public string PostOfficeBox { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string PostOfficeBox" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.PostOfficeBox" />
+      <MemberSignature Language="VB.NET" Value="Public Property PostOfficeBox As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ PostOfficeBox { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>取得またはポスト オフィス ボックスの数を設定します。             <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.PostOfficeBox" />プロパティは、Exchange Online とのバージョンの Exchange が Exchange Server 2013 以降を対象とするクライアントに適用します。</summary>
+        <value>私書箱番号です。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Source">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.LocationSource Source { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.LocationSource Source" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.Source" />
+      <MemberSignature Language="VB.NET" Value="Public Property Source As LocationSource" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::LocationSource Source { Microsoft::Exchange::WebServices::Data::LocationSource get(); void set(Microsoft::Exchange::WebServices::Data::LocationSource value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.LocationSource</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>ペルソナの郵送先住所の原点を設定を取得または取得します。             <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.Source" />プロパティは、Exchange Online とのバージョンの Exchange が Exchange Server 2013 以降を対象とするクライアントに適用します。</summary>
+        <value>ペルソナ郵便番号と住所のソースです。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="State">
+      <MemberSignature Language="C#" Value="public string State { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string State" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.State" />
+      <MemberSignature Language="VB.NET" Value="Public Property State As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ State { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>取得または状態を設定します。             <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.State" />プロパティは、Exchange Online とのバージョンの Exchange が Exchange Server 2013 以降を対象とするクライアントに適用します。</summary>
+        <value>状態の名前。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Street">
+      <MemberSignature Language="C#" Value="public string Street { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Street" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.Street" />
+      <MemberSignature Language="VB.NET" Value="Public Property Street As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Street { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>取得または通りの名前を設定します。             <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.Street" />プロパティは、Exchange Online とのバージョンの Exchange が Exchange Server 2013 以降を対象とするクライアントに適用します。</summary>
+        <value>ストリートの名前です。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Type">
+      <MemberSignature Language="C#" Value="public string Type { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Type" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.Type" />
+      <MemberSignature Language="VB.NET" Value="Public Property Type As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Type { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>取得または郵便番号と住所の種類を設定します。 たとえば、自宅または会社です。             <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.Type" />プロパティは、Exchange Online とのバージョンの Exchange が Exchange Server 2013 以降を対象とするクライアントに適用します。</summary>
+        <value>郵便番号と住所の種類。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Uri">
+      <MemberSignature Language="C#" Value="public string Uri { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Uri" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.Uri" />
+      <MemberSignature Language="VB.NET" Value="Public Property Uri As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Uri { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>取得または統一リソース識別子 (URI) の場所を設定します。             <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.Uri" />プロパティは、Exchange Online とのバージョンの Exchange が Exchange Server 2013 以降を対象とするクライアントに適用します。</summary>
+        <value>場所 URI です。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

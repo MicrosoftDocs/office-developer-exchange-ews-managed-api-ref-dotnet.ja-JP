@@ -1,0 +1,85 @@
+<Type Name="SendPrompt" FullName="Microsoft.Exchange.WebServices.Data.SendPrompt">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="f2e348dcbc8ad018a55212569b136fa0bcf4d1db" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ja-JP" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20626495" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum SendPrompt" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed SendPrompt extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.SendPrompt" />
+  <TypeSignature Language="VB.NET" Value="Public Enum SendPrompt" />
+  <TypeSignature Language="C++ CLI" Value="public enum class SendPrompt" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>返信のオプションに関連付けられているプロンプトの動作を指定します。<see cref="T:Microsoft.Exchange.WebServices.Data.SendPrompt" />列挙体は、Exchange Online とのバージョンの Exchange が Exchange Server 2013 以降を対象とするクライアントに適用します。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="None">
+      <MemberSignature Language="C#" Value="None" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.SendPrompt None = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.SendPrompt.None" />
+      <MemberSignature Language="VB.NET" Value="None" />
+      <MemberSignature Language="C++ CLI" Value="None" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.SendPrompt</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>プロンプトの動作が指定されていません。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Send">
+      <MemberSignature Language="C#" Value="Send" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.SendPrompt Send = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.SendPrompt.Send" />
+      <MemberSignature Language="VB.NET" Value="Send" />
+      <MemberSignature Language="C++ CLI" Value="Send" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.SendPrompt</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>ユーザーが投票でこの値を持つオプションを選択した直後に応答を送信する必要があります、<see cref="P:Microsoft.Exchange.WebServices.Data.VotingOptionData.SendPrompt" />プロパティ。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="VotingOption">
+      <MemberSignature Language="C#" Value="VotingOption" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.SendPrompt VotingOption = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.SendPrompt.VotingOption" />
+      <MemberSignature Language="VB.NET" Value="VotingOption" />
+      <MemberSignature Language="C++ CLI" Value="VotingOption" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.SendPrompt</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>投票でこの値を持つオプションを選択するときに応答を送信する前に、任意の確認を求める必要があります、<see cref="P:Microsoft.Exchange.WebServices.Data.VotingOptionData.SendPrompt" />プロパティ。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

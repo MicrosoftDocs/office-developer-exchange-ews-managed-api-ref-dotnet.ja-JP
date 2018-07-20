@@ -1,0 +1,492 @@
+<Type Name="ExchangeServiceBase" FullName="Microsoft.Exchange.WebServices.Data.ExchangeServiceBase">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="63d0d68023245176fa907a3b57644b570a105ebe" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ja-JP" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20625922" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public abstract class ExchangeServiceBase" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit ExchangeServiceBase extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class ExchangeServiceBase" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ExchangeServiceBase abstract" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Exchange サービスへの抽象のバインディングを表します。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AcceptGzipEncoding">
+      <MemberSignature Language="C#" Value="public bool AcceptGzipEncoding { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool AcceptGzipEncoding" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.AcceptGzipEncoding" />
+      <MemberSignature Language="VB.NET" Value="Public Property AcceptGzipEncoding As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool AcceptGzipEncoding { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>GZip 圧縮のエンコードを承諾する必要があるかどうかを示す値を設定を取得または取得します。</summary>
+        <value>
+          <b>true の</b>場合は、GZip 圧縮のエンコードを受け入れる必要があります。それ以外の場合、 <b>false を指定</b>します。</value>
+        <remarks>
+          <para>設定、<see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.AcceptGzipEncoding" />クライアントが GZip 圧縮のエンコードを処理できるかどうか、サーバーにプロパティの値を示します。行うように構成されている場合、サーバーは GZip 圧縮されたコンテンツを送信のみ。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ClientRequestId">
+      <MemberSignature Language="C#" Value="public string ClientRequestId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ClientRequestId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.ClientRequestId" />
+      <MemberSignature Language="VB.NET" Value="Public Property ClientRequestId As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ClientRequestId { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>取得または要求の ID を設定します             <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.ClientRequestId" />プロパティは、Exchange Online とのバージョンの Exchange が Exchange Server 2013 以降を対象とするクライアントに適用します。</summary>
+        <value>要求の id。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConnectionGroupName">
+      <MemberSignature Language="C#" Value="public string ConnectionGroupName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ConnectionGroupName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.ConnectionGroupName" />
+      <MemberSignature Language="VB.NET" Value="Public Property ConnectionGroupName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ConnectionGroupName { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>取得または要求の間の接続グループの名前を設定します。              <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.ConnectionGroupName" />プロパティは、Exchange Online とのバージョンの Exchange が Exchange Server 2013 以降を対象とするクライアントに適用します。</summary>
+        <value>接続グループの名前です。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CookieContainer">
+      <MemberSignature Language="C#" Value="public System.Net.CookieContainer CookieContainer { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Net.CookieContainer CookieContainer" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.CookieContainer" />
+      <MemberSignature Language="VB.NET" Value="Public Property CookieContainer As CookieContainer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Net::CookieContainer ^ CookieContainer { System::Net::CookieContainer ^ get(); void set(System::Net::CookieContainer ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Net.CookieContainer</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>取得または cookie のコンテナーを設定します。</summary>
+        <value>A<see cref="T:System.Net.CookieContainer" />オブジェクトです。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Credentials">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ExchangeCredentials Credentials { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.ExchangeCredentials Credentials" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.Credentials" />
+      <MemberSignature Language="VB.NET" Value="Public Property Credentials As ExchangeCredentials" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ExchangeCredentials ^ Credentials { Microsoft::Exchange::WebServices::Data::ExchangeCredentials ^ get(); void set(Microsoft::Exchange::WebServices::Data::ExchangeCredentials ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ExchangeCredentials</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>取得または、Exchange Web サービス (EWS) での認証に使用される資格情報を設定します。</summary>
+        <value>EWS を使って認証するために使用される資格情報です。</value>
+        <remarks>
+          <para>設定、<see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.Credentials" />プロパティが自動的に設定、<see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.UseDefaultCredentials" />プロパティに<b>false を指定</b>します</para>。
+          <para><b>注意</b>: 変更しないように注意してください、<see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.Credentials" />の後のプロパティ、 <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeService" /> Web サービスにバインドされたオブジェクト。資格情報を変更すると、後続の Web サービス操作が失敗します。変更するのには、<see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.Credentials" />のプロパティの<see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeService" />オブジェクトの新しいインスタンスを作成する必要があります、<see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeService" />する資格情報を持つオブジェクト。Office 365 の一部としてユーザーのメールボックスが Exchange Online または Exchange のオンラインでホストされている場合、ログオンしたユーザーの既定の資格情報を使うことはできません。ユーザーの資格情報は、Exchange Online のユーザー プリンシパル名 (UPN) の形式である必要があります</para>。
+          <para /></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HttpHeaders">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;string,string&gt; HttpHeaders { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IDictionary`2&lt;string, string&gt; HttpHeaders" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.HttpHeaders" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property HttpHeaders As IDictionary(Of String, String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IDictionary&lt;System::String ^, System::String ^&gt; ^ HttpHeaders { System::Collections::Generic::IDictionary&lt;System::String ^, System::String ^&gt; ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Exchange Web サービス (EWS) への要求に関連付けられている HTTP ヘッダーの一覧を取得します。</summary>
+        <value>要求に関連付けられている HTTP ヘッダーの一覧は、キーと値のペアとして構成されています。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HttpResponseHeaders">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;string,string&gt; HttpResponseHeaders { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IDictionary`2&lt;string, string&gt; HttpResponseHeaders" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.HttpResponseHeaders" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property HttpResponseHeaders As IDictionary(Of String, String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IDictionary&lt;System::String ^, System::String ^&gt; ^ HttpResponseHeaders { System::Collections::Generic::IDictionary&lt;System::String ^, System::String ^&gt; ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>最後の応答から HTTP ヘッダーのコレクションを取得します。             <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.HttpResponseHeaders" />プロパティは、Exchange Online とのバージョンの Exchange が Exchange Server 2013 以降を対象とするクライアントに適用します。</summary>
+        <value>HTTP ヘッダーのコレクションです。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="KeepAlive">
+      <MemberSignature Language="C#" Value="public bool KeepAlive { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool KeepAlive" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.KeepAlive" />
+      <MemberSignature Language="VB.NET" Value="Public Property KeepAlive As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool KeepAlive { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>取得または要求には、keep-alive ヘッダーが含まれている必要があるかどうかを設定します。             <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.KeepAlive" />プロパティは、Exchange Online とのバージョンの Exchange が Exchange Server 2013 以降を対象とするクライアントに適用します。</summary>
+        <value>
+          <b>true の</b>場合、要求は、keep-alive ヘッダーを含める必要があります。それ以外の場合、 <b>false を指定</b>します。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnResponseHeadersCaptured">
+      <MemberSignature Language="C#" Value="public event Microsoft.Exchange.WebServices.Data.ResponseHeadersCapturedHandler OnResponseHeadersCaptured;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Exchange.WebServices.Data.ResponseHeadersCapturedHandler OnResponseHeadersCaptured" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.OnResponseHeadersCaptured" />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event OnResponseHeadersCaptured As ResponseHeadersCapturedHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Exchange::WebServices::Data::ResponseHeadersCapturedHandler ^ OnResponseHeadersCaptured;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ResponseHeadersCapturedHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>呼び出し、<see cref="T:Microsoft.Exchange.WebServices.Data.ResponseHeadersCapturedHandler" />ハンドラーです。             <see cref="E:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.OnResponseHeadersCaptured" />イベントは、Exchange Online とのバージョンの Exchange が Exchange Server 2013 以降を対象とするクライアントに適用します。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnSerializeCustomSoapHeaders">
+      <MemberSignature Language="C#" Value="public event Microsoft.Exchange.WebServices.Data.CustomXmlSerializationDelegate OnSerializeCustomSoapHeaders;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Exchange.WebServices.Data.CustomXmlSerializationDelegate OnSerializeCustomSoapHeaders" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.OnSerializeCustomSoapHeaders" />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event OnSerializeCustomSoapHeaders As CustomXmlSerializationDelegate " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Exchange::WebServices::Data::CustomXmlSerializationDelegate ^ OnSerializeCustomSoapHeaders;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.CustomXmlSerializationDelegate</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Microsoft Exchange Server に送信される要求にカスタムの SOAP ヘッダーを出力するアプリケーションを有効にするのには呼び出されるイベントを表します。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PreAuthenticate">
+      <MemberSignature Language="C#" Value="public bool PreAuthenticate { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool PreAuthenticate" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.PreAuthenticate" />
+      <MemberSignature Language="VB.NET" Value="Public Property PreAuthenticate As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool PreAuthenticate { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>取得または HTTP の事前認証を実行する必要があるかどうかを示す値を設定します。</summary>
+        <value>
+          <b>true の</b>場合、HTTP の事前認証を実行する必要があります。それ以外の場合、 <b>false を指定</b>します。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RequestedServerVersion">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ExchangeVersion RequestedServerVersion { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.ExchangeVersion RequestedServerVersion" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.RequestedServerVersion" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property RequestedServerVersion As ExchangeVersion" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ExchangeVersion RequestedServerVersion { Microsoft::Exchange::WebServices::Data::ExchangeVersion get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ExchangeVersion</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>要求されたサーバー バージョンを取得します。</summary>
+        <value>
+          <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeService" />列挙型のオブジェクト。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReturnClientRequestId">
+      <MemberSignature Language="C#" Value="public bool ReturnClientRequestId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ReturnClientRequestId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.ReturnClientRequestId" />
+      <MemberSignature Language="VB.NET" Value="Public Property ReturnClientRequestId As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ReturnClientRequestId { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>要求 ID を含むように応答がクライアントに必要なことを示すフラグの設定を取得または             <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.ReturnClientRequestId" />プロパティは、Exchange Online とのバージョンの Exchange が Exchange Server 2013 以降を対象とするクライアントに適用します。</summary>
+        <value>
+          <b>true の</b>場合は、クライアント要求の ID を含むように応答する必要があります。それ以外の場合、 <b>false を指定</b>します。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SendClientLatencies">
+      <MemberSignature Language="C#" Value="public bool SendClientLatencies { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool SendClientLatencies" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.SendClientLatencies" />
+      <MemberSignature Language="VB.NET" Value="Public Property SendClientLatencies As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool SendClientLatencies { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>取得またはクライアントによって、クライアントの待機時間情報を送信する必要があるかどうかを設定します。             <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.SendClientLatencies" />プロパティは、Exchange Online とのバージョンの Exchange が Exchange Server 2013 以降を対象とするクライアントに適用します。</summary>
+        <value>
+          <b>true の</b>場合はクライアントの遅延の情報が必要になります。それ以外の場合、 <b>false を指定</b>します。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ServerInfo">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ExchangeServerInfo ServerInfo { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.ExchangeServerInfo ServerInfo" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.ServerInfo" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ServerInfo As ExchangeServerInfo" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ExchangeServerInfo ^ ServerInfo { Microsoft::Exchange::WebServices::Data::ExchangeServerInfo ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ExchangeServerInfo</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>最新の要求を処理したサーバーに関連付けられている情報を取得します。</summary>
+        <value>
+          <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeServerInfo" />オブジェクトです。</value>
+        <remarks>
+          <para>値、<see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.ServerInfo" />プロパティは、要求が処理されていない場合は null 参照 (Visual Basic では Nothing) です。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Timeout">
+      <MemberSignature Language="C#" Value="public int Timeout { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Timeout" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.Timeout" />
+      <MemberSignature Language="VB.NET" Value="Public Property Timeout As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Timeout { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>取得または送信する HTTP 要求の送信と、ミリ秒単位で、HTTP の応答を受信するときに使用されるタイムアウト値を設定します。</summary>
+        <value>HTTP 要求と応答は、ミリ秒単位の時間。</value>
+        <remarks>
+          <para>既定値、<see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.Timeout" />プロパティでは 100000 です。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TraceEnabled">
+      <MemberSignature Language="C#" Value="public bool TraceEnabled { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool TraceEnabled" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.TraceEnabled" />
+      <MemberSignature Language="VB.NET" Value="Public Property TraceEnabled As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool TraceEnabled { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>取得または、トレースが有効になっているかどうかを示す値を設定します。</summary>
+        <value>
+          <b>true の</b>場合、トレースが有効になっています。それ以外の場合、 <b>false を指定</b>します。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TraceFlags">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.TraceFlags TraceFlags { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.TraceFlags TraceFlags" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.TraceFlags" />
+      <MemberSignature Language="VB.NET" Value="Public Property TraceFlags As TraceFlags" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::TraceFlags TraceFlags { Microsoft::Exchange::WebServices::Data::TraceFlags get(); void set(Microsoft::Exchange::WebServices::Data::TraceFlags value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.TraceFlags</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>取得またはトレース フラグを設定します。</summary>
+        <value>いずれか、<see cref="T:Microsoft.Exchange.WebServices.Data.TraceFlags" />の値です。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TraceListener">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ITraceListener TraceListener { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.ITraceListener TraceListener" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.TraceListener" />
+      <MemberSignature Language="VB.NET" Value="Public Property TraceListener As ITraceListener" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ITraceListener ^ TraceListener { Microsoft::Exchange::WebServices::Data::ITraceListener ^ get(); void set(Microsoft::Exchange::WebServices::Data::ITraceListener ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ITraceListener</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>取得または、トレース リスナーを設定します。</summary>
+        <value>
+          <see cref="T:Microsoft.Exchange.WebServices.Data.ITraceListener" />オブジェクトです。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseDefaultCredentials">
+      <MemberSignature Language="C#" Value="public bool UseDefaultCredentials { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool UseDefaultCredentials" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.UseDefaultCredentials" />
+      <MemberSignature Language="VB.NET" Value="Public Property UseDefaultCredentials As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool UseDefaultCredentials { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>取得または、Exchange Web サービス (EWS) を認証するために現在 Windows にログオンしたユーザーの資格情報を使用するかどうかを示す値を設定します。</summary>
+        <value>
+          <b>true の</b>場合、現在ログオン中のユーザーの資格情報を使用する必要があります。それ以外の場合、 <b>false を指定</b>します。</value>
+        <remarks>
+          <para>設定、<see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.UseDefaultCredentials" />プロパティを<b>true</b>に自動的に設定、<see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.Credentials" />プロパティを null 参照 (Visual Basic では Nothing) です</para>。
+          <para>の場合は、ユーザーのメールボックスにログオンしたユーザーの既定の資格情報を使うことはできませんまたはホストされている Exchange オンライン Exchange オンライン Office 365 の一部として。代わりに、使用して、 <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.Credentials" /> 、ユーザーの資格情報を設定するプロパティです。ユーザーの資格情報は、Exchange Online のユーザー プリンシパル名 (UPN) の形式である必要があります</para>。
+          <para /></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UserAgent">
+      <MemberSignature Language="C#" Value="public string UserAgent { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string UserAgent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.UserAgent" />
+      <MemberSignature Language="VB.NET" Value="Public Property UserAgent As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ UserAgent { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>ユーザー エージェントの設定を取得または取得します。</summary>
+        <value>A<see cref="T:System.String" />ユーザー エージェントを表すオブジェクト。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WebProxy">
+      <MemberSignature Language="C#" Value="public System.Net.IWebProxy WebProxy { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Net.IWebProxy WebProxy" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.WebProxy" />
+      <MemberSignature Language="VB.NET" Value="Public Property WebProxy As IWebProxy" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Net::IWebProxy ^ WebProxy { System::Net::IWebProxy ^ get(); void set(System::Net::IWebProxy ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Net.IWebProxy</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>取得または要求を処理する Web プロキシ サーバーを設定します。</summary>
+        <value>処理する Web プロキシ サーバーは、Exchange サーバーに送信される要求します。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

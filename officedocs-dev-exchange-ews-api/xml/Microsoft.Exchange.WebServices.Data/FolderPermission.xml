@@ -1,0 +1,339 @@
+<Type Name="FolderPermission" FullName="Microsoft.Exchange.WebServices.Data.FolderPermission">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="14c2d7c0e48d1b4bf73c00467b09344ee4ba9cdd" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ja-JP" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20625823" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class FolderPermission : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit FolderPermission extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.FolderPermission" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class FolderPermission&#xA;Inherits ComplexProperty" />
+  <TypeSignature Language="C++ CLI" Value="public ref class FolderPermission sealed : Microsoft::Exchange::WebServices::Data::ComplexProperty" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ComplexProperty</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>フォルダーのアクセス許可を表します。</summary>
+    <remarks>
+      <para>Exchange オンライン設置型のバージョンの Exchange が Exchange 2013 年から始まる、Office 365 の一部として Exchange Online を対象とするフォルダーのアクセス許可が結果として返されません、<see cref="F:Microsoft.Exchange.WebServices.Data.PropertySet.FirstClassProperties" />プロパティが設定されます。フォルダーのアクセス許可を取得するために追加、<see cref="F:Microsoft.Exchange.WebServices.Data.FolderSchema.Permissions" />フォルダーにバインドするときの設定のプロパティをプロパティ。</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public FolderPermission ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.FolderPermission.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; FolderPermission();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>FolderPermission クラスの新しいインスタンスを初期化します。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public FolderPermission (Microsoft.Exchange.WebServices.Data.StandardUser standardUser, Microsoft.Exchange.WebServices.Data.FolderPermissionLevel permissionLevel);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Microsoft.Exchange.WebServices.Data.StandardUser standardUser, valuetype Microsoft.Exchange.WebServices.Data.FolderPermissionLevel permissionLevel) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.FolderPermission.#ctor(Microsoft.Exchange.WebServices.Data.StandardUser,Microsoft.Exchange.WebServices.Data.FolderPermissionLevel)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; FolderPermission(Microsoft::Exchange::WebServices::Data::StandardUser standardUser, Microsoft::Exchange::WebServices::Data::FolderPermissionLevel permissionLevel);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="standardUser" Type="Microsoft.Exchange.WebServices.Data.StandardUser" />
+        <Parameter Name="permissionLevel" Type="Microsoft.Exchange.WebServices.Data.FolderPermissionLevel" />
+      </Parameters>
+      <Docs>
+        <param name="standardUser">標準ユーザーにアクセス許可が適用されます。</param>
+        <param name="permissionLevel">アクセス許可のレベルです。</param>
+        <summary>指定したアクセス許可レベルを指定した標準的なユーザーの FolderPermission クラスの新しいインスタンスを初期化します。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public FolderPermission (Microsoft.Exchange.WebServices.Data.UserId userId, Microsoft.Exchange.WebServices.Data.FolderPermissionLevel permissionLevel);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Exchange.WebServices.Data.UserId userId, valuetype Microsoft.Exchange.WebServices.Data.FolderPermissionLevel permissionLevel) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.FolderPermission.#ctor(Microsoft.Exchange.WebServices.Data.UserId,Microsoft.Exchange.WebServices.Data.FolderPermissionLevel)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; FolderPermission(Microsoft::Exchange::WebServices::Data::UserId ^ userId, Microsoft::Exchange::WebServices::Data::FolderPermissionLevel permissionLevel);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="userId" Type="Microsoft.Exchange.WebServices.Data.UserId" />
+        <Parameter Name="permissionLevel" Type="Microsoft.Exchange.WebServices.Data.FolderPermissionLevel" />
+      </Parameters>
+      <Docs>
+        <param name="userId">アクセス許可がユーザーの ID が適用されます。</param>
+        <param name="permissionLevel">アクセス許可のレベルです。</param>
+        <summary>指定したアクセス許可レベルで指定したユーザーの FolderPermission クラスの新しいインスタンスを初期化します。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public FolderPermission (string primarySmtpAddress, Microsoft.Exchange.WebServices.Data.FolderPermissionLevel permissionLevel);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string primarySmtpAddress, valuetype Microsoft.Exchange.WebServices.Data.FolderPermissionLevel permissionLevel) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.FolderPermission.#ctor(System.String,Microsoft.Exchange.WebServices.Data.FolderPermissionLevel)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (primarySmtpAddress As String, permissionLevel As FolderPermissionLevel)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; FolderPermission(System::String ^ primarySmtpAddress, Microsoft::Exchange::WebServices::Data::FolderPermissionLevel permissionLevel);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="primarySmtpAddress" Type="System.String" />
+        <Parameter Name="permissionLevel" Type="Microsoft.Exchange.WebServices.Data.FolderPermissionLevel" />
+      </Parameters>
+      <Docs>
+        <param name="primarySmtpAddress">アクセス許可がユーザーのプライマリ SMTP アドレスが適用されます。</param>
+        <param name="permissionLevel">アクセス許可のレベルです。</param>
+        <summary>指定したアクセス許可レベルで指定した電子メール アドレスの FolderPermission クラスの新しいインスタンスを初期化します。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CanCreateItems">
+      <MemberSignature Language="C#" Value="public bool CanCreateItems { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool CanCreateItems" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.FolderPermission.CanCreateItems" />
+      <MemberSignature Language="VB.NET" Value="Public Property CanCreateItems As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool CanCreateItems { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>取得またはユーザーが新しいアイテムを作成できるかどうかを示す値を設定します。</summary>
+        <value>
+          <b>true の</b>場合は、ユーザーが新しい項目を作成できます。それ以外の場合、 <b>false を指定</b>します。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CanCreateSubFolders">
+      <MemberSignature Language="C#" Value="public bool CanCreateSubFolders { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool CanCreateSubFolders" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.FolderPermission.CanCreateSubFolders" />
+      <MemberSignature Language="VB.NET" Value="Public Property CanCreateSubFolders As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool CanCreateSubFolders { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>取得または、ユーザーがサブフォルダーを作成できるかどうかを示す値を設定します。</summary>
+        <value>
+          <b>true の</b>場合は、ユーザーが新しい項目を作成できます。それ以外の場合、 <b>false を指定</b>します。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeleteItems">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.PermissionScope DeleteItems { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.PermissionScope DeleteItems" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.FolderPermission.DeleteItems" />
+      <MemberSignature Language="VB.NET" Value="Public Property DeleteItems As PermissionScope" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::PermissionScope DeleteItems { Microsoft::Exchange::WebServices::Data::PermissionScope get(); void set(Microsoft::Exchange::WebServices::Data::PermissionScope value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PermissionScope</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>取得またはユーザーが既存の項目を削除できるかどうかを示す値を設定します。</summary>
+        <value>
+          <b>true の</b>場合は、ユーザーが既存の項目を削除できます。それ以外の場合、 <b>false を指定</b>します。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisplayPermissionLevel">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.FolderPermissionLevel DisplayPermissionLevel { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.FolderPermissionLevel DisplayPermissionLevel" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.FolderPermission.DisplayPermissionLevel" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DisplayPermissionLevel As FolderPermissionLevel" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::FolderPermissionLevel DisplayPermissionLevel { Microsoft::Exchange::WebServices::Data::FolderPermissionLevel get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.FolderPermissionLevel</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>このフォルダーのアクセス許可には、Microsoft Outlook で表示されるアクセス許可レベルを取得します。</summary>
+        <value>Outlook をこのフォルダーのアクセス許可を表示するアクセス許可レベルです。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EditItems">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.PermissionScope EditItems { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.PermissionScope EditItems" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.FolderPermission.EditItems" />
+      <MemberSignature Language="VB.NET" Value="Public Property EditItems As PermissionScope" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::PermissionScope EditItems { Microsoft::Exchange::WebServices::Data::PermissionScope get(); void set(Microsoft::Exchange::WebServices::Data::PermissionScope value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PermissionScope</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>取得または既存の項目をユーザーが編集できるかどうかを示す値を設定します。</summary>
+        <value>
+          <b>true の</b>場合、ユーザーが既存の項目を編集できます。それ以外の場合、 <b>false を指定</b>します。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsFolderContact">
+      <MemberSignature Language="C#" Value="public bool IsFolderContact { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsFolderContact" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.FolderPermission.IsFolderContact" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsFolderContact As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsFolderContact { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>取得またはユーザーがフォルダーの連絡先であるかどうかを示す値を設定します。</summary>
+        <value>
+          <b>true の</b>場合、ユーザーはフォルダーの連絡先それ以外の場合、 <b>false を指定</b>します。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsFolderOwner">
+      <MemberSignature Language="C#" Value="public bool IsFolderOwner { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsFolderOwner" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.FolderPermission.IsFolderOwner" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsFolderOwner As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsFolderOwner { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>取得またはユーザーがフォルダーを所有しているかどうかを示す値を設定します。</summary>
+        <value>の<b>場合は true</b>ユーザーがフォルダーを所有している場合それ以外の場合、 <b>false を指定</b>します。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsFolderVisible">
+      <MemberSignature Language="C#" Value="public bool IsFolderVisible { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsFolderVisible" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.FolderPermission.IsFolderVisible" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsFolderVisible As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsFolderVisible { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>取得または、フォルダーがユーザーに表示するかどうかを示す値を設定します。</summary>
+        <value>
+          <b>true の</b>場合は、フォルダーが表示されます。それ以外の場合、 <b>false を指定</b>します。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PermissionLevel">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.FolderPermissionLevel PermissionLevel { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.FolderPermissionLevel PermissionLevel" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.FolderPermission.PermissionLevel" />
+      <MemberSignature Language="VB.NET" Value="Public Property PermissionLevel As FolderPermissionLevel" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::FolderPermissionLevel PermissionLevel { Microsoft::Exchange::WebServices::Data::FolderPermissionLevel get(); void set(Microsoft::Exchange::WebServices::Data::FolderPermissionLevel value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.FolderPermissionLevel</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>取得またはアクセス許可レベルを設定します。</summary>
+        <value>アクセス許可のレベルです。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReadItems">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.FolderPermissionReadAccess ReadItems { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.FolderPermissionReadAccess ReadItems" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.FolderPermission.ReadItems" />
+      <MemberSignature Language="VB.NET" Value="Public Property ReadItems As FolderPermissionReadAccess" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::FolderPermissionReadAccess ReadItems { Microsoft::Exchange::WebServices::Data::FolderPermissionReadAccess get(); void set(Microsoft::Exchange::WebServices::Data::FolderPermissionReadAccess value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.FolderPermissionReadAccess</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>取得またはアクセス許可の読み取りの項目を設定します。</summary>
+        <value>アクセス許可の読み取りの項目にアクセスします。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UserId">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.UserId UserId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.UserId UserId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.FolderPermission.UserId" />
+      <MemberSignature Language="VB.NET" Value="Public Property UserId As UserId" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::UserId ^ UserId { Microsoft::Exchange::WebServices::Data::UserId ^ get(); void set(Microsoft::Exchange::WebServices::Data::UserId ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.UserId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>アクセス許可を適用するユーザーの識別子を取得します。</summary>
+        <value>アクセス許可を適用するユーザーの識別子です。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,117 @@
+<Type Name="ConversationId" FullName="Microsoft.Exchange.WebServices.Data.ConversationId">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="0a5e7fbe2f429ae6d7a9b7079b8c05e75b4dcced" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ja-JP" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20626282" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class ConversationId : Microsoft.Exchange.WebServices.Data.ServiceId" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ConversationId extends Microsoft.Exchange.WebServices.Data.ServiceId" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ConversationId" />
+  <TypeSignature Language="VB.NET" Value="Public Class ConversationId&#xA;Inherits ServiceId" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ConversationId : Microsoft::Exchange::WebServices::Data::ServiceId" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ServiceId</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>会話 id を表します。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ConversationId (string uniqueId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string uniqueId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ConversationId.#ctor(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (uniqueId As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ConversationId(System::String ^ uniqueId);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="uniqueId" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="uniqueId">ConversationId を初期化するために使用される一意の識別子です。</param>
+        <summary>ConversationId クラスの新しいインスタンスを初期化します。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Implicit">
+      <MemberSignature Language="C#" Value="public static implicit operator string (Microsoft.Exchange.WebServices.Data.ConversationId conversationId);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname string op_Implicit(class Microsoft.Exchange.WebServices.Data.ConversationId conversationId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ConversationId.op_Implicit(Microsoft.Exchange.WebServices.Data.ConversationId)~System.String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static operator System::String ^(Microsoft::Exchange::WebServices::Data::ConversationId ^ conversationId);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="conversationId" Type="Microsoft.Exchange.WebServices.Data.ConversationId" />
+      </Parameters>
+      <Docs>
+        <param name="conversationId">文字列に変換するのには一意の識別子です。</param>
+        <summary>ConversationId オブジェクトと文字列との間の暗黙の変換を実行します。</summary>
+        <returns>指定した一意な識別子を使用して初期化される ConversationId オブジェクトを返します。</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Implicit">
+      <MemberSignature Language="C#" Value="public static implicit operator Microsoft.Exchange.WebServices.Data.ConversationId (string uniqueId);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname class Microsoft.Exchange.WebServices.Data.ConversationId op_Implicit(string uniqueId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ConversationId.op_Implicit(System.String)~Microsoft.Exchange.WebServices.Data.ConversationId" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Widening Operator CType (uniqueId As String) As ConversationId" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static operator Microsoft::Exchange::WebServices::Data::ConversationId ^(System::String ^ uniqueId);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ConversationId</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="uniqueId" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="uniqueId">ConversationId オブジェクトに変換するのには一意の識別子です。</param>
+        <summary>文字列と ConversationId オブジェクトとの間の暗黙の変換を実行します。</summary>
+        <returns>会話の識別子オブジェクト。</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToString">
+      <MemberSignature Language="C#" Value="public override string ToString ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance string ToString() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ConversationId.ToString" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function ToString () As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override System::String ^ ToString();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>ConversationId オブジェクトの文字列表現を取得します。</summary>
+        <returns>会話 id の文字列形式。</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

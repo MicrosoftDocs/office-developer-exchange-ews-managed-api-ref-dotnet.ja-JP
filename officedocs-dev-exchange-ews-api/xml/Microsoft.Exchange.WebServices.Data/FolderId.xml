@@ -1,0 +1,259 @@
+<Type Name="FolderId" FullName="Microsoft.Exchange.WebServices.Data.FolderId">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="8ab5db187cd522e45470a443353a0dfbbcd8ff89" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ja-JP" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20626146" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class FolderId : Microsoft.Exchange.WebServices.Data.ServiceId" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit FolderId extends Microsoft.Exchange.WebServices.Data.ServiceId" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.FolderId" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class FolderId&#xA;Inherits ServiceId" />
+  <TypeSignature Language="C++ CLI" Value="public ref class FolderId sealed : Microsoft::Exchange::WebServices::Data::ServiceId" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ServiceId</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>フォルダーの ID を表します。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public FolderId (Microsoft.Exchange.WebServices.Data.WellKnownFolderName folderName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Microsoft.Exchange.WebServices.Data.WellKnownFolderName folderName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.FolderId.#ctor(Microsoft.Exchange.WebServices.Data.WellKnownFolderName)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (folderName As WellKnownFolderName)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; FolderId(Microsoft::Exchange::WebServices::Data::WellKnownFolderName folderName);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="folderName" Type="Microsoft.Exchange.WebServices.Data.WellKnownFolderName" />
+      </Parameters>
+      <Docs>
+        <param name="folderName">フォルダー Id クラスを初期化するために使用されているフォルダー名です。</param>
+        <summary>よく知られているフォルダー名とフォルダー Id クラスの新しいインスタンスを初期化します。</summary>
+        <remarks>
+          <para>このフォルダーの ID を既知のフォルダー (受信トレイ、予定表、または取引先担当者など) にリンクするのにには、このコンス トラクターを使用します。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public FolderId (string uniqueId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string uniqueId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.FolderId.#ctor(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (uniqueId As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; FolderId(System::String ^ uniqueId);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="uniqueId" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="uniqueId">フォルダー Id クラスを初期化するために使用される一意の ID です。</param>
+        <summary>フォルダー Id クラスの新しいインスタンスを初期化します。</summary>
+        <remarks>
+          <para>このフォルダー Id クラスを既存のフォルダーにリンクするのにには、このコンス トラクターを使用します。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public FolderId (Microsoft.Exchange.WebServices.Data.WellKnownFolderName folderName, Microsoft.Exchange.WebServices.Data.Mailbox mailbox);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Microsoft.Exchange.WebServices.Data.WellKnownFolderName folderName, class Microsoft.Exchange.WebServices.Data.Mailbox mailbox) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.FolderId.#ctor(Microsoft.Exchange.WebServices.Data.WellKnownFolderName,Microsoft.Exchange.WebServices.Data.Mailbox)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; FolderId(Microsoft::Exchange::WebServices::Data::WellKnownFolderName folderName, Microsoft::Exchange::WebServices::Data::Mailbox ^ mailbox);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="folderName" Type="Microsoft.Exchange.WebServices.Data.WellKnownFolderName" />
+        <Parameter Name="mailbox" Type="Microsoft.Exchange.WebServices.Data.Mailbox" />
+      </Parameters>
+      <Docs>
+        <param name="folderName">フォルダー Id クラスを初期化するために使用されているフォルダー名です。</param>
+        <param name="mailbox">フォルダー Id クラスを初期化するために使用されるメールボックスです。</param>
+        <summary>指定したフォルダー名とメールボックスを使用して、フォルダー Id クラスの新しいインスタンスを初期化します。</summary>
+        <remarks>
+          <para>このフォルダーの ID を特定のメールボックスでよく知られているフォルダー (受信トレイ、予定表や連絡先など) にリンクするのにには、このコンス トラクターを使用します。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Equals">
+      <MemberSignature Language="C#" Value="public override bool Equals (object obj);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool Equals(object obj) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.FolderId.Equals(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function Equals (obj As Object) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override bool Equals(System::Object ^ obj);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="obj" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="obj">現在のフォルダーと比較するフォルダーです。</param>
+        <summary>指定したフォルダーが現在のフォルダーと等しいかどうかを決定します。</summary>
+        <returns>
+          <b>true の</b>場合、指定したフォルダーが現在のフォルダーと同じそれ以外の場合、 <b>false を指定</b>します。</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.NullReferenceException">
+          <paramref name="obj" />のパラメーターは、null 参照 (Visual Basic では Nothing) です。</exception>
+      </Docs>
+    </Member>
+    <Member MemberName="FolderName">
+      <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Exchange.WebServices.Data.WellKnownFolderName&gt; FolderName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Exchange.WebServices.Data.WellKnownFolderName&gt; FolderName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.FolderId.FolderName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FolderName As Nullable(Of WellKnownFolderName)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;Microsoft::Exchange::WebServices::Data::WellKnownFolderName&gt; FolderName { Nullable&lt;Microsoft::Exchange::WebServices::Data::WellKnownFolderName&gt; get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Microsoft.Exchange.WebServices.Data.WellKnownFolderName&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>フォルダー ID に関連付けられているフォルダーの名前を取得します。</summary>
+        <value>フォルダー ID に関連付けられている<b>null 許容型</b>の既知のフォルダー名</value>
+        <remarks>
+          <para>よく知られているフォルダー名とフォルダー ID では、相互に排他的です。いずれかを設定すると、もう一方が null 参照 (Visual Basic では Nothing)</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetHashCode">
+      <MemberSignature Language="C#" Value="public override int GetHashCode ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance int32 GetHashCode() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.FolderId.GetHashCode" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function GetHashCode () As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override int GetHashCode();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>特定の型のハッシュ関数として機能します。</summary>
+        <returns>現在のフォルダーのハッシュ コード。</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Mailbox">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.Mailbox Mailbox { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.Mailbox Mailbox" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.FolderId.Mailbox" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Mailbox As Mailbox" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::Mailbox ^ Mailbox { Microsoft::Exchange::WebServices::Data::Mailbox ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Mailbox</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>フォルダーのメールボックスを取得します。 メールボックスは、フォルダー名が設定されている場合にのみ設定します。</summary>
+        <value>フォルダーのメールボックス。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Implicit">
+      <MemberSignature Language="C#" Value="public static implicit operator Microsoft.Exchange.WebServices.Data.FolderId (Microsoft.Exchange.WebServices.Data.WellKnownFolderName folderName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname class Microsoft.Exchange.WebServices.Data.FolderId op_Implicit(valuetype Microsoft.Exchange.WebServices.Data.WellKnownFolderName folderName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.FolderId.op_Implicit(Microsoft.Exchange.WebServices.Data.WellKnownFolderName)~Microsoft.Exchange.WebServices.Data.FolderId" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Widening Operator CType (folderName As WellKnownFolderName) As FolderId" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static operator Microsoft::Exchange::WebServices::Data::FolderId ^(Microsoft::Exchange::WebServices::Data::WellKnownFolderName folderName);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.FolderId</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="folderName" Type="Microsoft.Exchange.WebServices.Data.WellKnownFolderName" />
+      </Parameters>
+      <Docs>
+        <param name="folderName">フォルダー ID に変換するフォルダー名</param>
+        <summary>よく知られているフォルダー名とフォルダー ID の間で暗黙の変換を定義します。</summary>
+        <returns>指定したフォルダー名が初期化されているフォルダーの ID。</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Implicit">
+      <MemberSignature Language="C#" Value="public static implicit operator Microsoft.Exchange.WebServices.Data.FolderId (string uniqueId);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname class Microsoft.Exchange.WebServices.Data.FolderId op_Implicit(string uniqueId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.FolderId.op_Implicit(System.String)~Microsoft.Exchange.WebServices.Data.FolderId" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Widening Operator CType (uniqueId As String) As FolderId" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static operator Microsoft::Exchange::WebServices::Data::FolderId ^(System::String ^ uniqueId);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.FolderId</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="uniqueId" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="uniqueId">フォルダー ID に変換するのには、一意の ID</param>
+        <summary>フォルダー ID 文字列との間で暗黙の変換を定義します。</summary>
+        <returns>指定した一意の ID に初期化されているフォルダーの ID</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToString">
+      <MemberSignature Language="C#" Value="public override string ToString ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance string ToString() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.FolderId.ToString" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function ToString () As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override System::String ^ ToString();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>現在のフォルダーを表す文字列を返します。</summary>
+        <returns>現在のフォルダーの名前です。</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,228 @@
+<Type Name="NonIndexableItem" FullName="Microsoft.Exchange.WebServices.Data.NonIndexableItem">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="889e417283e485dbbf8dbec12b3b5262d0d76a37" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ja-JP" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20625620" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class NonIndexableItem" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit NonIndexableItem extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.NonIndexableItem" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class NonIndexableItem" />
+  <TypeSignature Language="C++ CLI" Value="public ref class NonIndexableItem sealed" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>インデックスの試行が失敗したメールボックス内のアイテムに関する情報が含まれています。             <see cref="T:Microsoft.Exchange.WebServices.Data.NonIndexableItem" />クラスは、Exchange Online とのバージョンの Exchange が Exchange Server 2013 以降を対象とするクライアントに適用します。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public NonIndexableItem ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.NonIndexableItem.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; NonIndexableItem();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>新しいインスタンスを初期化、<see cref="T:Microsoft.Exchange.WebServices.Data.NonIndexableItem" />クラス。 <see cref="T:Microsoft.Exchange.WebServices.Data.NonIndexableItem" />コンス トラクターは、Exchange Online とのバージョンの Exchange が Exchange Server 2013 以降を対象とするクライアントに適用します。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AdditionalInfo">
+      <MemberSignature Language="C#" Value="public string AdditionalInfo { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string AdditionalInfo" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.NonIndexableItem.AdditionalInfo" />
+      <MemberSignature Language="VB.NET" Value="Public Property AdditionalInfo As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ AdditionalInfo { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>取得またはインデックスの試行が失敗しました。 メールボックスに関する追加情報を設定します。           <see cref="P:Microsoft.Exchange.WebServices.Data.NonIndexableItem.AdditionalInfo" />プロパティは、Exchange Online とのバージョンの Exchange が Exchange Server 2013 以降を対象とするクライアントに適用します。</summary>
+        <value>追加の情報です。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AttemptCount">
+      <MemberSignature Language="C#" Value="public int AttemptCount { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 AttemptCount" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.NonIndexableItem.AttemptCount" />
+      <MemberSignature Language="VB.NET" Value="Public Property AttemptCount As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int AttemptCount { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>取得または移動先のメールボックスのインデックスを作成する試みの数を設定します。             <see cref="P:Microsoft.Exchange.WebServices.Data.NonIndexableItem.AttemptCount" />プロパティは、Exchange Online とのバージョンの Exchange が Exchange Server 2013 以降を対象とするクライアントに適用します。</summary>
+        <value>試行の回数です。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ErrorCode">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ItemIndexError ErrorCode { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.ItemIndexError ErrorCode" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.NonIndexableItem.ErrorCode" />
+      <MemberSignature Language="VB.NET" Value="Public Property ErrorCode As ItemIndexError" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ItemIndexError ErrorCode { Microsoft::Exchange::WebServices::Data::ItemIndexError get(); void set(Microsoft::Exchange::WebServices::Data::ItemIndexError value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ItemIndexError</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>取得またはインデックスの失敗した試行のエラー コードを設定します。             <see cref="P:Microsoft.Exchange.WebServices.Data.NonIndexableItem.ErrorCode" />プロパティは、Exchange Online とのバージョンの Exchange が Exchange Server 2013 以降を対象とするクライアントに適用します。</summary>
+        <value>エラー コード。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ErrorDescription">
+      <MemberSignature Language="C#" Value="public string ErrorDescription { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ErrorDescription" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.NonIndexableItem.ErrorDescription" />
+      <MemberSignature Language="VB.NET" Value="Public Property ErrorDescription As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ErrorDescription { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>取得またはインデックスの失敗した試行のエラーの説明を設定します。             <see cref="P:Microsoft.Exchange.WebServices.Data.NonIndexableItem.ErrorDescription" />プロパティは、Exchange Online とのバージョンの Exchange が Exchange Server 2013 以降を対象とするクライアントに適用します。</summary>
+        <value>エラーの説明です。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsPartiallyIndexed">
+      <MemberSignature Language="C#" Value="public bool IsPartiallyIndexed { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsPartiallyIndexed" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.NonIndexableItem.IsPartiallyIndexed" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsPartiallyIndexed As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsPartiallyIndexed { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>取得または、インデックスが部分的に成功したメールボックス内の項目があるかどうかを設定します。             <see cref="P:Microsoft.Exchange.WebServices.Data.NonIndexableItem.IsPartiallyIndexed" />プロパティは、Exchange Online とのバージョンの Exchange が Exchange Server 2013 以降を対象とするクライアントに適用します。</summary>
+        <value>
+          <b>true の</b>場合、部分的にインデックスを作成します。それ以外の場合、 <b>false を指定</b>します。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsPermanentFailure">
+      <MemberSignature Language="C#" Value="public bool IsPermanentFailure { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsPermanentFailure" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.NonIndexableItem.IsPermanentFailure" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsPermanentFailure As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsPermanentFailure { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>取得または移動先のメールボックスのインデックスとは、永続的なエラーかどうかを設定します。             <see cref="P:Microsoft.Exchange.WebServices.Data.NonIndexableItem.IsPermanentFailure" />プロパティは、Exchange Online とのバージョンの Exchange が Exchange Server 2013 以降を対象とするクライアントに適用します。</summary>
+        <value>
+          <b>true の</b>場合は、永続的な障害が発生します。それ以外の場合、 <b>false を指定</b>します。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ItemId">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ItemId ItemId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.ItemId ItemId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.NonIndexableItem.ItemId" />
+      <MemberSignature Language="VB.NET" Value="Public Property ItemId As ItemId" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ItemId ^ ItemId { Microsoft::Exchange::WebServices::Data::ItemId ^ get(); void set(Microsoft::Exchange::WebServices::Data::ItemId ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ItemId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>取得またはインデックスの試行が行われたメールボックス内のアイテムの ID を設定します。             <see cref="P:Microsoft.Exchange.WebServices.Data.NonIndexableItem.ItemId" />プロパティは、Exchange Online とのバージョンの Exchange が Exchange Server 2013 以降を対象とするクライアントに適用します。</summary>
+        <value>項目の id。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LastAttemptTime">
+      <MemberSignature Language="C#" Value="public Nullable&lt;DateTime&gt; LastAttemptTime { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; LastAttemptTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.NonIndexableItem.LastAttemptTime" />
+      <MemberSignature Language="VB.NET" Value="Public Property LastAttemptTime As Nullable(Of DateTime)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;DateTime&gt; LastAttemptTime { Nullable&lt;DateTime&gt; get(); void set(Nullable&lt;DateTime&gt; value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.DateTime&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>取得または移動先のメールボックスのインデックスを作成する最後の試行が行われた時刻を設定します。             <see cref="P:Microsoft.Exchange.WebServices.Data.NonIndexableItem.LastAttemptTime" />プロパティは、Exchange Online とのバージョンの Exchange が Exchange Server 2013 以降を対象とするクライアントに適用します。</summary>
+        <value>最後の試行時間です。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SortValue">
+      <MemberSignature Language="C#" Value="public string SortValue { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SortValue" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.NonIndexableItem.SortValue" />
+      <MemberSignature Language="VB.NET" Value="Public Property SortValue As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ SortValue { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>取得または設定しようとする項目のインデックスの項目の並べ替えに使用される値です。            <see cref="P:Microsoft.Exchange.WebServices.Data.NonIndexableItem.SortValue" />プロパティは、Exchange Online とのバージョンの Exchange が Exchange Server 2013 以降を対象とするクライアントに適用します。</summary>
+        <value>並べ替えの値です。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

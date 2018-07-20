@@ -1,0 +1,170 @@
+<Type Name="ServiceId" FullName="Microsoft.Exchange.WebServices.Data.ServiceId">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="9f78c5b828f97271afd242bc6144bb1b5373d6f7" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ja-JP" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20626212" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public abstract class ServiceId : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit ServiceId extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ServiceId" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class ServiceId&#xA;Inherits ComplexProperty" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ServiceId abstract : Microsoft::Exchange::WebServices::Data::ComplexProperty" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ComplexProperty</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Exchange オブジェクトの Id を表します。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ChangeKey">
+      <MemberSignature Language="C#" Value="public string ChangeKey { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ChangeKey" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ServiceId.ChangeKey" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ChangeKey As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ChangeKey { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Exchange オブジェクトに関連付けられているキーの変更を取得します。</summary>
+        <value>文字列値</value>
+        <remarks>
+          <para>キーの変更は、関連付けられているアイテムまたはフォルダーのバージョンを表します。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Equals">
+      <MemberSignature Language="C#" Value="public override bool Equals (object obj);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool Equals(object obj) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ServiceId.Equals(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function Equals (obj As Object) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override bool Equals(System::Object ^ obj);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="obj" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="obj">現在の System.Object と比較する System.Object です。</param>
+        <summary>指定したの項目が現在と同じかどうかを決定します。</summary>
+        <returns>指定されたこれが現在の System.Object です。それ以外の場合、false です。</returns>
+        <remarks>
+          <para>ServiceId.Equals の私たちの変更キーを考慮しません。</para>
+          <para />
+        </remarks>
+        <exception cref="T:System.NullReferenceException">
+          <paramref name="obj" />パラメーターが null です。</exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetHashCode">
+      <MemberSignature Language="C#" Value="public override int GetHashCode ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance int32 GetHashCode() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ServiceId.GetHashCode" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function GetHashCode () As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override int GetHashCode();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>特定の型のハッシュ関数として機能します。</summary>
+        <returns>現在 System.Object のハッシュ コード。</returns>
+        <remarks>
+          <para>ハッシュ コードの計算にキーの変更を考えていません。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SameIdAndChangeKey">
+      <MemberSignature Language="C#" Value="public bool SameIdAndChangeKey (Microsoft.Exchange.WebServices.Data.ServiceId other);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool SameIdAndChangeKey(class Microsoft.Exchange.WebServices.Data.ServiceId other) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ServiceId.SameIdAndChangeKey(Microsoft.Exchange.WebServices.Data.ServiceId)" />
+      <MemberSignature Language="VB.NET" Value="Public Function SameIdAndChangeKey (other As ServiceId) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool SameIdAndChangeKey(Microsoft::Exchange::WebServices::Data::ServiceId ^ other);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="other" Type="Microsoft.Exchange.WebServices.Data.ServiceId" />
+      </Parameters>
+      <Docs>
+        <param name="other">現在の ServiceId と比較する ServiceId。</param>
+        <summary>ServiceId の 2 つのインスタンスは (ChangeKeys を含む) と等しいかどうかを決定します。</summary>
+        <returns>2 つのインスタンスが等しい場合は true。それ以外の場合、false です。</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToString">
+      <MemberSignature Language="C#" Value="public override string ToString ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance string ToString() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ServiceId.ToString" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function ToString () As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override System::String ^ ToString();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>現在 System.Object を表す System.String を返します。</summary>
+        <returns>現在 System.Object を表す System.String です。</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UniqueId">
+      <MemberSignature Language="C#" Value="public string UniqueId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string UniqueId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ServiceId.UniqueId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property UniqueId As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ UniqueId { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Exchange オブジェクトの一意の Id を取得します。</summary>
+        <value>文字列値。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

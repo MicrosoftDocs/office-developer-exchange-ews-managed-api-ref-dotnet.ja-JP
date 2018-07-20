@@ -1,0 +1,153 @@
+<Type Name="RuleCollection" FullName="Microsoft.Exchange.WebServices.Data.RuleCollection">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="1f5ac4bbf1e731d05a4ec8ea012a92827fc57c47" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ja-JP" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20625611" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class RuleCollection : Microsoft.Exchange.WebServices.Data.ComplexProperty, System.Collections.Generic.IEnumerable&lt;Microsoft.Exchange.WebServices.Data.Rule&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit RuleCollection extends Microsoft.Exchange.WebServices.Data.ComplexProperty implements class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Exchange.WebServices.Data.Rule&gt;, class System.Collections.IEnumerable" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.RuleCollection" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class RuleCollection&#xA;Inherits ComplexProperty&#xA;Implements IEnumerable(Of Rule)" />
+  <TypeSignature Language="C++ CLI" Value="public ref class RuleCollection sealed : Microsoft::Exchange::WebServices::Data::ComplexProperty, System::Collections::Generic::IEnumerable&lt;Microsoft::Exchange::WebServices::Data::Rule ^&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ComplexProperty</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>System.Collections.Generic.IEnumerable&lt;Microsoft.Exchange.WebServices.Data.Rule&gt;</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>ルールのコレクションを表します。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Count">
+      <MemberSignature Language="C#" Value="public int Count { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Count" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RuleCollection.Count" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Count As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Count { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>ルール コレクションには、ルールの数を取得します。</summary>
+        <value>規則のコレクション内のルールの数。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetEnumerator">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IEnumerator&lt;Microsoft.Exchange.WebServices.Data.Rule&gt; GetEnumerator ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.Generic.IEnumerator`1&lt;class Microsoft.Exchange.WebServices.Data.Rule&gt; GetEnumerator() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.RuleCollection.GetEnumerator" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetEnumerator () As IEnumerator(Of Rule)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Collections::Generic::IEnumerator&lt;Microsoft::Exchange::WebServices::Data::Rule ^&gt; ^ GetEnumerator();" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Collections.Generic.IEnumerable`1.GetEnumerator</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IEnumerator&lt;Microsoft.Exchange.WebServices.Data.Rule&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>コレクション内のオブジェクトを反復処理できる列挙子を返します。</summary>
+        <returns>コレクションの繰り返しに使用できる列挙子。</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.Rule this[int index] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.Rule Item(int32)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RuleCollection.Item(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Default Public ReadOnly Property Item(index As Integer) As Rule" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::Rule ^ default[int] { Microsoft::Exchange::WebServices::Data::Rule ^ get(int index); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Rule</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="index" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="index">ルールを取得するの 0 から始まるインデックス。</param>
+        <summary>コレクション内の指定したインデックス位置のルールを取得します。</summary>
+        <value>コレクション内の指定したインデックス位置の規則です。</value>
+        <remarks>
+          <para>
+            <see cref="P:Microsoft.Exchange.WebServices.Data.RuleCollection.Item(System.Int32)" />プロパティを使用する特定を取得するために<see cref="T:Microsoft.Exchange.WebServices.Data.Rule" />コレクション内のオブジェクト。使用することができますコレクションを列挙する場合、<see cref="M:Microsoft.Exchange.WebServices.Data.RuleCollection.GetEnumerator" />標準的な方法でメソッドです。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OutlookRuleBlobExists">
+      <MemberSignature Language="C#" Value="public bool OutlookRuleBlobExists { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool OutlookRuleBlobExists" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RuleCollection.OutlookRuleBlobExists" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property OutlookRuleBlobExists As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool OutlookRuleBlobExists { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Outlook ルール blob がユーザーのメールボックスに存在するかどうかを示す値を取得します。</summary>
+        <value>
+          <b>true の</b>場合は Outlook のルールの blob が存在します。それ以外の場合、 <b>false を指定</b>します。</value>
+        <remarks>
+          <para>使用することができます、<see cref="P:Microsoft.Exchange.WebServices.Data.RuleCollection.OutlookRuleBlobExists" />を送信する前にユーザーに確認するかどうかを確認するに、<see cref="M:Microsoft.Exchange.WebServices.Data.ExchangeService.UpdateInboxRules(System.Collections.Generic.IEnumerable{Microsoft.Exchange.WebServices.Data.RuleOperation},System.Boolean)" />メソッドです</para>。
+          <para>Outlook ルールの blob が存在する場合は、ルールを更新するには、呼び出し、<see cref="M:Microsoft.Exchange.WebServices.Data.ExchangeService.UpdateInboxRules(System.Collections.Generic.IEnumerable{Microsoft.Exchange.WebServices.Data.RuleOperation},System.Boolean)" />の値として<b>true</b>を渡す方法、<paramref name="removeOutlookRuleBlob" />パラメーターです</para>。
+          <para /></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="System.Collections.IEnumerable.GetEnumerator">
+      <MemberSignature Language="C#" Value="System.Collections.IEnumerator IEnumerable.GetEnumerator ();" />
+      <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance class System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.RuleCollection.System#Collections#IEnumerable#GetEnumerator" />
+      <MemberSignature Language="VB.NET" Value="Function GetEnumerator () As IEnumerator Implements IEnumerable.GetEnumerator" />
+      <MemberSignature Language="C++ CLI" Value=" virtual System::Collections::IEnumerator ^ System.Collections.IEnumerable.GetEnumerator() = System::Collections::IEnumerable::GetEnumerator;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Collections.IEnumerable.GetEnumerator</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.IEnumerator</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>コレクションの要素を反復処理する列挙子を取得します。             <see cref="M:Microsoft.Exchange.WebServices.Data.RuleCollection.System#Collections#IEnumerable#GetEnumerator" />メソッドは、Exchange Online とのバージョンの Exchange が Exchange Server 2013 以降を対象とするクライアントに適用します。</summary>
+        <returns>コレクションの要素を反復処理する列挙子。</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

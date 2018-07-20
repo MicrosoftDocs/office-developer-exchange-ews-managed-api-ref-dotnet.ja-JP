@@ -1,0 +1,181 @@
+<Type Name="AppIdentityToken" FullName="Microsoft.Exchange.WebServices.Auth.Validation.AppIdentityToken">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="b70795483db70f8748ae2e9e111e746bdc4eaa2c" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ja-JP" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20625990" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class AppIdentityToken : Microsoft.Exchange.WebServices.Auth.Validation.AuthToken" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit AppIdentityToken extends Microsoft.Exchange.WebServices.Auth.Validation.AuthToken" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Auth.Validation.AppIdentityToken" />
+  <TypeSignature Language="VB.NET" Value="Public Class AppIdentityToken&#xA;Inherits AuthToken" />
+  <TypeSignature Language="C++ CLI" Value="public ref class AppIdentityToken : Microsoft::Exchange::WebServices::Auth::Validation::AuthToken" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices.Auth</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Auth.Validation.AuthToken</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>プロパティと読み取りおよびアプリケーションの id トークンを検証するサービス アプリケーションに必要なメソッドを定義します。 <see cref="T:Microsoft.Exchange.WebServices.Auth.Validation.AppIdentityToken" />クラスは、Exchange Online とのバージョンの Exchange が Exchange Server 2013 以降を対象とするクライアントに適用します。</summary>
+    <remarks>
+      <para>
+        <a href="http://msdn.microsoft.com/en-us/library/office/fp179828.aspx">Exchange ユーザーのトークンを使用して、メール アプリケーションを認証</a>するために web サービスでこのクラスを使用することができます。</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Claims">
+      <MemberSignature Language="C#" Value="public Microsoft.IdentityModel.Claims.ClaimsIdentityCollection Claims { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.IdentityModel.Claims.ClaimsIdentityCollection Claims" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Auth.Validation.AppIdentityToken.Claims" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Claims As ClaimsIdentityCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::IdentityModel::Claims::ClaimsIdentityCollection ^ Claims { Microsoft::IdentityModel::Claims::ClaimsIdentityCollection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices.Auth</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.IdentityModel.Claims.ClaimsIdentityCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>要求の id のコレクションを取得します。 <see cref="P:Microsoft.Exchange.WebServices.Auth.Validation.AppIdentityToken.Claims" />プロパティは、Exchange Online とのバージョンの Exchange が Exchange Server 2013 以降を対象とするクライアントに適用します。</summary>
+        <value>要求の id のコレクションです。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExpirationDate">
+      <MemberSignature Language="C#" Value="public DateTime ExpirationDate { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime ExpirationDate" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Auth.Validation.AppIdentityToken.ExpirationDate" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ExpirationDate As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime ExpirationDate { DateTime get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices.Auth</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>有効期限の日付を取得します。 <see cref="P:Microsoft.Exchange.WebServices.Auth.Validation.AppIdentityToken.ExpirationDate" />プロパティは、Exchange Online とのバージョンの Exchange が Exchange Server 2013 以降を対象とするクライアントに適用します。</summary>
+        <value>有効期限の日付。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PublicKeyInfo">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Auth.Validation.PublicKeyInfo PublicKeyInfo { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Auth.Validation.PublicKeyInfo PublicKeyInfo" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Auth.Validation.AppIdentityToken.PublicKeyInfo" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PublicKeyInfo As PublicKeyInfo" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Auth::Validation::PublicKeyInfo ^ PublicKeyInfo { Microsoft::Exchange::WebServices::Auth::Validation::PublicKeyInfo ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices.Auth</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Auth.Validation.PublicKeyInfo</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>公開キー情報を取得します。 <see cref="P:Microsoft.Exchange.WebServices.Auth.Validation.AppIdentityToken.PublicKeyInfo" />プロパティは、Exchange Online とのバージョンの Exchange が Exchange Server 2013 以降を対象とするクライアントに適用します。</summary>
+        <value>公開キー情報です。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UniqueUserIdentification">
+      <MemberSignature Language="C#" Value="public string UniqueUserIdentification { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string UniqueUserIdentification" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Auth.Validation.AppIdentityToken.UniqueUserIdentification" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property UniqueUserIdentification As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ UniqueUserIdentification { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices.Auth</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>一意のユーザー id を取得します。 <see cref="P:Microsoft.Exchange.WebServices.Auth.Validation.AppIdentityToken.UniqueUserIdentification" />プロパティは、Exchange Online とのバージョンの Exchange が Exchange Server 2013 以降を対象とするクライアントに適用します。</summary>
+        <value>一意のユーザー id です。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Validate">
+      <MemberSignature Language="C#" Value="public void Validate (Uri extensionServiceHost);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Validate(class System.Uri extensionServiceHost) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Auth.Validation.AppIdentityToken.Validate(System.Uri)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Validate (extensionServiceHost As Uri)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Validate(Uri ^ extensionServiceHost);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices.Auth</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="extensionServiceHost" Type="System.Uri" />
+      </Parameters>
+      <Docs>
+        <param name="extensionServiceHost">拡張サービス ホストの URI。</param>
+        <summary>公開キーに、指定した統一リソース識別子 (URI) を使用してアプリケーションの id トークンを検証します。 <see cref="M:Microsoft.Exchange.WebServices.Auth.Validation.AppIdentityToken.Validate(System.Uri)" />メソッドは、Exchange Online とのバージョンの Exchange が Exchange Server 2013 以降を対象とするクライアントに適用します。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Validate">
+      <MemberSignature Language="C#" Value="public void Validate (Uri extensionServiceHost, string catchedKey);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Validate(class System.Uri extensionServiceHost, string catchedKey) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Auth.Validation.AppIdentityToken.Validate(System.Uri,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Validate (extensionServiceHost As Uri, catchedKey As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Validate(Uri ^ extensionServiceHost, System::String ^ catchedKey);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices.Auth</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="extensionServiceHost" Type="System.Uri" />
+        <Parameter Name="catchedKey" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="extensionServiceHost">拡張サービス ホストの URI。</param>
+        <param name="catchedKey">キャッシュ キー。</param>
+        <summary>公開キーに、指定した統一リソース識別子 (URI) を使用してキャッシュされているアプリケーションの id トークンを検証します。 <see cref="M:Microsoft.Exchange.WebServices.Auth.Validation.AppIdentityToken.Validate(System.Uri,System.String)" />メソッドは、Exchange Online とのバージョンの Exchange が Exchange Server 2013 以降を対象とするクライアントに適用します。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Version">
+      <MemberSignature Language="C#" Value="public string Version { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Version" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Auth.Validation.AppIdentityToken.Version" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Version As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Version { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices.Auth</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>要求のバージョンを取得します。 <see cref="P:Microsoft.Exchange.WebServices.Auth.Validation.AppIdentityToken.Version" />プロパティは、Exchange Online とのバージョンの Exchange が Exchange Server 2013 以降を対象とするクライアントに適用します。</summary>
+        <value>バージョン文字列。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

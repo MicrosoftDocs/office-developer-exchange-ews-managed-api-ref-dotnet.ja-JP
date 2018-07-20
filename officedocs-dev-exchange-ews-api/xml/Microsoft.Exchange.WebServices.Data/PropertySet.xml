@@ -1,0 +1,651 @@
+<Type Name="PropertySet" FullName="Microsoft.Exchange.WebServices.Data.PropertySet">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="a66eac0127ccc25e96b2f298bdaf6b5b1bac5dc7" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ja-JP" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20625995" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class PropertySet : System.Collections.Generic.IEnumerable&lt;Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit PropertySet extends System.Object implements class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase&gt;, class System.Collections.IEnumerable" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.PropertySet" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class PropertySet&#xA;Implements IEnumerable(Of PropertyDefinitionBase)" />
+  <TypeSignature Language="C++ CLI" Value="public ref class PropertySet sealed : System::Collections::Generic::IEnumerable&lt;Microsoft::Exchange::WebServices::Data::PropertyDefinitionBase ^&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>System.Collections.Generic.IEnumerable&lt;Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase&gt;</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>アイテムまたはフォルダーのプロパティのセットを表します。</summary>
+    <remarks>
+      <para>プロパティ セットを使用すると、既存のアイテムまたはフォルダーにバインドするとき、またはアイテムまたはフォルダーのプロパティを読み込むときに、アイテムまたはフォルダーのプロパティを読み込む必要がありますを指定します。</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public PropertySet ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.PropertySet.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; PropertySet();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>ID に基づいて、プロパティ設定クラスの新しいインスタンスを初期化します。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public PropertySet (Microsoft.Exchange.WebServices.Data.BasePropertySet basePropertySet);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Microsoft.Exchange.WebServices.Data.BasePropertySet basePropertySet) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.PropertySet.#ctor(Microsoft.Exchange.WebServices.Data.BasePropertySet)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; PropertySet(Microsoft::Exchange::WebServices::Data::BasePropertySet basePropertySet);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="basePropertySet" Type="Microsoft.Exchange.WebServices.Data.BasePropertySet" />
+      </Parameters>
+      <Docs>
+        <param name="basePropertySet">基本プロパティ、プロパティの設定を基に設定。</param>
+        <summary>基本プロパティを指定した設定に基づいて、プロパティ設定クラスの新しいインスタンスを初期化します。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public PropertySet (params Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase[] additionalProperties);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase[] additionalProperties) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.PropertySet.#ctor(Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase[])" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (ParamArray additionalProperties As PropertyDefinitionBase())" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; PropertySet(... cli::array &lt;Microsoft::Exchange::WebServices::Data::PropertyDefinitionBase ^&gt; ^ additionalProperties);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="additionalProperties" Type="Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="additionalProperties">プロパティに含める追加のプロパティを設定します。 プロパティ定義は、(たとえば、EmailMessageSchema.Subject、AppointmentSchema.Start、ContactSchema.GivenName などの) のスキーマ クラスの静的メンバーとして使用します。</param>
+        <summary>ID と、指定したその他のプロパティに基づいてプロパティ設定クラスの新しいインスタンスを初期化します。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public PropertySet (System.Collections.Generic.IEnumerable&lt;Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase&gt; additionalProperties);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase&gt; additionalProperties) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.PropertySet.#ctor(System.Collections.Generic.IEnumerable{Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase})" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (additionalProperties As IEnumerable(Of PropertyDefinitionBase))" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; PropertySet(System::Collections::Generic::IEnumerable&lt;Microsoft::Exchange::WebServices::Data::PropertyDefinitionBase ^&gt; ^ additionalProperties);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="additionalProperties" Type="System.Collections.Generic.IEnumerable&lt;Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="additionalProperties">プロパティに含める追加のプロパティを設定します。 プロパティ定義は、(たとえば、EmailMessageSchema.Subject、AppointmentSchema.Start、ContactSchema.GivenName などの) のスキーマ クラスの静的メンバーとして使用します。</param>
+        <summary>ID とその他のプロパティの指定したコレクションに基づいて、プロパティ設定クラスの新しいインスタンスを初期化します。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public PropertySet (Microsoft.Exchange.WebServices.Data.BasePropertySet basePropertySet, params Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase[] additionalProperties);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Microsoft.Exchange.WebServices.Data.BasePropertySet basePropertySet, class Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase[] additionalProperties) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.PropertySet.#ctor(Microsoft.Exchange.WebServices.Data.BasePropertySet,Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase[])" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; PropertySet(Microsoft::Exchange::WebServices::Data::BasePropertySet basePropertySet, ... cli::array &lt;Microsoft::Exchange::WebServices::Data::PropertyDefinitionBase ^&gt; ^ additionalProperties);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="basePropertySet" Type="Microsoft.Exchange.WebServices.Data.BasePropertySet" />
+        <Parameter Name="additionalProperties" Type="Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="basePropertySet">基本プロパティ、プロパティの設定を基に設定。</param>
+        <param name="additionalProperties">プロパティに含める追加のプロパティを設定します。</param>
+        <summary>基本プロパティを指定したセットとその他のプロパティを使用して、プロパティ設定クラスの新しいインスタンスを初期化します。</summary>
+        <remarks>
+          <para>プロパティ定義は、(たとえば、EmailMessageSchema.Subject、AppointmentSchema.Start、ContactSchema.GivenName などの) のスキーマ クラスの静的メンバーとして使用</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public PropertySet (Microsoft.Exchange.WebServices.Data.BasePropertySet basePropertySet, System.Collections.Generic.IEnumerable&lt;Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase&gt; additionalProperties);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Microsoft.Exchange.WebServices.Data.BasePropertySet basePropertySet, class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase&gt; additionalProperties) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.PropertySet.#ctor(Microsoft.Exchange.WebServices.Data.BasePropertySet,System.Collections.Generic.IEnumerable{Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase})" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; PropertySet(Microsoft::Exchange::WebServices::Data::BasePropertySet basePropertySet, System::Collections::Generic::IEnumerable&lt;Microsoft::Exchange::WebServices::Data::PropertyDefinitionBase ^&gt; ^ additionalProperties);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="basePropertySet" Type="Microsoft.Exchange.WebServices.Data.BasePropertySet" />
+        <Parameter Name="additionalProperties" Type="System.Collections.Generic.IEnumerable&lt;Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="basePropertySet">基本プロパティ、プロパティの設定を基に設定。</param>
+        <param name="additionalProperties">プロパティに含める追加のプロパティを設定します。 プロパティ定義は、(たとえば、EmailMessageSchema.Subject、AppointmentSchema.Start、ContactSchema.GivenName、およびなど。) のスキーマ クラスの静的メンバーとして使用</param>
+        <summary>基本プロパティを指定したセットとその他のプロパティのコレクションを使用して、プロパティ設定クラスの新しいインスタンスを初期化します。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Add">
+      <MemberSignature Language="C#" Value="public void Add (Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase property);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Add(class Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase property) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.PropertySet.Add(Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Add (property As PropertyDefinitionBase)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Add(Microsoft::Exchange::WebServices::Data::PropertyDefinitionBase ^ property);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="property" Type="Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase" />
+      </Parameters>
+      <Docs>
+        <param name="property">追加するプロパティです。</param>
+        <summary>指定されたプロパティをプロパティ セットに追加します。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddBlankTargetToLinks">
+      <MemberSignature Language="C#" Value="public Nullable&lt;bool&gt; AddBlankTargetToLinks { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; AddBlankTargetToLinks" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PropertySet.AddBlankTargetToLinks" />
+      <MemberSignature Language="VB.NET" Value="Public Property AddBlankTargetToLinks As Nullable(Of Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;bool&gt; AddBlankTargetToLinks { Nullable&lt;bool&gt; get(); void set(Nullable&lt;bool&gt; value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>取得またはアンカー リンクに空のターゲット属性を追加するかどうかを示す値を設定します。             <see cref="P:Microsoft.Exchange.WebServices.Data.PropertySet.AddBlankTargetToLinks" />プロパティは、Exchange Online とのバージョンの Exchange が Exchange Server 2013 以降を対象とするクライアントに適用します。</summary>
+        <value>
+          <b>true</b>に追加する、空のターゲット属性アンカー リンクがあります。それ以外の場合、 <b>false を指定</b>します。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddRange">
+      <MemberSignature Language="C#" Value="public void AddRange (System.Collections.Generic.IEnumerable&lt;Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase&gt; properties);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void AddRange(class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase&gt; properties) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.PropertySet.AddRange(System.Collections.Generic.IEnumerable{Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase})" />
+      <MemberSignature Language="VB.NET" Value="Public Sub AddRange (properties As IEnumerable(Of PropertyDefinitionBase))" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void AddRange(System::Collections::Generic::IEnumerable&lt;Microsoft::Exchange::WebServices::Data::PropertyDefinitionBase ^&gt; ^ properties);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="properties" Type="System.Collections.Generic.IEnumerable&lt;Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="properties">追加するプロパティです。</param>
+        <summary>指定されたプロパティをプロパティ セットに追加します。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BasePropertySet">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.BasePropertySet BasePropertySet { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.BasePropertySet BasePropertySet" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PropertySet.BasePropertySet" />
+      <MemberSignature Language="VB.NET" Value="Public Property BasePropertySet As BasePropertySet" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::BasePropertySet BasePropertySet { Microsoft::Exchange::WebServices::Data::BasePropertySet get(); void set(Microsoft::Exchange::WebServices::Data::BasePropertySet value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.BasePropertySet</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>取得またはプロパティ セットに基づいてプロパティの基本設定を設定します。</summary>
+        <value>基本プロパティは、プロパティ セットに基づいているを設定します。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BlockExternalImages">
+      <MemberSignature Language="C#" Value="public Nullable&lt;bool&gt; BlockExternalImages { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; BlockExternalImages" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PropertySet.BlockExternalImages" />
+      <MemberSignature Language="VB.NET" Value="Public Property BlockExternalImages As Nullable(Of Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;bool&gt; BlockExternalImages { Nullable&lt;bool&gt; get(); void set(Nullable&lt;bool&gt; value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>取得またはインライン イメージをイメージ ファイルを指す Url を変換するかどうかを示す値を設定します。             <see cref="P:Microsoft.Exchange.WebServices.Data.PropertySet.BlockExternalImages" />プロパティは、Exchange Online とのバージョンの Exchange が Exchange Server 2013 以降を対象とするクライアントに適用します。</summary>
+        <value>
+          <b>true の</b>場合、イメージ ファイルを指す Url に変換するインライン イメージです。それ以外の場合、 <b>false を指定</b>します。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Clear">
+      <MemberSignature Language="C#" Value="public void Clear ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Clear() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.PropertySet.Clear" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Clear ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Clear();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>明示的に追加されたすべてのプロパティをプロパティ セットから削除します。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Contains">
+      <MemberSignature Language="C#" Value="public bool Contains (Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase property);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool Contains(class Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase property) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.PropertySet.Contains(Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Contains (property As PropertyDefinitionBase) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool Contains(Microsoft::Exchange::WebServices::Data::PropertyDefinitionBase ^ property);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="property" Type="Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase" />
+      </Parameters>
+      <Docs>
+        <param name="property">プロパティです。</param>
+        <summary>このプロパティを追加または AddRange メソッドを使用して設定を指定したプロパティが明示的に追加されたかどうかを決定します。</summary>
+        <returns>
+          <b>true の</b>場合、このプロパティ セットには、指定されたプロパティが含まれています。それ以外の場合、 <b>false を指定</b>します。</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConvertHtmlCodePageToUTF8">
+      <MemberSignature Language="C#" Value="public Nullable&lt;bool&gt; ConvertHtmlCodePageToUTF8 { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; ConvertHtmlCodePageToUTF8" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PropertySet.ConvertHtmlCodePageToUTF8" />
+      <MemberSignature Language="VB.NET" Value="Public Property ConvertHtmlCodePageToUTF8 As Nullable(Of Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;bool&gt; ConvertHtmlCodePageToUTF8 { Nullable&lt;bool&gt; get(); void set(Nullable&lt;bool&gt; value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>取得またはサーバーが UTF8 エンコーディングを HTML のコード ページを変換する必要があるかどうかを示す値を設定します。</summary>
+        <value>
+          <b>true の</b>場合は、サーバーは UTF9; に HTML のコード ページを変換する必要があります。それ以外の場合、 <b>false を指定</b>します。 このプロパティは、null 参照 (Visual Basic では Nothing) である場合があります。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Count">
+      <MemberSignature Language="C#" Value="public int Count { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Count" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PropertySet.Count" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Count As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Count { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>このセットに明示的に追加されたプロパティの数を取得します。</summary>
+        <value>指定したプロパティに明示的に追加されたプロパティの数を設定します。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FilterHtmlContent">
+      <MemberSignature Language="C#" Value="public Nullable&lt;bool&gt; FilterHtmlContent { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; FilterHtmlContent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PropertySet.FilterHtmlContent" />
+      <MemberSignature Language="VB.NET" Value="Public Property FilterHtmlContent As Nullable(Of Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;bool&gt; FilterHtmlContent { Nullable&lt;bool&gt; get(); void set(Nullable&lt;bool&gt; value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>取得またはメッセージ本文のコンテンツを安全でない HTML のフィルターを適用するかどうかを示す値を設定します。</summary>
+        <value>
+          <b>true の</b>安全でない HTML コンテンツをフィルター処理するにはそれ以外の場合、 <b>false を指定</b>します。 このプロパティは、null 参照 (Visual Basic では Nothing) をすることができます。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FirstClassProperties">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertySet FirstClassProperties;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertySet FirstClassProperties" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.PropertySet.FirstClassProperties" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly FirstClassProperties As PropertySet " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertySet ^ FirstClassProperties;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertySet</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>アイテムまたはフォルダーの最上位のプロパティを含む定義済みのプロパティのセットです。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetEnumerator">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IEnumerator&lt;Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase&gt; GetEnumerator ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.Generic.IEnumerator`1&lt;class Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase&gt; GetEnumerator() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.PropertySet.GetEnumerator" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetEnumerator () As IEnumerator(Of PropertyDefinitionBase)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Collections::Generic::IEnumerator&lt;Microsoft::Exchange::WebServices::Data::PropertyDefinitionBase ^&gt; ^ GetEnumerator();" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Collections.Generic.IEnumerable`1.GetEnumerator</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IEnumerator&lt;Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>コレクションを反復処理する列挙子を返します。</summary>
+        <returns>コレクションで繰り返しに使用できる IEnumerator オブジェクト。</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IdOnly">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertySet IdOnly;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertySet IdOnly" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.PropertySet.IdOnly" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly IdOnly As PropertySet " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertySet ^ IdOnly;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertySet</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>定義済みのプロパティだけを設定するには、ID プロパティが含まれています。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InlineImageUrlTemplate">
+      <MemberSignature Language="C#" Value="public string InlineImageUrlTemplate { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string InlineImageUrlTemplate" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PropertySet.InlineImageUrlTemplate" />
+      <MemberSignature Language="VB.NET" Value="Public Property InlineImageUrlTemplate As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ InlineImageUrlTemplate { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>取得またはインライン イメージに使用するテンプレートの URL を設定します。             <see cref="P:Microsoft.Exchange.WebServices.Data.PropertySet.InlineImageUrlTemplate" />プロパティは、Exchange Online とのバージョンの Exchange が Exchange Server 2013 以降を対象とするクライアントに適用します。</summary>
+        <value>インライン イメージに使用するテンプレートの URL です。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase this[int index] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase Item(int32)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PropertySet.Item(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Default Public ReadOnly Property Item(index As Integer) As PropertyDefinitionBase" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::PropertyDefinitionBase ^ default[int] { Microsoft::Exchange::WebServices::Data::PropertyDefinitionBase ^ get(int index); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="index" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="index">プロパティで要求されたプロパティのインデックスを設定します。</param>
+        <summary>指定した index のアイテムを取得します。            <see cref="P:Microsoft.Exchange.WebServices.Data.PropertySet.Item(System.Int32)" />プロパティは、Exchange Online とのバージョンの Exchange が Exchange Server 2013 以降を対象とするクライアントに適用します。</summary>
+        <value>指定したインデックス位置にある項目です。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MaximumBodySize">
+      <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; MaximumBodySize { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; MaximumBodySize" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PropertySet.MaximumBodySize" />
+      <MemberSignature Language="VB.NET" Value="Public Property MaximumBodySize As Nullable(Of Integer)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;int&gt; MaximumBodySize { Nullable&lt;int&gt; get(); void set(Nullable&lt;int&gt; value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>取得または取得する本文の最大サイズを設定します。             <see cref="P:Microsoft.Exchange.WebServices.Data.PropertySet.MaximumBodySize" />プロパティは、Exchange Online とのバージョンの Exchange が Exchange Server 2013 以降を対象とするクライアントに適用します。</summary>
+        <value>取得する本文の最大サイズです。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Implicit">
+      <MemberSignature Language="C#" Value="public static implicit operator Microsoft.Exchange.WebServices.Data.PropertySet (Microsoft.Exchange.WebServices.Data.BasePropertySet basePropertySet);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname class Microsoft.Exchange.WebServices.Data.PropertySet op_Implicit(valuetype Microsoft.Exchange.WebServices.Data.BasePropertySet basePropertySet) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.PropertySet.op_Implicit(Microsoft.Exchange.WebServices.Data.BasePropertySet)~Microsoft.Exchange.WebServices.Data.PropertySet" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static operator Microsoft::Exchange::WebServices::Data::PropertySet ^(Microsoft::Exchange::WebServices::Data::BasePropertySet basePropertySet);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertySet</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="basePropertySet" Type="Microsoft.Exchange.WebServices.Data.BasePropertySet" />
+      </Parameters>
+      <Docs>
+        <param name="basePropertySet">変換する BasePropertySet の値です。</param>
+        <summary>プロパティ設定のクラスと BasePropertySet クラスの間の暗黙の変換を実装します。</summary>
+        <returns>プロパティ設定のインスタンスで、基本プロパティを指定したセットに基づきます。</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Remove">
+      <MemberSignature Language="C#" Value="public bool Remove (Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase property);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool Remove(class Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase property) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.PropertySet.Remove(Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Remove (property As PropertyDefinitionBase) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool Remove(Microsoft::Exchange::WebServices::Data::PropertyDefinitionBase ^ property);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="property" Type="Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase" />
+      </Parameters>
+      <Docs>
+        <param name="property">削除するプロパティです。</param>
+        <summary>セットから指定されたプロパティを削除します。</summary>
+        <returns>
+          <b>true の</b>場合は、プロパティが正常に削除されました。それ以外の場合、 <b>false を指定</b>します。</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RequestedBodyType">
+      <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Exchange.WebServices.Data.BodyType&gt; RequestedBodyType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Exchange.WebServices.Data.BodyType&gt; RequestedBodyType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PropertySet.RequestedBodyType" />
+      <MemberSignature Language="VB.NET" Value="Public Property RequestedBodyType As Nullable(Of BodyType)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;Microsoft::Exchange::WebServices::Data::BodyType&gt; RequestedBodyType { Nullable&lt;Microsoft::Exchange::WebServices::Data::BodyType&gt; get(); void set(Nullable&lt;Microsoft::Exchange::WebServices::Data::BodyType&gt; value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Microsoft.Exchange.WebServices.Data.BodyType&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>取得または項目を読み込む必要のある本文の種類を設定します。</summary>
+        <value>BodyType 列挙値の 1 つです。 このプロパティは、null 参照 (Visual Basic では Nothing) をすることができます。</value>
+        <remarks>
+          <para>場合、<see cref="P:Microsoft.Exchange.WebServices.Data.PropertySet.RequestedBodyType" />プロパティが null 参照 (Visual Basic) では、アイテムの本文は html 形式の場合は使用できません。それ以外の場合、本文がテキスト形式で返されます。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RequestedNormalizedBodyType">
+      <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Exchange.WebServices.Data.BodyType&gt; RequestedNormalizedBodyType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Exchange.WebServices.Data.BodyType&gt; RequestedNormalizedBodyType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PropertySet.RequestedNormalizedBodyType" />
+      <MemberSignature Language="VB.NET" Value="Public Property RequestedNormalizedBodyType As Nullable(Of BodyType)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;Microsoft::Exchange::WebServices::Data::BodyType&gt; RequestedNormalizedBodyType { Nullable&lt;Microsoft::Exchange::WebServices::Data::BodyType&gt; get(); void set(Nullable&lt;Microsoft::Exchange::WebServices::Data::BodyType&gt; value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Microsoft.Exchange.WebServices.Data.BodyType&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>取得または設定を読み込む必要のある本体の種類、<see cref="P:Microsoft.Exchange.WebServices.Data.Item.NormalizedBody" />の項目のプロパティ。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Null の場合、<see cref="P:Microsoft.Exchange.WebServices.Data.Item.NormalizedBody" />と同じ型を持つ、<see cref="P:Microsoft.Exchange.WebServices.Data.Item.Body" />プロパティ。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RequestedUniqueBodyType">
+      <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Exchange.WebServices.Data.BodyType&gt; RequestedUniqueBodyType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Exchange.WebServices.Data.BodyType&gt; RequestedUniqueBodyType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PropertySet.RequestedUniqueBodyType" />
+      <MemberSignature Language="VB.NET" Value="Public Property RequestedUniqueBodyType As Nullable(Of BodyType)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;Microsoft::Exchange::WebServices::Data::BodyType&gt; RequestedUniqueBodyType { Nullable&lt;Microsoft::Exchange::WebServices::Data::BodyType&gt; get(); void set(Nullable&lt;Microsoft::Exchange::WebServices::Data::BodyType&gt; value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Microsoft.Exchange.WebServices.Data.BodyType&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>取得または設定を読み込む必要のある本体の種類、<see cref="P:Microsoft.Exchange.WebServices.Data.Item.UniqueBody" />の項目のプロパティ。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Null の場合、<see cref="P:Microsoft.Exchange.WebServices.Data.Item.UniqueBody" />と同じ型を持つ、<see cref="P:Microsoft.Exchange.WebServices.Data.Item.Body" />プロパティ。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="System.Collections.IEnumerable.GetEnumerator">
+      <MemberSignature Language="C#" Value="System.Collections.IEnumerator IEnumerable.GetEnumerator ();" />
+      <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance class System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.PropertySet.System#Collections#IEnumerable#GetEnumerator" />
+      <MemberSignature Language="VB.NET" Value="Function GetEnumerator () As IEnumerator Implements IEnumerable.GetEnumerator" />
+      <MemberSignature Language="C++ CLI" Value=" virtual System::Collections::IEnumerator ^ System.Collections.IEnumerable.GetEnumerator() = System::Collections::IEnumerable::GetEnumerator;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Collections.IEnumerable.GetEnumerator</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.IEnumerator</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>コレクションを反復処理する列挙子を返します。            <see cref="M:Microsoft.Exchange.WebServices.Data.PropertySet.System#Collections#IEnumerable#GetEnumerator" />メソッドは、Exchange Online とのバージョンの Exchange が Exchange Server 2013 以降を対象とするクライアントに適用します。</summary>
+        <returns>コレクションの要素を反復処理する列挙子。</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

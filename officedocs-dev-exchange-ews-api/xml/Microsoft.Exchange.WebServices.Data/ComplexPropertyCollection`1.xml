@@ -1,0 +1,186 @@
+<Type Name="ComplexPropertyCollection&lt;TComplexProperty&gt;" FullName="Microsoft.Exchange.WebServices.Data.ComplexPropertyCollection&lt;TComplexProperty&gt;">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="da975912edfea8574acf7deb8cf5b57e10da26b7" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ja-JP" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20625914" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public abstract class ComplexPropertyCollection&lt;TComplexProperty&gt; : Microsoft.Exchange.WebServices.Data.ComplexProperty, System.Collections.Generic.IEnumerable&lt;TComplexProperty&gt; where TComplexProperty : ComplexProperty" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit ComplexPropertyCollection`1&lt;(class Microsoft.Exchange.WebServices.Data.ComplexProperty) TComplexProperty&gt; extends Microsoft.Exchange.WebServices.Data.ComplexProperty implements class System.Collections.Generic.IEnumerable`1&lt;!TComplexProperty&gt;, class System.Collections.IEnumerable" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ComplexPropertyCollection`1" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class ComplexPropertyCollection(Of TComplexProperty)&#xA;Inherits ComplexProperty&#xA;Implements IEnumerable(Of TComplexProperty)" />
+  <TypeSignature Language="C++ CLI" Value="generic &lt;typename TComplexProperty&gt;&#xA; where TComplexProperty : ComplexPropertypublic ref class ComplexPropertyCollection abstract : Microsoft::Exchange::WebServices::Data::ComplexProperty, System::Collections::Generic::IEnumerable&lt;TComplexProperty&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <TypeParameters>
+    <TypeParameter Name="TComplexProperty">
+      <Constraints>
+        <BaseTypeName>Microsoft.Exchange.WebServices.Data.ComplexProperty</BaseTypeName>
+      </Constraints>
+    </TypeParameter>
+  </TypeParameters>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ComplexProperty</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>System.Collections.Generic.IEnumerable&lt;TComplexProperty&gt;</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <typeparam name="TComplexProperty">ComplexProperty タイプです。</typeparam>
+    <summary>送信および Exchange Web サービス (EWS) からの取得が可能なプロパティのコレクションを表します。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Contains">
+      <MemberSignature Language="C#" Value="public bool Contains (TComplexProperty complexProperty);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool Contains(!TComplexProperty complexProperty) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ComplexPropertyCollection`1.Contains(`0)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Contains (complexProperty As TComplexProperty) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool Contains(TComplexProperty complexProperty);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="complexProperty" Type="TComplexProperty" />
+      </Parameters>
+      <Docs>
+        <param name="complexProperty">コレクション内で検索するプロパティです。</param>
+        <summary>特定のプロパティがコレクション内にあるかどうかを決定します。</summary>
+        <returns>プロパティが見つかった場合、コレクションの場合は false それ以外の場合は true を指定します。</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Count">
+      <MemberSignature Language="C#" Value="public int Count { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Count" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ComplexPropertyCollection`1.Count" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Count As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Count { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>コレクション内のプロパティの合計数を取得します。</summary>
+        <value>整数値としてのプロパティの数です。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetEnumerator">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IEnumerator&lt;TComplexProperty&gt; GetEnumerator ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.Generic.IEnumerator`1&lt;!TComplexProperty&gt; GetEnumerator() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ComplexPropertyCollection`1.GetEnumerator" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetEnumerator () As IEnumerator(Of TComplexProperty)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Collections::Generic::IEnumerator&lt;TComplexProperty&gt; ^ GetEnumerator();" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Collections.Generic.IEnumerable`1.GetEnumerator</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IEnumerator&lt;TComplexProperty&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>コレクションの要素を反復処理する列挙子を取得します。</summary>
+        <returns>コレクションの IEnumerator。</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IndexOf">
+      <MemberSignature Language="C#" Value="public int IndexOf (TComplexProperty complexProperty);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance int32 IndexOf(!TComplexProperty complexProperty) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ComplexPropertyCollection`1.IndexOf(`0)" />
+      <MemberSignature Language="VB.NET" Value="Public Function IndexOf (complexProperty As TComplexProperty) As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; int IndexOf(TComplexProperty complexProperty);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="complexProperty" Type="TComplexProperty" />
+      </Parameters>
+      <Docs>
+        <param name="complexProperty">コレクション内で検索するプロパティです。</param>
+        <summary>特定のプロパティを検索し、そのコレクション内の 0 から始まるインデックスを返します。</summary>
+        <returns>プロパティ コレクション内の 0 から始まるインデックス。</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public TComplexProperty this[int index] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance !TComplexProperty Item(int32)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ComplexPropertyCollection`1.Item(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Default Public ReadOnly Property Item(index As Integer) As TComplexProperty" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property TComplexProperty default[int] { TComplexProperty get(int index); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TComplexProperty</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="index" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="index">取得するプロパティの 0 から始まるインデックス。</param>
+        <summary>指定したインデックス位置のプロパティを取得します。</summary>
+        <value>指定したインデックス位置プロパティです。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="System.Collections.IEnumerable.GetEnumerator">
+      <MemberSignature Language="C#" Value="System.Collections.IEnumerator IEnumerable.GetEnumerator ();" />
+      <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance class System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ComplexPropertyCollection`1.System#Collections#IEnumerable#GetEnumerator" />
+      <MemberSignature Language="VB.NET" Value="Function GetEnumerator () As IEnumerator Implements IEnumerable.GetEnumerator" />
+      <MemberSignature Language="C++ CLI" Value=" virtual System::Collections::IEnumerator ^ System.Collections.IEnumerable.GetEnumerator() = System::Collections::IEnumerable::GetEnumerator;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Collections.IEnumerable.GetEnumerator</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.IEnumerator</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>コレクションの要素を反復処理する列挙子を取得します。             <see cref="M:Microsoft.Exchange.WebServices.Data.DayOfTheWeekCollection.System#Collections#IEnumerable#GetEnumerator" />メソッドは、Exchange Online とのバージョンの Exchange が Exchange Server 2013 以降を対象とするクライアントに適用します。</summary>
+        <returns>コレクションの要素を反復処理する列挙子。</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

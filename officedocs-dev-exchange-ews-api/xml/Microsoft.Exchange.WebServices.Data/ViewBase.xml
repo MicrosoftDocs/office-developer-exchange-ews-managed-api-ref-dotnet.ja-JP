@@ -1,0 +1,57 @@
+<Type Name="ViewBase" FullName="Microsoft.Exchange.WebServices.Data.ViewBase">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="f152bbfa8d62bb48f8b1b2cf3489d7faa9714a9d" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ja-JP" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20625758" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public abstract class ViewBase" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit ViewBase extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ViewBase" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class ViewBase" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ViewBase abstract" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>検索操作のビューの基本クラスを表します。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="PropertySet">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.PropertySet PropertySet { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.PropertySet PropertySet" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ViewBase.PropertySet" />
+      <MemberSignature Language="VB.NET" Value="Public Property PropertySet As PropertySet" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::PropertySet ^ PropertySet { Microsoft::Exchange::WebServices::Data::PropertySet ^ get(); void set(Microsoft::Exchange::WebServices::Data::PropertySet ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertySet</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>取得またはプロパティのセットを設定します。 このプロパティでは、見つかったアイテムのプロパティが読み込まれますを決定します。 このプロパティが null 参照 (Visual Basic では Nothing) の場合は、見つかったアイテムの最上位のすべてのプロパティが読み込まれます。</summary>
+        <value>検索によって返されるアイテムにロードされるプロパティのセット。</value>
+        <remarks>
+          <para>プロパティ設定のプロパティは、検索で見つかった項目に返されるアイテムのプロパティを決定します。プロパティ設定が null 参照 (Visual Basic では Nothing) の場合は、検出された項目の最上位のすべてのプロパティが返されます。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

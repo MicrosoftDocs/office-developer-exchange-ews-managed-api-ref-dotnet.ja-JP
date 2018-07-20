@@ -1,0 +1,161 @@
+<Type Name="FailedSearchMailbox" FullName="Microsoft.Exchange.WebServices.Data.FailedSearchMailbox">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="a38c6e0e7eac30a7500be036575da360072b528c" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ja-JP" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20626058" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class FailedSearchMailbox" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit FailedSearchMailbox extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.FailedSearchMailbox" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class FailedSearchMailbox" />
+  <TypeSignature Language="C++ CLI" Value="public ref class FailedSearchMailbox sealed" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>失敗したメールボックスの検索を説明する情報が含まれています。             <see cref="T:Microsoft.Exchange.WebServices.Data.FailedSearchMailbox" />クラスは、Exchange Online とのバージョンの Exchange が Exchange Server 2013 以降を対象とするクライアントに適用します。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public FailedSearchMailbox (string mailbox, int errorCode, string errorMessage);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string mailbox, int32 errorCode, string errorMessage) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.FailedSearchMailbox.#ctor(System.String,System.Int32,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (mailbox As String, errorCode As Integer, errorMessage As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; FailedSearchMailbox(System::String ^ mailbox, int errorCode, System::String ^ errorMessage);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="mailbox" Type="System.String" />
+        <Parameter Name="errorCode" Type="System.Int32" />
+        <Parameter Name="errorMessage" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="mailbox">メールボックスが検索されます。</param>
+        <param name="errorCode">エラー コード。</param>
+        <param name="errorMessage">エラー メッセージ。</param>
+        <summary>新しいインスタンスを初期化、 <see cref="T:Microsoft.Exchange.WebServices.Data.FailedSearchMailbox" /> 、参照先のメールボックス上のクラスです。 <see cref="M:Microsoft.Exchange.WebServices.Data.FailedSearchMailbox.#ctor(System.String,System.Int32,System.String)" />コンス トラクターは、Exchange Online とのバージョンの Exchange が Exchange Server 2013 以降を対象とするクライアントに適用します。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public FailedSearchMailbox (string mailbox, int errorCode, string errorMessage, bool isArchive);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string mailbox, int32 errorCode, string errorMessage, bool isArchive) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.FailedSearchMailbox.#ctor(System.String,System.Int32,System.String,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (mailbox As String, errorCode As Integer, errorMessage As String, isArchive As Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; FailedSearchMailbox(System::String ^ mailbox, int errorCode, System::String ^ errorMessage, bool isArchive);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="mailbox" Type="System.String" />
+        <Parameter Name="errorCode" Type="System.Int32" />
+        <Parameter Name="errorMessage" Type="System.String" />
+        <Parameter Name="isArchive" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="mailbox">メールボックスの id。</param>
+        <param name="errorCode">エラー コード。</param>
+        <param name="errorMessage">エラー メッセージ。</param>
+        <param name="isArchive">
+          <b>true の</b>場合は、メールボックスのアーカイブです。それ以外の場合、 <b>false を指定</b>します。</param>
+        <summary>新しいインスタンスを初期化、<see cref="T:Microsoft.Exchange.WebServices.Data.FailedSearchMailbox" />の参照先のメールボックスが移動先のメールボックスは、アーカイブ メールボックスであるかどうかを指定するクラスです。 <see cref="M:Microsoft.Exchange.WebServices.Data.FailedSearchMailbox.#ctor(System.String,System.Int32,System.String,System.Boolean)" />コンス トラクターは、Exchange Online とのバージョンの Exchange が Exchange Server 2013 以降を対象とするクライアントに適用します。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ErrorCode">
+      <MemberSignature Language="C#" Value="public int ErrorCode { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 ErrorCode" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.FailedSearchMailbox.ErrorCode" />
+      <MemberSignature Language="VB.NET" Value="Public Property ErrorCode As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int ErrorCode { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>取得または、失敗した検索に関連付けられているエラー コードを設定します。             <see cref="P:Microsoft.Exchange.WebServices.Data.FailedSearchMailbox.ErrorCode" />プロパティは、Exchange Online とのバージョンの Exchange が Exchange Server 2013 以降を対象とするクライアントに適用します。</summary>
+        <value>エラー コード。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ErrorMessage">
+      <MemberSignature Language="C#" Value="public string ErrorMessage { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ErrorMessage" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.FailedSearchMailbox.ErrorMessage" />
+      <MemberSignature Language="VB.NET" Value="Public Property ErrorMessage As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ErrorMessage { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>取得または、失敗した検索に関連付けられているエラー メッセージを設定します。             <see cref="P:Microsoft.Exchange.WebServices.Data.FailedSearchMailbox.ErrorMessage" />プロパティは、Exchange Online とのバージョンの Exchange が Exchange Server 2013 以降を対象とするクライアントに適用します。</summary>
+        <value>エラー メッセージ。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsArchive">
+      <MemberSignature Language="C#" Value="public bool IsArchive { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsArchive" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.FailedSearchMailbox.IsArchive" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsArchive As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsArchive { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>取得または移動先のメールボックスが、アーカイブ メールボックスであるかどうかを設定します。             <see cref="P:Microsoft.Exchange.WebServices.Data.FailedSearchMailbox.IsArchive" />プロパティは、Exchange Online とのバージョンの Exchange が Exchange Server 2013 以降を対象とするクライアントに適用します。</summary>
+        <value>
+          <b>true の</b>場合は、アーカイブ メールボックスは、移動先のメールボックスそれ以外の場合、 <b>false を指定</b>します。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Mailbox">
+      <MemberSignature Language="C#" Value="public string Mailbox { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Mailbox" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.FailedSearchMailbox.Mailbox" />
+      <MemberSignature Language="VB.NET" Value="Public Property Mailbox As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Mailbox { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>取得または設定対象のメールボックス ID             <see cref="P:Microsoft.Exchange.WebServices.Data.FailedSearchMailbox.Mailbox" />プロパティは、Exchange Online とのバージョンの Exchange が Exchange Server 2013 以降を対象とするクライアントに適用します。</summary>
+        <value>メールボックスの id。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

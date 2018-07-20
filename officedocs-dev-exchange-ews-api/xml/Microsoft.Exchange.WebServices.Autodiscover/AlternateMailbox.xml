@@ -1,0 +1,149 @@
+<Type Name="AlternateMailbox" FullName="Microsoft.Exchange.WebServices.Autodiscover.AlternateMailbox">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="23e070683a8d43935cc2fbd90e53a87effb84747" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ja-JP" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20626220" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class AlternateMailbox" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit AlternateMailbox extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Autodiscover.AlternateMailbox" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class AlternateMailbox" />
+  <TypeSignature Language="C++ CLI" Value="public ref class AlternateMailbox sealed" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>ユーザーのメールボックスのいずれかの代替方法についての情報が含まれていますたとえば、ユーザーの受信トレイのアーカイブです。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="DisplayName">
+      <MemberSignature Language="C#" Value="public string DisplayName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DisplayName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Autodiscover.AlternateMailbox.DisplayName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DisplayName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ DisplayName { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>ユーザーに表示されている別のメールボックスの名前を取得します。</summary>
+        <value>代替メールボックスの表示名。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LegacyDN">
+      <MemberSignature Language="C#" Value="public string LegacyDN { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string LegacyDN" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Autodiscover.AlternateMailbox.LegacyDN" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LegacyDN As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ LegacyDN { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>代替メールボックスの従来のドメイン名を取得します。</summary>
+        <value>代替メールボックスの従来のドメイン名です。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OwnerSmtpAddress">
+      <MemberSignature Language="C#" Value="public string OwnerSmtpAddress { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string OwnerSmtpAddress" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Autodiscover.AlternateMailbox.OwnerSmtpAddress" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property OwnerSmtpAddress As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ OwnerSmtpAddress { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>代替メールボックスの所有者の SMTP アドレスを取得します。<see cref="P:Microsoft.Exchange.WebServices.Autodiscover.AlternateMailbox.OwnerSmtpAddress" />プロパティは、Exchange Online と 15.00.0847.032 以降の Exchange のバージョンを対象とするクライアントに適用します。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Server">
+      <MemberSignature Language="C#" Value="public string Server { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Server" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Autodiscover.AlternateMailbox.Server" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Server As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Server { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>代替メールボックスをホストするサーバーの名前を取得します。</summary>
+        <value>代替メールボックス サーバーの名前。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SmtpAddress">
+      <MemberSignature Language="C#" Value="public string SmtpAddress { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SmtpAddress" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Autodiscover.AlternateMailbox.SmtpAddress" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SmtpAddress As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ SmtpAddress { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>場合に、代替メールボックスの簡易メール転送プロトコル (SMTP) アドレスを取得、<see cref="P:Microsoft.Exchange.WebServices.Autodiscover.AlternateMailbox.Server" />と<see cref="P:Microsoft.Exchange.WebServices.Autodiscover.AlternateMailbox.LegacyDN" />のプロパティは、null 参照 (Visual Basic では Nothing) です。<see cref="P:Microsoft.Exchange.WebServices.Autodiscover.AlternateMailbox.SmtpAddress" />プロパティは、Exchange Online とのバージョンの Exchange が Exchange Server 2013 以降を対象とするクライアントに適用します。</summary>
+        <value>代替メールボックスの SMTP アドレスの場合、<see cref="P:Microsoft.Exchange.WebServices.Autodiscover.AlternateMailbox.Server" />と<see cref="P:Microsoft.Exchange.WebServices.Autodiscover.AlternateMailbox.LegacyDN" />のプロパティは、null 参照 (Visual Basic では Nothing) です。 それ以外の場合、null 値は参照 (Visual Basic では Nothing) です。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Type">
+      <MemberSignature Language="C#" Value="public string Type { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Type" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Autodiscover.AlternateMailbox.Type" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Type As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Type { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>別のメールボックスの種類を取得します。たとえば、アーカイブします。</summary>
+        <value>別のメールボックスの種類です。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

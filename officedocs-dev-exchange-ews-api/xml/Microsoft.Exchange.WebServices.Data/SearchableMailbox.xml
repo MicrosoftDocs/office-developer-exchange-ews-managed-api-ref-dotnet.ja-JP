@@ -1,0 +1,223 @@
+<Type Name="SearchableMailbox" FullName="Microsoft.Exchange.WebServices.Data.SearchableMailbox">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="8162c32391574af0a59694adda4e65fc47453286" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ja-JP" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20626442" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class SearchableMailbox" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit SearchableMailbox extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.SearchableMailbox" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class SearchableMailbox" />
+  <TypeSignature Language="C++ CLI" Value="public ref class SearchableMailbox sealed" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>メールボックスの検索可能なオブジェクトを表します。             <see cref="T:Microsoft.Exchange.WebServices.Data.SearchableMailbox" />クラスは、Exchange Online とのバージョンの Exchange が Exchange Server 2013 以降を対象とするクライアントに適用します。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public SearchableMailbox ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.SearchableMailbox.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; SearchableMailbox();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>新しいインスタンスを初期化、<see cref="T:Microsoft.Exchange.WebServices.Data.SearchableMailbox" />クラス。  <see cref="M:Microsoft.Exchange.WebServices.Data.SearchableMailbox.#ctor" />コンス トラクターは、Exchange Online とのバージョンの Exchange が Exchange Server 2013 以降を対象とするクライアントに適用します。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public SearchableMailbox (Guid guid, string smtpAddress, bool isExternalMailbox, string externalEmailAddress, string displayName, bool isMembershipGroup, string referenceId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype System.Guid guid, string smtpAddress, bool isExternalMailbox, string externalEmailAddress, string displayName, bool isMembershipGroup, string referenceId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.SearchableMailbox.#ctor(System.Guid,System.String,System.Boolean,System.String,System.String,System.Boolean,System.String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; SearchableMailbox(Guid guid, System::String ^ smtpAddress, bool isExternalMailbox, System::String ^ externalEmailAddress, System::String ^ displayName, bool isMembershipGroup, System::String ^ referenceId);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="guid" Type="System.Guid" />
+        <Parameter Name="smtpAddress" Type="System.String" />
+        <Parameter Name="isExternalMailbox" Type="System.Boolean" />
+        <Parameter Name="externalEmailAddress" Type="System.String" />
+        <Parameter Name="displayName" Type="System.String" />
+        <Parameter Name="isMembershipGroup" Type="System.Boolean" />
+        <Parameter Name="referenceId" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="guid">メールボックスの識別子です。</param>
+        <param name="smtpAddress">メールボックスの簡易メール転送プロトコル (SMTP) アドレスです。</param>
+        <param name="isExternalMailbox">
+          <b>true の</b>場合は、メールボックスは、外部メールボックスです。それ以外の場合、 <b>false を指定</b>します。</param>
+        <param name="externalEmailAddress">メールボックスの外部電子メール アドレスです。</param>
+        <param name="displayName">メールボックスの名前です。</param>
+        <param name="isMembershipGroup">
+          <b>true の</b>場合は、配布リストです。それ以外の場合は<b>false を指定</b>します。</param>
+        <param name="referenceId">メールボックスの参照の識別子です。</param>
+        <summary>新しいインスタンスを初期化、<see cref="T:Microsoft.Exchange.WebServices.Data.SearchableMailbox" />クラス。             <see cref="M:Microsoft.Exchange.WebServices.Data.SearchableMailbox.#ctor(System.Guid,System.String,System.Boolean,System.String,System.String,System.Boolean,System.String)" />コンス トラクターは、Exchange Online とのバージョンの Exchange が Exchange Server 2013 以降を対象とするクライアントに適用します。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisplayName">
+      <MemberSignature Language="C#" Value="public string DisplayName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DisplayName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SearchableMailbox.DisplayName" />
+      <MemberSignature Language="VB.NET" Value="Public Property DisplayName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ DisplayName { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>取得または検索するメールボックスの表示名を設定します。             <see cref="P:Microsoft.Exchange.WebServices.Data.SearchableMailbox.DisplayName" />プロパティは、Exchange Online とのバージョンの Exchange が Exchange Server 2013 以降を対象とするクライアントに適用します。</summary>
+        <value>表示名。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExternalEmailAddress">
+      <MemberSignature Language="C#" Value="public string ExternalEmailAddress { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ExternalEmailAddress" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SearchableMailbox.ExternalEmailAddress" />
+      <MemberSignature Language="VB.NET" Value="Public Property ExternalEmailAddress As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ExternalEmailAddress { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>取得またはメールボックスの外部電子メール アドレスを設定します。
+<see cref="P:Microsoft.Exchange.WebServices.Data.SearchableMailbox.ExternalEmailAddress" />プロパティは、Exchange Online とのバージョンの Exchange が Exchange Server 2013 以降を対象とするクライアントに適用します。</summary>
+        <value>外部の電子メール アドレス。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Guid">
+      <MemberSignature Language="C#" Value="public Guid Guid { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Guid Guid" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SearchableMailbox.Guid" />
+      <MemberSignature Language="VB.NET" Value="Public Property Guid As Guid" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Guid Guid { Guid get(); void set(Guid value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Guid</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>取得またはメールボックスの id を設定します。             <see cref="P:Microsoft.Exchange.WebServices.Data.SearchableMailbox.Guid" />プロパティは、Exchange Online とのバージョンの Exchange が Exchange Server 2013 以降を対象とするクライアントに適用します。</summary>
+        <value>GUID です。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsExternalMailbox">
+      <MemberSignature Language="C#" Value="public bool IsExternalMailbox { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsExternalMailbox" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SearchableMailbox.IsExternalMailbox" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsExternalMailbox As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsExternalMailbox { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>取得または外部メールボックスであるかどうかを示す値を設定します。
+<see cref="P:Microsoft.Exchange.WebServices.Data.SearchableMailbox.IsExternalMailbox" />プロパティは、Exchange Online とのバージョンの Exchange が Exchange Server 2013 以降を対象とするクライアントに適用します。</summary>
+        <value>
+          <b>true の</b>場合、外部のメールボックスです。それ以外の場合は<b>false を指定</b>します。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsMembershipGroup">
+      <MemberSignature Language="C#" Value="public bool IsMembershipGroup { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsMembershipGroup" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SearchableMailbox.IsMembershipGroup" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsMembershipGroup As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsMembershipGroup { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>取得または関連付けられている SMTP アドレスがメールボックスまたは配布リストであるかどうかを設定します。             <see cref="P:Microsoft.Exchange.WebServices.Data.SearchableMailbox.IsMembershipGroup" />プロパティは、Exchange Online とのバージョンの Exchange が Exchange Server 2013 以降を対象とするクライアントに適用します。</summary>
+        <value>
+          <b>true の</b>場合は、関連付けられている SMTP アドレスは、配布リストです。それ以外の場合、 <b>false を指定</b>します。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReferenceId">
+      <MemberSignature Language="C#" Value="public string ReferenceId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ReferenceId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SearchableMailbox.ReferenceId" />
+      <MemberSignature Language="VB.NET" Value="Public Property ReferenceId As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ReferenceId { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>取得またはメールボックスの参照識別子を設定します。             <see cref="P:Microsoft.Exchange.WebServices.Data.SearchableMailbox.ReferenceId" />プロパティは、Exchange Online とのバージョンの Exchange が Exchange Server 2013 以降を対象とするクライアントに適用します。</summary>
+        <value>参照の識別子です。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SmtpAddress">
+      <MemberSignature Language="C#" Value="public string SmtpAddress { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SmtpAddress" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SearchableMailbox.SmtpAddress" />
+      <MemberSignature Language="VB.NET" Value="Public Property SmtpAddress As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ SmtpAddress { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>取得または検索するメールボックスの簡易メール転送プロトコル (SMTP) アドレスを設定します。             <see cref="P:Microsoft.Exchange.WebServices.Data.SearchableMailbox.SmtpAddress" />プロパティは、Exchange Online とのバージョンの Exchange が Exchange Server 2013 以降を対象とするクライアントに適用します。</summary>
+        <value>SMTP アドレスです。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

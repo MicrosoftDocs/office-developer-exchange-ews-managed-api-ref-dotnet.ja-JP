@@ -1,0 +1,777 @@
+<Type Name="RulePredicates" FullName="Microsoft.Exchange.WebServices.Data.RulePredicates">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="36486a84f08191f9825b249cd872da7776b1953d" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ja-JP" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20625636" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class RulePredicates : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit RulePredicates extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.RulePredicates" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class RulePredicates&#xA;Inherits ComplexProperty" />
+  <TypeSignature Language="C++ CLI" Value="public ref class RulePredicates sealed : Microsoft::Exchange::WebServices::Data::ComplexProperty" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ComplexProperty</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>ルールで使用可能な条件および例外のセットを表します。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Categories">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.StringList Categories { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.StringList Categories" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RulePredicates.Categories" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Categories As StringList" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::StringList ^ Categories { Microsoft::Exchange::WebServices::Data::StringList ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>適用する場合の条件または例外の順序で受信メッセージが付いているカテゴリを取得します。</summary>
+        <value>メッセージに関連付けられているカテゴリです。</value>
+        <remarks>
+          <para>
+            <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.Categories" />空のリストにこのプロパティを設定することによって無効にすることができます。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ContainsBodyStrings">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.StringList ContainsBodyStrings { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.StringList ContainsBodyStrings" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RulePredicates.ContainsBodyStrings" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ContainsBodyStrings As StringList" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::StringList ^ ContainsBodyStrings { Microsoft::Exchange::WebServices::Data::StringList ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>適用する場合の条件または例外の順序で受信メッセージの本文に表示される文字列を取得します。</summary>
+        <value>メッセージに関連付けられている本文の文字列です。</value>
+        <remarks>
+          <para>
+            <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.ContainsBodyStrings" />空のリストにこのプロパティを設定することによって無効にすることができます。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ContainsHeaderStrings">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.StringList ContainsHeaderStrings { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.StringList ContainsHeaderStrings" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RulePredicates.ContainsHeaderStrings" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ContainsHeaderStrings As StringList" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::StringList ^ ContainsHeaderStrings { Microsoft::Exchange::WebServices::Data::StringList ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>適用する場合の条件または例外の順序で受信メッセージのヘッダーに表示される文字列を取得します。</summary>
+        <value>メッセージに関連付けられているヘッダーの文字列です。</value>
+        <remarks>
+          <para>
+            <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.ContainsHeaderStrings" />空のリストにこのプロパティを設定することによって無効にすることができます。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ContainsRecipientStrings">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.StringList ContainsRecipientStrings { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.StringList ContainsRecipientStrings" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RulePredicates.ContainsRecipientStrings" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ContainsRecipientStrings As StringList" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::StringList ^ ContainsRecipientStrings { Microsoft::Exchange::WebServices::Data::StringList ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>ToRecipients または CcRecipients の条件または例外を適用する順序で受信メッセージのプロパティに表示される文字列を取得します。</summary>
+        <value>受信者のメッセージに関連付けられている文字列。</value>
+        <remarks>
+          <para>
+            <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.ContainsRecipientStrings" />空のリストにこのプロパティを設定することによって無効にすることができます。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ContainsSenderStrings">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.StringList ContainsSenderStrings { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.StringList ContainsSenderStrings" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RulePredicates.ContainsSenderStrings" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ContainsSenderStrings As StringList" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::StringList ^ ContainsSenderStrings { Microsoft::Exchange::WebServices::Data::StringList ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>適用する場合の条件または例外の順序で受信メッセージの From プロパティに表示される文字列を取得します。</summary>
+        <value>メッセージに関連付けられている送信元の文字列。</value>
+        <remarks>
+          <para>
+            <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.ContainsSenderStrings" />空のリストにこのプロパティを設定することによって無効にすることができます。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ContainsSubjectOrBodyStrings">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.StringList ContainsSubjectOrBodyStrings { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.StringList ContainsSubjectOrBodyStrings" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RulePredicates.ContainsSubjectOrBodyStrings" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ContainsSubjectOrBodyStrings As StringList" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::StringList ^ ContainsSubjectOrBodyStrings { Microsoft::Exchange::WebServices::Data::StringList ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>適用する場合の条件または例外の順序で受信したメッセージの件名または本文のいずれかに表示される文字列を取得します。</summary>
+        <value>メッセージに関連付けられている件名または本文の文字列です。</value>
+        <remarks>
+          <para>
+            <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.ContainsSubjectOrBodyStrings" />空のリストにこのプロパティを設定することによって無効にすることができます。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ContainsSubjectStrings">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.StringList ContainsSubjectStrings { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.StringList ContainsSubjectStrings" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RulePredicates.ContainsSubjectStrings" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ContainsSubjectStrings As StringList" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::StringList ^ ContainsSubjectStrings { Microsoft::Exchange::WebServices::Data::StringList ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>適用する場合の条件または例外の順序で受信したメッセージの件名に表示される文字列を取得します。</summary>
+        <value>メッセージに関連付けられている件名の文字列です。</value>
+        <remarks>
+          <para>
+            <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.ContainsSubjectStrings" />空のリストにこのプロパティを設定することによって無効にすることができます。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FlaggedForAction">
+      <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Exchange.WebServices.Data.FlaggedForAction&gt; FlaggedForAction { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Exchange.WebServices.Data.FlaggedForAction&gt; FlaggedForAction" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RulePredicates.FlaggedForAction" />
+      <MemberSignature Language="VB.NET" Value="Public Property FlaggedForAction As Nullable(Of FlaggedForAction)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;Microsoft::Exchange::WebServices::Data::FlaggedForAction&gt; FlaggedForAction { Nullable&lt;Microsoft::Exchange::WebServices::Data::FlaggedForAction&gt; get(); void set(Nullable&lt;Microsoft::Exchange::WebServices::Data::FlaggedForAction&gt; value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Microsoft.Exchange.WebServices.Data.FlaggedForAction&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>取得または適用する条件または例外の順序で受信したメッセージに表示されるアクションの値のフラグを設定します。</summary>
+        <value>FlaggedForAction プロパティの値。</value>
+        <remarks>
+          <para>
+            <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.FlaggedForAction" />このプロパティを null に設定して無効にすることができます。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FromAddresses">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.EmailAddressCollection FromAddresses { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.EmailAddressCollection FromAddresses" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RulePredicates.FromAddresses" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FromAddresses As EmailAddressCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::EmailAddressCollection ^ FromAddresses { Microsoft::Exchange::WebServices::Data::EmailAddressCollection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.EmailAddressCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>適用する場合の条件または例外の順序で受信したメッセージの送信者の電子メール アドレスを取得します。</summary>
+        <value>電子メール アドレスのコレクションです。</value>
+        <remarks>
+          <para>
+            <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.FromAddresses" />空のリストにこのプロパティを設定することによって無効にすることができます。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FromConnectedAccounts">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.StringList FromConnectedAccounts { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.StringList FromConnectedAccounts" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RulePredicates.FromConnectedAccounts" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FromConnectedAccounts As StringList" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::StringList ^ FromConnectedAccounts { Microsoft::Exchange::WebServices::Data::StringList ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>電子メールを受信したメッセージ必要がありますが集計された適用の条件または例外のためにアカウント名を取得します。</summary>
+        <value>メッセージに関連付けられている電子メール アカウントの名前です。</value>
+        <remarks>
+          <para>
+            <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.FromConnectedAccounts" />空のリストにこのプロパティを設定することによって無効にすることができます。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HasAttachments">
+      <MemberSignature Language="C#" Value="public bool HasAttachments { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool HasAttachments" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RulePredicates.HasAttachments" />
+      <MemberSignature Language="VB.NET" Value="Public Property HasAttachments As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool HasAttachments { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>取得または受信したメッセージを適用する場合の条件または例外の順序で添付ファイルが必要かどうかを示す値を設定します。</summary>
+        <value>受信したメッセージに添付ファイルを適用します。 条件や例外条件の順序で必要がある場合は true。それ以外の場合、false です。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Importance">
+      <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Exchange.WebServices.Data.Importance&gt; Importance { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Exchange.WebServices.Data.Importance&gt; Importance" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RulePredicates.Importance" />
+      <MemberSignature Language="VB.NET" Value="Public Property Importance As Nullable(Of Importance)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;Microsoft::Exchange::WebServices::Data::Importance&gt; Importance { Nullable&lt;Microsoft::Exchange::WebServices::Data::Importance&gt; get(); void set(Nullable&lt;Microsoft::Exchange::WebServices::Data::Importance&gt; value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Microsoft.Exchange.WebServices.Data.Importance&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>取得または設定がスタンプの重要性を適用する場合の条件または例外の順序でメッセージを受信します。</summary>
+        <value>重要度のプロパティ値。</value>
+        <remarks>
+          <para>
+            <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.Importance" />このプロパティを null に設定して無効にすることができます。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsApprovalRequest">
+      <MemberSignature Language="C#" Value="public bool IsApprovalRequest { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsApprovalRequest" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RulePredicates.IsApprovalRequest" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsApprovalRequest As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsApprovalRequest { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>取得または受信メッセージが適用の条件または例外のために要求を承認する必要があるかどうかを示す値を設定します。</summary>
+        <value>受信したメッセージは; を適用する条件または例外の順序で要求を承認する必要がある場合は true。それ以外の場合、false です。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsAutomaticForward">
+      <MemberSignature Language="C#" Value="public bool IsAutomaticForward { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsAutomaticForward" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RulePredicates.IsAutomaticForward" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsAutomaticForward As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsAutomaticForward { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>取得または、受信メッセージに適用する条件または例外の順に自動転送をする必要があるかどうかを示す値を設定します。</summary>
+        <value>受信メッセージに適用されます。 条件や例外条件の順序で自動転送をする必要がある場合は true。それ以外の場合、false です。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsAutomaticReply">
+      <MemberSignature Language="C#" Value="public bool IsAutomaticReply { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsAutomaticReply" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RulePredicates.IsAutomaticReply" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsAutomaticReply As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsAutomaticReply { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>取得または適用の条件または例外のために自動返信を受信したメッセージがある必要があるかどうかを示す値を設定します。</summary>
+        <value>受信メッセージに適用されます。 条件や例外条件の順序で自動返信をする必要がある場合は true。それ以外の場合、false です。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsEncrypted">
+      <MemberSignature Language="C#" Value="public bool IsEncrypted { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsEncrypted" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RulePredicates.IsEncrypted" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsEncrypted As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsEncrypted { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>取得または受信メッセージが S/MIME 暗号化を適用する場合の条件または例外の順序である必要があるかどうかを示す値を設定します。</summary>
+        <value>受信したメッセージに S/MIME 暗号化の条件または例外を適用する必要がある場合は true。それ以外の場合、false です。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsMeetingRequest">
+      <MemberSignature Language="C#" Value="public bool IsMeetingRequest { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsMeetingRequest" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RulePredicates.IsMeetingRequest" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsMeetingRequest As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsMeetingRequest { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>取得またはかどうかメッセージを受信する必要があるの会議出席依頼を適用する場合の条件または例外の順序を示す値を設定します。</summary>
+        <value>true の場合、受信したメッセージが満たす必要がありますが要求するために条件または例外を適用します。それ以外の場合、false です。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsMeetingResponse">
+      <MemberSignature Language="C#" Value="public bool IsMeetingResponse { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsMeetingResponse" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RulePredicates.IsMeetingResponse" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsMeetingResponse As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsMeetingResponse { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>取得または受信メッセージが会議のためには条件や例外条件を適用する返答をする必要があるかどうかを示す値を設定します。</summary>
+        <value>受信したメッセージを満たす必要があります; を適用する条件または例外の順序で応答する場合は true。それ以外の場合、false です。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsNonDeliveryReport">
+      <MemberSignature Language="C#" Value="public bool IsNonDeliveryReport { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsNonDeliveryReport" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RulePredicates.IsNonDeliveryReport" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsNonDeliveryReport As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsNonDeliveryReport { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>取得または適用する場合の条件または例外の順序で受信メッセージが配信不能レポート (NDR) をする必要があるかどうかを示す値を設定します。</summary>
+        <value>を適用する条件または例外の順序で受信メッセージが配信不能レポート (NDR) をする必要がある場合は true。それ以外の場合、false です。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsPermissionControlled">
+      <MemberSignature Language="C#" Value="public bool IsPermissionControlled { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsPermissionControlled" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RulePredicates.IsPermissionControlled" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsPermissionControlled As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsPermissionControlled { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>取得または設定を適用する場合の条件または例外の順序で受信メッセージがアクセス許可の制御 (RMS 保護) をする必要があるかどうかを示す値です。</summary>
+        <value>受信メッセージに適用されます。 条件や例外条件の順序でのアクセス許可の制御 (RMS 保護されている) 必要がある場合は true。それ以外の場合、false です。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsReadReceipt">
+      <MemberSignature Language="C#" Value="public bool IsReadReceipt { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsReadReceipt" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RulePredicates.IsReadReceipt" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsReadReceipt As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsReadReceipt { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>取得またはかどうかの受信メッセージ読み取る必要があります適用の条件または例外のために領収書を示す値を設定します。</summary>
+        <value>領収書を適用する条件または例外の順序で受信メッセージを読み取る必要がある場合は true。それ以外の場合、false です。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsSigned">
+      <MemberSignature Language="C#" Value="public bool IsSigned { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsSigned" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RulePredicates.IsSigned" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsSigned As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsSigned { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>取得または S/MIME の署名を適用する場合の条件または例外の順序で受信したメッセージがある必要があるかどうかを示す値を設定します。</summary>
+        <value>true の場合、受信したメッセージは有効である必要があります署名の条件または例外を適用します。それ以外の場合、false です。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsVoicemail">
+      <MemberSignature Language="C#" Value="public bool IsVoicemail { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsVoicemail" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RulePredicates.IsVoicemail" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsVoicemail As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsVoicemail { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>取得または適用の条件または例外のためにボイス ・ メールを受信したメッセージがある必要があるかどうかを示す値を設定します。</summary>
+        <value>受信メッセージに適用されます。 条件や例外条件の順序でボイス ・ メールをする必要がある場合は true。それ以外の場合、false です。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ItemClasses">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.StringList ItemClasses { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.StringList ItemClasses" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RulePredicates.ItemClasses" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ItemClasses As StringList" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::StringList ^ ItemClasses { Microsoft::Exchange::WebServices::Data::StringList ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>項目のクラスに適用する条件または例外の順序で受信したメッセージにスタンプする必要がありますを取得します。</summary>
+        <value>項目クラスを適用します。 条件や例外条件の順序で受信したメッセージにスタンプする必要がある場合は true。それ以外の場合、false です。</value>
+        <remarks>
+          <para>
+            <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.ItemClasses" />空のリストにこのプロパティを設定することによって無効にすることができます。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MessageClassifications">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.StringList MessageClassifications { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.StringList MessageClassifications" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RulePredicates.MessageClassifications" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MessageClassifications As StringList" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::StringList ^ MessageClassifications { Microsoft::Exchange::WebServices::Data::StringList ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>適用する場合の条件または例外の順序で受信したメッセージにスタンプする必要がありますメッセージの分類を取得します。</summary>
+        <value>メッセージに関連付けられているメッセージの分類です。</value>
+        <remarks>
+          <para>
+            <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.MessageClassifications" />空のリストにこのプロパティを設定することによって無効にすることができます。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NotSentToMe">
+      <MemberSignature Language="C#" Value="public bool NotSentToMe { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool NotSentToMe" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RulePredicates.NotSentToMe" />
+      <MemberSignature Language="VB.NET" Value="Public Property NotSentToMe As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool NotSentToMe { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>ToRecipients プロパティを適用する場合の条件または例外の順序で受信したメッセージのメールボックスの所有者がある必要がありますいないかどうかを示す値を設定を取得または取得します。</summary>
+        <value>メールボックスの所有者を適用する条件または例外の順序で受信したメッセージの宛先する必要がありますできない場合は true。それ以外の場合、false です。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Sensitivity">
+      <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Exchange.WebServices.Data.Sensitivity&gt; Sensitivity { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Exchange.WebServices.Data.Sensitivity&gt; Sensitivity" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RulePredicates.Sensitivity" />
+      <MemberSignature Language="VB.NET" Value="Public Property Sensitivity As Nullable(Of Sensitivity)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;Microsoft::Exchange::WebServices::Data::Sensitivity&gt; Sensitivity { Nullable&lt;Microsoft::Exchange::WebServices::Data::Sensitivity&gt; get(); void set(Nullable&lt;Microsoft::Exchange::WebServices::Data::Sensitivity&gt; value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Microsoft.Exchange.WebServices.Data.Sensitivity&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>取得または適用する条件または例外の順序で受信したメッセージにスタンプされている必要があります感度を設定します。</summary>
+        <value>感度プロパティの値です。</value>
+        <remarks>
+          <para>
+            <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.Sensitivity" />このプロパティを null に設定して無効にすることができます。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SentCcMe">
+      <MemberSignature Language="C#" Value="public bool SentCcMe { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool SentCcMe" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RulePredicates.SentCcMe" />
+      <MemberSignature Language="VB.NET" Value="Public Property SentCcMe As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool SentCcMe { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>CcRecipients プロパティを適用する場合の条件または例外の順序で受信メッセージの [メールボックスの所有者でなければなりませんかどうかを示す値を設定を取得または取得します。</summary>
+        <value>true の場合は、メールボックスの所有者は、適用する条件または例外の順序で受信メッセージの Cc 受信者をする必要があります。それ以外の場合、false です。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SentOnlyToMe">
+      <MemberSignature Language="C#" Value="public bool SentOnlyToMe { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool SentOnlyToMe" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RulePredicates.SentOnlyToMe" />
+      <MemberSignature Language="VB.NET" Value="Public Property SentOnlyToMe As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool SentOnlyToMe { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>ToRecipients プロパティを適用する場合の条件または例外の順序で受信メッセージの 1 つのみをメールボックスの所有者がある必要があるかどうかを示す値を設定を取得または取得します。</summary>
+        <value>true の場合は、メールボックスの所有者は、唯一である必要があります; を適用する条件または例外の順序で受信メッセージの受信者にそれ以外の場合、false です。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SentToAddresses">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.EmailAddressCollection SentToAddresses { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.EmailAddressCollection SentToAddresses" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RulePredicates.SentToAddresses" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SentToAddresses As EmailAddressCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::EmailAddressCollection ^ SentToAddresses { Microsoft::Exchange::WebServices::Data::EmailAddressCollection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.EmailAddressCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>メッセージを受信する必要がありますに送信された適用の条件または例外のために電子メール アドレスを取得します。</summary>
+        <value>電子メール アドレスのコレクションです。</value>
+        <remarks>
+          <para>
+            <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.SentToAddresses" />空のリストにこのプロパティを設定することによって無効にすることができます。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SentToMe">
+      <MemberSignature Language="C#" Value="public bool SentToMe { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool SentToMe" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RulePredicates.SentToMe" />
+      <MemberSignature Language="VB.NET" Value="Public Property SentToMe As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool SentToMe { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>ToRecipients プロパティを適用する場合の条件または例外の順序で受信メッセージの [メールボックスの所有者でなければなりませんかどうかを示す値を設定を取得または取得します。</summary>
+        <value>適用する条件または例外の順序で受信したメッセージの宛先をする必要があります、メールボックスの所有者である場合は true。それ以外の場合、false です。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SentToOrCcMe">
+      <MemberSignature Language="C#" Value="public bool SentToOrCcMe { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool SentToOrCcMe" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RulePredicates.SentToOrCcMe" />
+      <MemberSignature Language="VB.NET" Value="Public Property SentToOrCcMe As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool SentToOrCcMe { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>ToRecipients または CcRecipients のいずれかのプロパティを適用する場合の条件または例外の順序で受信メッセージの [メールボックスの所有者でなければなりませんかどうかを示す値を設定を取得または取得します。</summary>
+        <value>メールボックスの所有者を宛先のいずれかが必要; を適用する条件または例外の順序で受信メッセージの受信者を [cc] の場合は true。それ以外の場合、false です。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WithinDateRange">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.RulePredicateDateRange WithinDateRange { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.RulePredicateDateRange WithinDateRange" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RulePredicates.WithinDateRange" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property WithinDateRange As RulePredicateDateRange" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::RulePredicateDateRange ^ WithinDateRange { Microsoft::Exchange::WebServices::Data::RulePredicateDateRange ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RulePredicateDateRange</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>受信メッセージする必要がありますが受信されたを適用する場合の条件または例外の順序で日付の範囲を取得します。</summary>
+        <value>開始日と終了日。</value>
+        <remarks>
+          <para>
+            <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.WithinDateRange" />設定を無効にすることができます、<see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicateDateRange.Start" />と<see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicateDateRange.End" />プロパティを null にします。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WithinSizeRange">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.RulePredicateSizeRange WithinSizeRange { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.RulePredicateSizeRange WithinSizeRange" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RulePredicates.WithinSizeRange" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property WithinSizeRange As RulePredicateSizeRange" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::RulePredicateSizeRange ^ WithinSizeRange { Microsoft::Exchange::WebServices::Data::RulePredicateSizeRange ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RulePredicateSizeRange</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>適用する場合の条件または例外の順序で受信したメッセージに必要な最小値と最大サイズを取得します。</summary>
+        <value>最小サイズと最大サイズの値。</value>
+        <remarks>
+          <para>
+            <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.WithinSizeRange" />設定を無効にすることができます、<see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicateSizeRange.MinimumSize" />と<see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicateSizeRange.MaximumSize" />プロパティを null にします。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

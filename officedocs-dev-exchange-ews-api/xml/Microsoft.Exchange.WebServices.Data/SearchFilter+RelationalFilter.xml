@@ -1,0 +1,80 @@
+<Type Name="SearchFilter+RelationalFilter" FullName="Microsoft.Exchange.WebServices.Data.SearchFilter+RelationalFilter">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="8688e548c5946b7d5ac8c5151c974d8993be2c65" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ja-JP" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20626013" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public abstract class SearchFilter.RelationalFilter : Microsoft.Exchange.WebServices.Data.SearchFilter.PropertyBasedFilter" />
+  <TypeSignature Language="ILAsm" Value=".class nested public auto ansi abstract beforefieldinit SearchFilter/RelationalFilter extends Microsoft.Exchange.WebServices.Data.SearchFilter/PropertyBasedFilter" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.SearchFilter.RelationalFilter" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class SearchFilter.RelationalFilter&#xA;Inherits SearchFilter.PropertyBasedFilter" />
+  <TypeSignature Language="C++ CLI" Value="public: ref class SearchFilter::RelationalFilter abstract : Microsoft::Exchange::WebServices::Data::SearchFilter::PropertyBasedFilter" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.SearchFilter+PropertyBasedFilter</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>関係のフィルター (たとえば、IsEqualTo、IsGreaterThan、または IsLessThanOrEqualTo) の基本クラスを表します。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="OtherPropertyDefinition">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase OtherPropertyDefinition { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase OtherPropertyDefinition" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SearchFilter.RelationalFilter.OtherPropertyDefinition" />
+      <MemberSignature Language="VB.NET" Value="Public Property OtherPropertyDefinition As PropertyDefinitionBase" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::PropertyDefinitionBase ^ OtherPropertyDefinition { Microsoft::Exchange::WebServices::Data::PropertyDefinitionBase ^ get(); void set(Microsoft::Exchange::WebServices::Data::PropertyDefinitionBase ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>取得または比較するプロパティのプロパティの定義を設定します。</summary>
+        <value>比較するプロパティ定義を使用して PropertyDefinitionBase オブジェクトです。</value>
+        <remarks>
+          <para>プロパティ定義はスキーマのクラスの静的メンバーとして使用できる (たとえば、 <see cref="F:Microsoft.Exchange.WebServices.Data.ItemSchema.Subject" />、 <see cref="F:Microsoft.Exchange.WebServices.Data.AppointmentSchema.Start" />、または<see cref="F:Microsoft.Exchange.WebServices.Data.ContactSchema.GivenName" />.)OtherPropertyDefinition と<see cref="P:Microsoft.Exchange.WebServices.Data.SearchFilter.RelationalFilter.Value" />のプロパティは、相互に排他的です。いずれかを設定、その他を null 参照 (Visual Basic) では何もにリセットします。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Value">
+      <MemberSignature Language="C#" Value="public object Value { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Value" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SearchFilter.RelationalFilter.Value" />
+      <MemberSignature Language="VB.NET" Value="Public Property Value As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Value { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>取得または比較するプロパティの値を設定します。</summary>
+        <value>比較する値を持つオブジェクトです。</value>
+        <remarks>
+          <para>値と<see cref="P:Microsoft.Exchange.WebServices.Data.SearchFilter.RelationalFilter.OtherPropertyDefinition" />のプロパティは、相互に排他的です。いずれかを設定、その他を null 参照 (Visual Basic) では何もにリセットします。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

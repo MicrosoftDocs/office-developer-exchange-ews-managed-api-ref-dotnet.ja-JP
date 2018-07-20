@@ -1,0 +1,87 @@
+<Type Name="SearchFilter+Not" FullName="Microsoft.Exchange.WebServices.Data.SearchFilter+Not">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="a6b71a78146fa6e44700e8ce8236965526d25dee" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ja-JP" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20625797" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class SearchFilter.Not : Microsoft.Exchange.WebServices.Data.SearchFilter" />
+  <TypeSignature Language="ILAsm" Value=".class nested public auto ansi sealed beforefieldinit SearchFilter/Not extends Microsoft.Exchange.WebServices.Data.SearchFilter" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.SearchFilter.Not" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class SearchFilter.Not&#xA;Inherits SearchFilter" />
+  <TypeSignature Language="C++ CLI" Value="public: ref class SearchFilter::Not sealed : Microsoft::Exchange::WebServices::Data::SearchFilter" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.SearchFilter</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>検索するフィルターを適用、ブール<b>されない</b>もう 1 つの検索フィルターを表します。</summary>
+    <remarks>
+      <para>アプリケーションを使用して、 <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.Not" /><b>ありません</b>(その他のフィルター) などの条件を定義するクラスです</para>。
+      <para>で使用できる検索フィルターのクラスは、次の<see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.Not" />クラス:</para><list type="bullet"><item><description><see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.ContainsSubstring" /></description></item><item><description><see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.ExcludesBitmask" /></description></item><item><description><see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.Exists" /></description></item><item><description><see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.IsEqualTo" /></description></item><item><description><see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.IsGreaterThan" /></description></item><item><description><see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.IsGreaterThanOrEqualTo" /></description></item><item><description><see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.IsLessThan" /></description></item><item><description><see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.IsLessThanOrEqualTo" /></description></item><item><description><see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.IsNotEqualTo" /></description></item><item><description><see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.Not" /></description></item><item><description><see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.PropertyBasedFilter" /></description></item><item><description><see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.SearchFilterCollection" /></description></item></list><para /></remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Not ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.SearchFilter.Not.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Not();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>SearchFilter.Not クラスの新しいインスタンスを初期化します。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Not (Microsoft.Exchange.WebServices.Data.SearchFilter searchFilter);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Exchange.WebServices.Data.SearchFilter searchFilter) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.SearchFilter.Not.#ctor(Microsoft.Exchange.WebServices.Data.SearchFilter)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Not(Microsoft::Exchange::WebServices::Data::SearchFilter ^ searchFilter);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="searchFilter" Type="Microsoft.Exchange.WebServices.Data.SearchFilter" />
+      </Parameters>
+      <Docs>
+        <param name="searchFilter">検索フィルターを無効にします。</param>
+        <summary>指定した検索フィルターを使用して SearchFilter.Not クラスの新しいインスタンスを初期化します。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SearchFilter">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.SearchFilter SearchFilter { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.SearchFilter SearchFilter" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SearchFilter.Not.SearchFilter" />
+      <MemberSignature Language="VB.NET" Value="Public Property SearchFilter As SearchFilter" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::SearchFilter ^ SearchFilter { Microsoft::Exchange::WebServices::Data::SearchFilter ^ get(); void set(Microsoft::Exchange::WebServices::Data::SearchFilter ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.SearchFilter</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>取得または無効にする検索フィルターを設定します。</summary>
+        <value>検索フィルターを無効にします。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

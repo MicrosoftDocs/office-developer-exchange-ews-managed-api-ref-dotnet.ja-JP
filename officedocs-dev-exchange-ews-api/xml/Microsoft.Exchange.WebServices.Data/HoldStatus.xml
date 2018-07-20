@@ -1,0 +1,123 @@
+<Type Name="HoldStatus" FullName="Microsoft.Exchange.WebServices.Data.HoldStatus">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="828cf675039ffdca5c4b25544382eefa2356383d" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ja-JP" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20626190" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum HoldStatus" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed HoldStatus extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.HoldStatus" />
+  <TypeSignature Language="VB.NET" Value="Public Enum HoldStatus" />
+  <TypeSignature Language="C++ CLI" Value="public enum class HoldStatus" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>電子的証拠開示のためのメールボックスの保留中の状態を定義します。             <see cref="T:Microsoft.Exchange.WebServices.Data.HoldStatus" />列挙体は、Exchange Online とのバージョンの Exchange が Exchange Server 2013 以降を対象とするクライアントに適用します。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Failed">
+      <MemberSignature Language="C#" Value="Failed" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.HoldStatus Failed = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.HoldStatus.Failed" />
+      <MemberSignature Language="VB.NET" Value="Failed" />
+      <MemberSignature Language="C++ CLI" Value="Failed" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.HoldStatus</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>対象のメールボックスに対する操作が保留中の障害が発生しました。             失敗したフィールドは、Exchange Online とのバージョンの Exchange が Exchange Server 2013 以降を対象とするクライアントに適用できます。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="NotOnHold">
+      <MemberSignature Language="C#" Value="NotOnHold" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.HoldStatus NotOnHold = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.HoldStatus.NotOnHold" />
+      <MemberSignature Language="VB.NET" Value="NotOnHold" />
+      <MemberSignature Language="C++ CLI" Value="NotOnHold" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.HoldStatus</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>なしの電子的証拠開示の保留中です。             NotOnHold フィールドは、Exchange Online とのバージョンの Exchange が Exchange Server 2013 以降を対象とするクライアントに適用されます。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="OnHold">
+      <MemberSignature Language="C#" Value="OnHold" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.HoldStatus OnHold = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.HoldStatus.OnHold" />
+      <MemberSignature Language="VB.NET" Value="OnHold" />
+      <MemberSignature Language="C++ CLI" Value="OnHold" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.HoldStatus</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>電子情報開示は、移動先のメールボックスに保持します。             OnHold フィールドは、Exchange Online とのバージョンの Exchange が Exchange Server 2013 以降を対象とするクライアントに適用されます。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="PartialHold">
+      <MemberSignature Language="C#" Value="PartialHold" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.HoldStatus PartialHold = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.HoldStatus.PartialHold" />
+      <MemberSignature Language="VB.NET" Value="PartialHold" />
+      <MemberSignature Language="C++ CLI" Value="PartialHold" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.HoldStatus</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>上のいくつかのメールボックスを保持します。             PartialHold フィールドは、Exchange Online とのバージョンの Exchange が Exchange Server 2013 以降を対象とするクライアントに適用されます。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Pending">
+      <MemberSignature Language="C#" Value="Pending" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.HoldStatus Pending = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.HoldStatus.Pending" />
+      <MemberSignature Language="VB.NET" Value="Pending" />
+      <MemberSignature Language="C++ CLI" Value="Pending" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.HoldStatus</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>配置するか、削除する、電子的証拠開示の保留中です。             保留中のフィールドは、Exchange Online とのバージョンの Exchange が Exchange Server 2013 以降を対象とするクライアントに適用されます。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
